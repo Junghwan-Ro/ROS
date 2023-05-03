@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-utils2 version 2.0.0
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: gz-utils2
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: gz-utils2-cli
+-- Testing is disabled -- skipping UNIT tests
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-utils2
+[35m[1mScanning dependencies of target gz-utils2[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/gz-utils2.dir/Environment.cc.o[0m
+[100%] [32m[1mLinking CXX shared library ../lib/libgz-utils2.so[0m
+[100%] Built target gz-utils2
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-targets.cmake
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-utils2.so.2.0.0
+-- Installing: /home/julia/workspace/install/lib/libgz-utils2.so.2
+-- Installing: /home/julia/workspace/install/lib/libgz-utils2.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-utils2.pc
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/ImplPtr.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/Environment.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/NeverDestroyed.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/ExtraTestMacros.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/SuppressWarning.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/ImplPtr.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/DefaultOps.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/ExtraTestMacros.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/SuppressWarning.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/DefaultOps.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/ExtraTestMacros.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/ImplPtr.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/SuppressWarning.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/Environment.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/ExtraTestMacros.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/ImplPtr.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/NeverDestroyed.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/SuppressWarning.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/../utils.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/config.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-utils2-cli.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/IgnitionFormatter.hpp
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Formatter.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Config.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Option.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/FormatterFwd.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/App.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Timer.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Split.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/CLI.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/TypeTools.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Macros.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/StringTools.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Error.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/ConfigFwd.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Validators.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Version.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/App.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/CLI.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Config.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/ConfigFwd.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Error.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Formatter.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/FormatterFwd.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Macros.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Option.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Split.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/StringTools.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Timer.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/TypeTools.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Validators.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Version.hpp
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/../cli.hh
+-- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/GzFormatter.hpp
+-- Up-to-date: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/../cli.hh

@@ -1,0 +1,553 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-physics6 version 6.3.0
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+
+-- ====== Finding Dependencies ======
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.3.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.3.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.1.0
+-- Found GzAssimp: TRUE (found version "5.0.0") 
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.3.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-common5 - found
+
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.1.0
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-math7 - found
+
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.0.0
+-- Searching for dependencies of gz-utils2-cli
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2-loader -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-loader
+-- Looking for gz-plugin2-register -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-plugin2 - found
+
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-utils2 - found
+
+-- Looking for EIGEN3 - found
+
+-- Looking for sdformat13 -- found version 13.3.0
+-- Searching for dependencies of sdformat13
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for sdformat13 - found
+
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.9") found components: collision-bullet collision-ode utils utils-urdf dart 
+-- Looking for DART - found
+
+-- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so  
+-- Looking for GzBullet - found
+
+-- -------------------------------------------
+
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: gz-physics6
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: gz-physics6-sdf
+-- Configuring library: gz-physics6-heightmap
+-- Configuring library: gz-physics6-mesh
+-- Configuring library: gz-physics6-dartsim
+-- Configuring library: gz-physics6-dartsim-plugin
+-- Looking for C++ include dart/constraint/ContactSurface.hpp
+-- Looking for C++ include dart/constraint/ContactSurface.hpp - not found
+-- The version of DART does not support Contact constraint customizations.
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: gz-physics6-tpelib
+-- Testing is disabled -- skipping UNIT_tpelib tests
+-- Configuring library: gz-physics6-tpe
+-- Configuring library: gz-physics6-tpe-plugin
+-- Testing is disabled -- skipping UNIT_tpe tests
+-- Configuring library: gz-physics6-bullet
+-- Configuring library: gz-physics6-bullet-plugin
+-- Configuring library: gz-physics6-bullet-featherstone
+-- Configuring library: gz-physics6-bullet-featherstone-plugin
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-physics6
+[35m[1mScanning dependencies of target gz-physics6[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/CanReadData.cc.o[0m
+[  3%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/CompositeData.cc.o[0m
+[  4%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/DataStatusMask.cc.o[0m
+[  6%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/FrameID.cc.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/Identity.cc.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/gz-physics6.dir/CanWriteData.cc.o[0m
+[ 10%] [32m[1mLinking CXX shared library ../lib/libgz-physics6.so[0m
+[ 10%] Built target gz-physics6
+[35m[1mScanning dependencies of target gz-physics6-dartsim-plugin[0m
+[ 12%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/AddedMassFeatures.cc.o[0m
+[ 14%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/CustomFeatures.cc.o[0m
+[ 15%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/CustomHeightmapShape.cc.o[0m
+[ 17%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/CustomMeshShape.cc.o[0m
+[ 18%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/EntityManagementFeatures.cc.o[0m
+[35m[1mScanning dependencies of target gz-physics6-bullet-plugin[0m
+[ 20%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/EntityManagementFeatures.cc.o[0m
+[35m[1mScanning dependencies of target gz-physics6-tpelib[0m
+[ 21%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/AABBTree.cc.o[0m
+[ 23%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Collision.cc.o[0m
+[ 25%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/CollisionDetector.cc.o[0m
+[ 26%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Engine.cc.o[0m
+[ 28%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/FreeGroupFeatures.cc.o[0m
+[ 29%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Entity.cc.o[0m
+[ 31%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/FreeGroupFeatures.cc.o[0m
+[ 32%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Link.cc.o[0m
+[ 34%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Model.cc.o[0m
+[ 35%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/JointFeatures.cc.o[0m
+[ 37%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Shape.cc.o[0m
+[ 39%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/Utils.cc.o[0m
+[ 40%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/World.cc.o[0m
+[ 42%] [32mBuilding CXX object tpe/lib/CMakeFiles/gz-physics6-tpelib.dir/src/aabb_tree/AABB.cc.o[0m
+[ 43%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/KinematicsFeatures.cc.o[0m
+[ 45%] [32m[1mLinking CXX shared library ../../lib/libgz-physics6-tpelib.so[0m
+[ 45%] Built target gz-physics6-tpelib
+[ 46%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/JointFeatures.cc.o[0m
+[ 48%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/SDFFeatures.cc.o[0m
+[ 50%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/ShapeFeatures.cc.o[0m
+[ 51%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/SimulationFeatures.cc.o[0m
+[ 53%] [32mBuilding CXX object bullet/CMakeFiles/gz-physics6-bullet-plugin.dir/src/plugin.cc.o[0m
+[ 54%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/KinematicsFeatures.cc.o[0m
+[ 56%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/LinkFeatures.cc.o[0m
+[ 57%] [32m[1mLinking CXX shared library ../lib/libgz-physics6-bullet-plugin.so[0m
+[ 57%] Built target gz-physics6-bullet-plugin
+[ 59%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/SDFFeatures.cc.o[0m
+[ 60%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/ShapeFeatures.cc.o[0m
+[ 62%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/SimulationFeatures.cc.o[0m
+[ 64%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/WorldFeatures.cc.o[0m
+[ 65%] [32mBuilding CXX object dartsim/CMakeFiles/gz-physics6-dartsim-plugin.dir/src/plugin.cc.o[0m
+[ 67%] [32m[1mLinking CXX shared library ../lib/libgz-physics6-dartsim-plugin.so[0m
+[ 67%] Built target gz-physics6-dartsim-plugin
+[35m[1mScanning dependencies of target gz-physics6-bullet-featherstone-plugin[0m
+[35m[1mScanning dependencies of target gz-physics6-tpe-plugin[0m
+[ 68%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/CustomFeatures.cc.o[0m
+[ 70%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/EntityManagementFeatures.cc.o[0m
+[ 71%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/Base.cc.o[0m
+[ 73%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/FreeGroupFeatures.cc.o[0m
+[ 75%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/EntityManagementFeatures.cc.o[0m
+[ 76%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/KinematicsFeatures.cc.o[0m
+[ 78%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/SDFFeatures.cc.o[0m
+[ 79%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/FreeGroupFeatures.cc.o[0m
+[ 81%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/JointFeatures.cc.o[0m
+[ 82%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/ShapeFeatures.cc.o[0m
+[ 84%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/KinematicsFeatures.cc.o[0m
+[ 85%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/SimulationFeatures.cc.o[0m
+[ 87%] [32mBuilding CXX object tpe/plugin/CMakeFiles/gz-physics6-tpe-plugin.dir/src/plugin.cc.o[0m
+[ 89%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/LinkFeatures.cc.o[0m
+[ 90%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/SDFFeatures.cc.o[0m
+[ 92%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/ShapeFeatures.cc.o[0m
+[ 93%] [32m[1mLinking CXX shared library ../../lib/libgz-physics6-tpe-plugin.so[0m
+[ 93%] Built target gz-physics6-tpe-plugin
+[ 95%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/WorldFeatures.cc.o[0m
+[ 96%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/plugin.cc.o[0m
+[ 98%] [32mBuilding CXX object bullet-featherstone/CMakeFiles/gz-physics6-bullet-featherstone-plugin.dir/src/SimulationFeatures.cc.o[0m
+[100%] [32m[1mLinking CXX shared library ../lib/libgz-physics6-bullet-featherstone-plugin.so[0m
+[100%] Built target gz-physics6-bullet-featherstone-plugin
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-all/gz-physics6-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-all/gz-physics6-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-all/gz-physics6-all-targets.cmake
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6/gz-physics6-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6/gz-physics6-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6/gz-physics6-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6/gz-physics6-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6.pc
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/CompositeData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/DeclareJointType.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/CapsuleShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FreeGroup.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RequestFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RequestEngine.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/TemplateHelpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/ContactProperties.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/PlaneShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RevoluteJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Joint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RemoveEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Feature.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/CanReadData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/PrismaticJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FrameData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FreeJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/SphereShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Link.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RegisterMore.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FrameID.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Entity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/GetContacts.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/GetEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/OperateOnSpecifiedData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FeaturePolicy.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/World.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Shape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/ForwardStep.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/RelativeQuantity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FixedJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FeatureList.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/EllipsoidShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/ConstructEmpty.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Cloneable.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/BoxShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Geometry.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Implements.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FindFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/SpecifyData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/Register.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/CylinderShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/FrameSemantics.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/DeclareShapeType.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/GetBoundingBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/CanWriteData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/DataStatusMask.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/BoxShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/CanReadData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/CanWriteData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/CapsuleShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Cloneable.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/CompositeData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/ConstructEmpty.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/ContactProperties.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/CylinderShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/DeclareDerivedType.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/EllipsoidShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Entity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FeatureList.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FindFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FixedJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FrameData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FrameSemantics.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FreeGroup.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/FreeJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/GetBoundingBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/GetContacts.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/GetEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Identity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/InspectFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Joint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Link.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/OperateOnSpecifiedData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/PlaneShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/PrismaticJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/PrivateSpecifyData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Register.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/RelativeQuantity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/RemoveEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/RequestEngine.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/RequestFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/RevoluteJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/Shape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/SpecifyData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/SphereShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/detail/World.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/AddedMass.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/BoxShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/CanReadData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/CanWriteData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/CapsuleShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Cloneable.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/CompositeData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/ConstructEmpty.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/ContactProperties.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/CylinderShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/DataStatusMask.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/DeclareJointType.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/DeclareShapeType.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/EllipsoidShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Entity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Feature.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FeatureList.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FeaturePolicy.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FindFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FixedJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/ForwardStep.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FrameData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FrameID.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FrameSemantics.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FreeGroup.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/FreeJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Geometry.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/GetBoundingBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/GetContacts.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/GetEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Implements.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Joint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Link.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/OperateOnSpecifiedData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/PlaneShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/PrismaticJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Register.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RegisterMore.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RelativeQuantity.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RemoveEntities.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RequestEngine.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RequestFeatures.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/RevoluteJoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/Shape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/SpecifyData.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/SphereShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/TemplateHelpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/World.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/../physics.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/config.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-sdf/gz-physics6-sdf-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-sdf/gz-physics6-sdf-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-sdf/gz-physics6-sdf-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-sdf.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructLink.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructWorld.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructNestedModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructCollision.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructVisual.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/sdf/ConstructJoint.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructLink.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructWorld.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructNestedModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructCollision.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructVisual.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/sdf/ConstructJoint.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-heightmap/gz-physics6-heightmap-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-heightmap/gz-physics6-heightmap-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-heightmap/gz-physics6-heightmap-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-heightmap.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/heightmap
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/heightmap/HeightmapShape.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/heightmap
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/heightmap/HeightmapShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/heightmap/detail
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/heightmap/detail/HeightmapShape.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-mesh/gz-physics6-mesh-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-mesh/gz-physics6-mesh-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-mesh/gz-physics6-mesh-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-mesh.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/mesh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/mesh/MeshShape.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/mesh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/mesh/MeshShape.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/mesh/detail
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/mesh/detail/MeshShape.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim/gz-physics6-dartsim-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim/gz-physics6-dartsim-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim/gz-physics6-dartsim-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-dartsim.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/dartsim
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/dartsim/World.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/dartsim-plugin
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/dartsim-plugin/Export.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/gz/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/dartsim
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/dartsim/World.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/dartsim-plugin/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/dartsim-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-dartsim-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-dartsim-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6-dartsim-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-dartsim-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim-plugin/gz-physics6-dartsim-plugin-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim-plugin/gz-physics6-dartsim-plugin-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim-plugin/gz-physics6-dartsim-plugin-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-dartsim-plugin/gz-physics6-dartsim-plugin-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-dartsim-plugin.pc
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-dartsim-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-dartsim-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-dartsim-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-dartsim-plugin.so
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/include
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/include/ignition
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/include/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/include/ignition/physics/tpelib
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/include/ignition/physics/tpelib/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpelib/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/include
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/include/ignition
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/include/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/include/ignition/physics/tpe-plugin
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/include/ignition/physics/tpe-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/tpe-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/tpelib/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/tpelib/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpelib.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpelib.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6-tpelib.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpelib.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpelib/gz-physics6-tpelib-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpelib/gz-physics6-tpelib-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpelib/gz-physics6-tpelib-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpelib/gz-physics6-tpelib-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-tpelib.pc
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe/gz-physics6-tpe-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe/gz-physics6-tpe-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe/gz-physics6-tpe-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-tpe.pc
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/tpe-plugin/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/tpe-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpe-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpe-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6-tpe-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-tpe-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe-plugin/gz-physics6-tpe-plugin-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe-plugin/gz-physics6-tpe-plugin-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe-plugin/gz-physics6-tpe-plugin-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-tpe-plugin/gz-physics6-tpe-plugin-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-tpe-plugin.pc
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-tpe-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-tpe-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-tpe-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-tpe-plugin.so
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics-tpe-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet/gz-physics6-bullet-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet/gz-physics6-bullet-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet/gz-physics6-bullet-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-bullet.pc
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/bullet-plugin/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/bullet-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6-bullet-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-plugin/gz-physics6-bullet-plugin-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-plugin/gz-physics6-bullet-plugin-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-plugin/gz-physics6-bullet-plugin-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-plugin/gz-physics6-bullet-plugin-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-bullet-plugin.pc
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-plugin.so
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/physics6/ignition/physics
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/bullet-plugin
+-- Installing: /home/julia/workspace/install/include/gz/physics6/ignition/physics/bullet-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics-bullet-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone/gz-physics6-bullet-featherstone-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone/gz-physics6-bullet-featherstone-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone/gz-physics6-bullet-featherstone-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-bullet-featherstone.pc
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/bullet-featherstone-plugin/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/physics6/gz/physics/bullet-featherstone-plugin/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-featherstone-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-featherstone-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-physics6-bullet-featherstone-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-physics6-bullet-featherstone-plugin.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone-plugin/gz-physics6-bullet-featherstone-plugin-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone-plugin/gz-physics6-bullet-featherstone-plugin-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone-plugin/gz-physics6-bullet-featherstone-plugin-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-physics6-bullet-featherstone-plugin/gz-physics6-bullet-featherstone-plugin-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-physics6-bullet-featherstone-plugin.pc
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-featherstone-plugin.so.6.3.0
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-featherstone-plugin.so.6
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-featherstone-plugin.so.6.3.0" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics6-bullet-featherstone-plugin.so
+-- Installing: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics-bullet-featherstone-plugin.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-physics-6/engine-plugins/libgz-physics-bullet-featherstone-plugin.so

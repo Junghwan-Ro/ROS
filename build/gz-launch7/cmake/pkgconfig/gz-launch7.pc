@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/launch7
+
+Name: Gazebo launch
+Description: A set of launch classes for robot applications
+Version: 7.0.0
+Requires: gz-cmake3 >= 1.1 gz-utils2 gz-transport12 gz-msgs9 gz-math7 gz-gui8 Qt5Core Qt5Quick Qt5QuickControls2
+Requires.private: tinyxml2 gz-common5 gz-sim8
+Libs: -L${libdir} -lgz-launch7 
+Libs.private: 
+CFlags: -I${includedir} 

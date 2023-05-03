@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gazebo Sim 8
+Comment=3D Robot Simulator
+Exec=/usr/bin/gz sim --force-version 8
+Icon=gz-logo8
+Categories=Education;Science;Robotics;Development;
+StartupNotify=true

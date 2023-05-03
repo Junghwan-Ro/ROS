@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <xsd:annotation>
+    <xsd:documentation xml:lang='en'>
+      <![CDATA[These elements are specific to an air speed sensor. This sensor determines speed based on the differential between static and dynamic pressure.]]>
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/types.xsd'/>
+  <xsd:element name='air_speed'>
+    <xsd:complexType>
+      <xsd:choice maxOccurs='unbounded'>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='pressure'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[
+      Noise parameters for the pressure data.
+    ]]>
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:choice maxOccurs='unbounded'>
+            </xsd:choice>
+          </xsd:complexType>
+        </xsd:element>
+        </xsd:choice>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/fuel_tools9
+
+Name: Gazebo fuel_tools
+Description: A set of fuel_tools classes for robot applications
+Version: 9.0.0
+Requires: gz-cmake3 >= 1.1 gz-utils2
+Requires.private: tinyxml2 libcurl >=  jsoncpp yaml-0.1 libzip gz-common5 gz-math7 gz-msgs10
+Libs: -L${libdir} -lgz-fuel_tools9 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

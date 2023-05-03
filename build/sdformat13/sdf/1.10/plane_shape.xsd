@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <xsd:annotation>
+    <xsd:documentation xml:lang='en'>
+      <![CDATA[Plane shape]]>
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/types.xsd'/>
+  <xsd:element name='plane'>
+    <xsd:complexType>
+      <xsd:choice maxOccurs='unbounded'>
+        <xsd:choice  minOccurs='1' maxOccurs='1'>
+        <xsd:element name='normal' type='vector3'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Normal direction for the plane. When a Plane is used as a geometry for a Visual or Collision object, then the normal is specified in the Visual or Collision frame, respectively.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='1' maxOccurs='1'>
+        <xsd:element name='size' type='vector2d'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Length of each side of the plane. Note that this property is meaningful only for visualizing the Plane, i.e., when the Plane is used as a geometry for a Visual object. The Plane has infinite size when used as a geometry for a Collision object.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

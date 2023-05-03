@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sensors8
+
+Name: Gazebo sensors air_speed
+Description: A set of sensors air_speed classes for robot applications
+Version: 8.0.0
+Requires: gz-sensors8 = 8.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-sensors8-air_speed 
+Libs.private: 
+CFLags: -I${includedir} 

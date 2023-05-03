@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/julia/workspace/src/gz-utils/include/gz/utils/Environment.hh
+gz/utils/config.hh
+-
+gz/utils/Export.hh
+-
+string
+-
+
+/home/julia/workspace/src/gz-utils/src/Environment.cc
+gz/utils/Environment.hh
+-
+cstdlib
+-
+iostream
+-
+
+include/gz/utils/Export.hh
+gz/utils/detail/Export.hh
+include/gz/utils/gz/utils/detail/Export.hh
+
+include/gz/utils/config.hh
+
+include/gz/utils/detail/Export.hh
+

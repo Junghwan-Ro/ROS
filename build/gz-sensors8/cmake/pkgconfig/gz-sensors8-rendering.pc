@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sensors8
+
+Name: Gazebo sensors rendering
+Description: A set of sensors rendering classes for robot applications
+Version: 8.0.0
+Requires: gz-sensors8 = 8.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-sensors8-rendering 
+Libs.private: 
+CFLags: -I${includedir} 

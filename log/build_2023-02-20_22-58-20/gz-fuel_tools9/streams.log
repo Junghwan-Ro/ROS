@@ -1,0 +1,165 @@
+[0.040s] Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-fuel-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.178s] -- The CXX compiler identification is GNU 9.4.0
+[0.183s] -- Check for working C compiler: /usr/bin/cc
+[0.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.266s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.368s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.371s] -- Check for working CXX compiler: /usr/bin/c++
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.466s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Detecting CXX compile features
+[0.570s] -- Detecting CXX compile features - done
+[0.577s] -- gz-fuel_tools9 version 9.0.0
+[0.577s] -- Operating system is Linux
+[0.585s] -- Found CPack generators: DEB
+[0.601s] -- Checking for module 'tinyxml2'
+[0.621s] --   Found tinyxml2, version 6.2.0
+[0.663s] -- Looking for tinyxml2 - found
+[0.663s] 
+[0.766s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[0.767s] -- Looking for curl - found
+[0.767s] 
+[0.776s] -- Checking for module 'jsoncpp'
+[0.798s] --   Found jsoncpp, version 1.7.4
+[0.854s] -- Found JSONCPP: TRUE  
+[0.854s] -- Looking for JSONCPP - found
+[0.855s] 
+[0.868s] -- Checking for module 'yaml-0.1'
+[0.892s] --   Found yaml-0.1, version 0.2.2
+[0.945s] -- Found YAML: TRUE  
+[0.946s] -- Looking for YAML - found
+[0.946s] 
+[0.952s] -- Checking for module 'libzip'
+[0.972s] --   Found libzip, version 1.5.1
+[1.013s] -- Found ZIP: TRUE  
+[1.013s] -- Looking for ZIP - found
+[1.013s] 
+[1.014s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.015s] -- Searching for dependencies of gz-utils2
+[1.015s] -- Looking for gz-utils2 - found
+[1.015s] 
+[1.018s] -- Looking for gz-common5 -- found version 5.3.1
+[1.019s] -- Searching for dependencies of gz-common5
+[1.019s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.020s] -- Looking for dlfcn.h - found
+[1.021s] -- Looking for libdl - found
+[1.022s] -- Found DL: TRUE  
+[1.027s] -- Checking for module 'uuid'
+[1.042s] --   Found uuid, version 2.34.0
+[1.084s] -- Found UUID: TRUE  
+[1.085s] -- Looking for gz-common5 - found
+[1.085s] 
+[1.087s] -- Looking for gz-math7 -- found version 7.1.0
+[1.087s] -- Searching for dependencies of gz-math7
+[1.088s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.089s] -- Looking for gz-math7 - found
+[1.089s] 
+[1.090s] -- Looking for gz-msgs10 -- found version 10.0.0
+[1.091s] -- Searching for dependencies of gz-msgs10
+[1.466s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.468s] -- Looking for gz-math7 -- found version 7.1.0
+[1.475s] -- Looking for gz-msgs10 - found
+[1.475s] 
+[2.661s] -- 
+[2.662s] -- Searching for host SSE information
+[2.703s] -- SSE2 found
+[2.703s] -- SSE3 found
+[2.703s] -- SSE4.1 found
+[2.704s] -- SSE4.2 found
+[2.730s] -- Configuring library: gz-fuel_tools9
+[2.733s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.826s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.828s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.924s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.925s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.038s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.041s] -- Testing is disabled -- skipping UNIT tests
+[3.153s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[3.153s] -- Build configuration successful
+[3.155s] -- Build type: RelWithDebInfo
+[3.155s] -- Install prefix: /home/julia/workspace/install
+[3.159s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[3.161s] -- Configuring done
+[3.173s] -- Generating done
+[3.174s] -- Build files have been written to: /home/julia/workspace/build/gz-fuel_tools9
+[3.182s] Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-fuel-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[3.183s] Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[3.228s] [35m[1mScanning dependencies of target gz-fuel_tools9[0m
+[3.328s] [  5%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/ClientConfig.cc.o[0m
+[5.128s] [ 11%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/FuelClient.cc.o[0m
+[18.346s] [ 17%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/Helpers.cc.o[0m
+[19.121s] [ 23%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/gz.cc.o[0m
+[23.558s] [ 29%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/Interface.cc.o[0m
+[26.451s] [ 35%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/JSONParser.cc.o[0m
+[27.941s] [ 41%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/LocalCache.cc.o[0m
+[31.002s] [ 47%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/Model.cc.o[0m
+[31.459s] [ 52%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/ModelIdentifier.cc.o[0m
+[33.189s] [ 58%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/ModelIter.cc.o[0m
+[39.350s] [ 64%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/RestClient.cc.o[0m
+[41.088s] [ 70%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/Result.cc.o[0m
+[41.442s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/Zip.cc.o[0m
+[42.447s] [ 82%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/WorldIdentifier.cc.o[0m
+[43.539s] [ 88%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/WorldIter.cc.o[0m
+[49.935s] [ 94%] [32mBuilding CXX object src/CMakeFiles/gz-fuel_tools9.dir/CollectionIdentifier.cc.o[0m
+[50.788s] [100%] [32m[1mLinking CXX shared library ../lib/libgz-fuel_tools9.so[0m
+[51.114s] [100%] Built target gz-fuel_tools9
+[51.126s] Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[51.161s] Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9
+[51.175s] -- Install configuration: "RelWithDebInfo"
+[51.175s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-config.cmake
+[51.175s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-config-version.cmake
+[51.175s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-targets.cmake
+[51.181s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/detail/Export.hh
+[51.181s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Export.hh
+[51.181s] -- Installing: /home/julia/workspace/install/lib/libgz-fuel_tools9.so.9.0.0
+[51.205s] -- Installing: /home/julia/workspace/install/lib/libgz-fuel_tools9.so.9
+[51.206s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-fuel_tools9.so.9.0.0" to ""
+[51.206s] -- Installing: /home/julia/workspace/install/lib/libgz-fuel_tools9.so
+[51.206s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-config.cmake
+[51.206s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-config-version.cmake
+[51.207s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-targets.cmake
+[51.207s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-targets-relwithdebinfo.cmake
+[51.207s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-fuel_tools9.pc
+[51.207s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdfuel9.rb
+[51.208s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition
+[51.208s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools.hh
+[51.208s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools
+[51.208s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ModelIter.hh
+[51.209s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/WorldIter.hh
+[51.209s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Helpers.hh
+[51.209s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ModelIdentifier.hh
+[51.210s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ClientConfig.hh
+[51.210s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/RestClient.hh
+[51.210s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Export.hh
+[51.211s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/WorldIdentifier.hh
+[51.211s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/CollectionIdentifier.hh
+[51.211s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Model.hh
+[51.212s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Zip.hh
+[51.212s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/JSONParser.hh
+[51.213s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Result.hh
+[51.213s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Interface.hh
+[51.213s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/config.hh
+[51.213s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/FuelClient.hh
+[51.214s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ClientConfig.hh
+[51.214s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/CollectionIdentifier.hh
+[51.214s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/FuelClient.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Helpers.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Interface.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/JSONParser.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Model.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ModelIdentifier.hh
+[51.215s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ModelIter.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/RestClient.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Result.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/WorldIdentifier.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/WorldIter.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Zip.hh
+[51.216s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/../fuel_tools.hh
+[51.217s] -- Installing: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/config.hh
+[51.217s] -- Installing: /home/julia/workspace/install/share/gz/fuel9.yaml
+[51.217s] -- Installing: /home/julia/workspace/install/share/gz/fuel_tools9/config.yaml
+[51.227s] Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9

@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz-gui.
+format: 1.0.0
+library_name: gz-gui
+library_version: 8.0.0~pre1
+library_path: /home/julia/workspace/install/lib/ruby/gz/cmdgui8
+commands:
+    - gui   : Launch graphical interfaces.
+---

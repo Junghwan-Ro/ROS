@@ -1,0 +1,6 @@
+-I/home/julia/workspace/src/gz-gui/include
+-I/home/julia/workspace/build/gz-gui8/include
+-I/home/julia/workspace/build/gz-gui8
+-o
+/home/julia/workspace/build/gz-gui8/src/plugins/topic_echo/moc_TopicEcho.cpp
+/home/julia/workspace/src/gz-gui/src/plugins/topic_echo/TopicEcho.hh

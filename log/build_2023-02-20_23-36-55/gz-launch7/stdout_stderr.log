@@ -1,0 +1,49 @@
+[ 11%] Built target gz-launch7
+[ 22%] Built target gz-launch-joytotwist
+[ 33%] Built target gz-launch-simgui
+[ 44%] Built target gz-launch-sim-factory
+[ 55%] Built target gz-launch-sim
+[ 66%] Built target gz-launch-joystick
+[ 77%] Built target gz-launch-websocket-server
+[ 88%] Built target gz
+[100%] Built target gz-launch
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-config.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-config-version.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-targets.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joytotwist.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-simgui.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim-factory.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-websocket-server.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joystick.so
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/gz/launch/detail/Export.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/gz/launch/Export.hh
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-launch7.so.7.0.0~pre1
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-launch7.so.7
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-launch7.so
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-config.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-config-version.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-targets.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/pkgconfig/gz-launch7.pc
+-- Up-to-date: /home/julia/workspace/install/lib/gz/launch7/gz-launch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz2.completion.d/launch7.bash_completion.sh
+-- Up-to-date: /home/julia/workspace/install/share/gz/launch7.yaml
+-- Up-to-date: /home/julia/workspace/install/lib/ruby/gz/cmdlaunch7.rb
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition/launch.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition/launch
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition/launch/Export.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition/launch/config.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/ignition/launch/Plugin.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/gz/launch/Plugin.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/gz/launch/../launch.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/launch7/gz/launch/config.hh
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/factory.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/ls.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/multi_factory.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/plugins.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/sim.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/sim_plugins.gzlaunch
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz-launch7/configs/websocket.gzlaunch

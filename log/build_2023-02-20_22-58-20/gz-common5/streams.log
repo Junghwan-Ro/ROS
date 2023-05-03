@@ -1,0 +1,552 @@
+[0.027s] Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-common -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.141s] -- The CXX compiler identification is GNU 9.4.0
+[0.146s] -- Check for working C compiler: /usr/bin/cc
+[0.216s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.217s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.407s] -- Detecting CXX compiler ABI info
+[0.477s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.515s] -- gz-common5 version 5.3.1
+[0.515s] -- Operating system is Linux
+[0.518s] -- Found CPack generators: DEB
+[0.524s] -- 
+[0.525s] 
+[0.525s] -- ====== Finding Dependencies ======
+[0.525s] -- Looking for gz-math7 -- found version 7.1.0
+[0.525s] -- Searching for dependencies of gz-math7
+[0.526s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.526s] -- Searching for dependencies of gz-utils2
+[0.527s] -- Looking for gz-math7 - found
+[0.527s] 
+[0.527s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.528s] -- Looking for gz-utils2 - found
+[0.528s] 
+[0.538s] -- Checking for module 'tinyxml2'
+[0.561s] --   Found tinyxml2, version 6.2.0
+[0.612s] -- Looking for tinyxml2 - found
+[0.612s] 
+[0.613s] -- Looking for dlfcn.h - found
+[0.613s] -- Looking for libdl - found
+[0.615s] -- Found DL: TRUE  
+[0.615s] -- Looking for libdl - found
+[0.615s] 
+[0.620s] -- Checking for module 'uuid'
+[0.637s] --   Found uuid, version 2.34.0
+[0.683s] -- Found UUID: TRUE  
+[0.683s] -- Looking for uuid - found
+[0.683s] 
+[0.764s] -- Found FreeImage: TRUE (Required is at least version "3.9") 
+[0.765s] -- Looking for FreeImage - found
+[0.765s] 
+[0.770s] -- Checking for module 'gts'
+[0.793s] --   Found gts, version 0.7.6
+[0.837s] -- Found GTS: TRUE  
+[0.837s] -- Looking for gts - found
+[0.837s] 
+[0.846s] -- Found GDAL: /usr/lib/libgdal.so (found suitable version "3.0.4", minimum required is "3.0") 
+[0.846s] -- Looking for GDAL - found
+[0.846s] 
+[0.853s] -- Checking for module 'libswscale'
+[0.870s] --   Found libswscale, version 5.5.100
+[0.912s] -- Found SWSCALE: TRUE  
+[0.913s] -- Looking for libswscale - found
+[0.913s] 
+[0.917s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.935s] --   Found libavdevice , version 58.8.100
+[0.978s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.978s] -- Looking for libavdevice - found
+[0.979s] 
+[0.984s] -- Checking for module 'libavformat'
+[0.997s] --   Found libavformat, version 58.29.100
+[1.049s] -- Found AVFORMAT: TRUE  
+[1.049s] -- Looking for libavformat - found
+[1.050s] 
+[1.054s] -- Checking for module 'libavcodec'
+[1.068s] --   Found libavcodec, version 58.54.100
+[1.124s] -- Found AVCODEC: TRUE  
+[1.124s] -- Looking for libavcodec - found
+[1.124s] 
+[1.129s] -- Checking for module 'libavutil'
+[1.151s] --   Found libavutil, version 56.31.100
+[1.198s] -- Found AVUTIL: TRUE  
+[1.198s] -- Looking for libavutil - found
+[1.198s] 
+[1.207s] -- Found GzAssimp: TRUE (found version "5.0.0") 
+[1.207s] -- Looking for assimp - found
+[1.207s] 
+[1.207s] -- -------------------------------------------
+[1.207s] 
+[2.359s] -- 
+[2.360s] -- Searching for host SSE information
+[2.397s] -- SSE2 found
+[2.397s] -- SSE3 found
+[2.397s] -- SSE4.1 found
+[2.397s] -- SSE4.2 found
+[2.418s] -- Configuring library: gz-common5
+[2.419s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.506s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.507s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.594s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.594s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.690s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.692s] -- Testing is disabled -- skipping UNIT tests
+[2.697s] -- Configuring library: gz-common5-av
+[2.700s] -- Testing is disabled -- skipping UNIT tests
+[2.702s] -- Configuring library: gz-common5-events
+[2.705s] -- Testing is disabled -- skipping UNIT tests
+[2.707s] -- Configuring library: gz-common5-geospatial
+[2.710s] -- Testing is disabled -- skipping UNIT tests
+[2.712s] -- Configuring library: gz-common5-graphics
+[2.715s] -- Testing is disabled -- skipping UNIT tests
+[2.715s] Warning, assimp below 5.2.0 detected, setting compatibility mode
+[2.715s] -- TINYXML2_VERSION 6.2.0 >= 6.0.0
+[2.718s] -- Configuring library: gz-common5-io
+[2.720s] -- Testing is disabled -- skipping UNIT tests
+[2.723s] -- Configuring library: gz-common5-profiler
+[2.726s] -- Testing is disabled -- skipping UNIT tests
+[2.726s] -- Configuring library: gz-common5-testing
+[2.729s] -- Testing is disabled -- skipping UNIT tests
+[2.835s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[2.835s] -- Build configuration successful
+[2.835s] -- Build type: RelWithDebInfo
+[2.835s] -- Install prefix: /home/julia/workspace/install
+[2.840s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.853s] -- Configuring done
+[2.922s] -- Generating done
+[2.926s] -- Build files have been written to: /home/julia/workspace/build/gz-common5
+[2.938s] Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-common -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.939s] Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-common5 -- -j3 -l3
+[3.023s] [35m[1mScanning dependencies of target gz-common5[0m
+[3.084s] [  1%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Battery.cc.o[0m
+[3.084s] [  2%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Base64.cc.o[0m
+[3.092s] [  4%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Console.cc.o[0m
+[4.464s] [  5%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/DirIter.cc.o[0m
+[6.018s] [  7%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Filesystem.cc.o[0m
+[6.063s] [  8%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/MaterialDensity.cc.o[0m
+[6.476s] [ 10%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Plugin.cc.o[0m
+[9.111s] [ 11%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/PluginLoader.cc.o[0m
+[10.684s] [ 13%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/SignalHandler.cc.o[0m
+[11.005s] [ 14%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/StringUtils.cc.o[0m
+[11.855s] [ 16%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/SystemPaths.cc.o[0m
+[14.164s] [ 17%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/TempDirectory.cc.o[0m
+[15.397s] [ 19%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Timer.cc.o[0m
+[16.694s] [ 20%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/URI.cc.o[0m
+[17.500s] [ 22%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Util.cc.o[0m
+[25.370s] [ 23%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/WorkerPool.cc.o[0m
+[26.188s] [ 25%] [32mBuilding CXX object src/CMakeFiles/gz-common5.dir/Uuid.cc.o[0m
+[26.540s] [ 26%] [32m[1mLinking CXX shared library ../lib/libgz-common5.so[0m
+[26.737s] [ 26%] Built target gz-common5
+[26.751s] [35m[1mScanning dependencies of target gz-common5-av[0m
+[26.770s] [ 27%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/AudioDecoder.cc.o[0m
+[27.982s] [ 29%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/HWEncoder.cc.o[0m
+[30.022s] [ 30%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/Util.cc.o[0m
+[31.148s] [ 32%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/Video.cc.o[0m
+[32.407s] [ 33%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/VideoEncoder.cc.o[0m
+[34.476s] [ 35%] [32mBuilding CXX object av/src/CMakeFiles/gz-common5-av.dir/ffmpeg_inc.cc.o[0m
+[34.845s] [ 36%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-av.so[0m
+[34.984s] [ 36%] Built target gz-common5-av
+[34.997s] [35m[1mScanning dependencies of target gz-common5-graphics[0m
+[35.045s] [ 38%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Animation.cc.o[0m
+[37.404s] [ 39%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/AssimpLoader.cc.o[0m
+[39.949s] [ 41%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/BVHLoader.cc.o[0m
+[41.780s] [ 42%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/ColladaExporter.cc.o[0m
+[43.723s] [ 44%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/ColladaLoader.cc.o[0m
+[52.753s] [ 45%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/GTSMeshUtils.cc.o[0m
+[53.787s] [ 47%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Image.cc.o[0m
+[55.244s] [ 48%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/KeyFrame.cc.o[0m
+[56.037s] [ 50%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Material.cc.o[0m
+[57.221s] [ 51%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Mesh.cc.o[0m
+[58.626s] [ 52%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/MeshCSG.cc.o[0m
+[59.830s] [ 54%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/MeshExporter.cc.o[0m
+[60.105s] [ 55%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/MeshManager.cc.o[0m
+[63.081s] [ 57%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/NodeAnimation.cc.o[0m
+[64.398s] [ 58%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/NodeTransform.cc.o[0m
+[65.503s] [ 60%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/OBJLoader.cc.o[0m
+[72.018s] [ 61%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Pbr.cc.o[0m
+[73.244s] [ 63%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/STLLoader.cc.o[0m
+[74.282s] [ 64%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/SVGLoader.cc.o[0m
+[77.227s] [ 66%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/Skeleton.cc.o[0m
+[79.937s] [ 67%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/SkeletonAnimation.cc.o[0m
+[81.736s] [ 69%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/SkeletonNode.cc.o[0m
+[83.510s] [ 70%] [32mBuilding CXX object graphics/src/CMakeFiles/gz-common5-graphics.dir/SubMesh.cc.o[0m
+[85.595s] [ 72%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-graphics.so[0m
+[85.990s] [ 72%] Built target gz-common5-graphics
+[86.003s] [35m[1mScanning dependencies of target gz-common5-io[0m
+[86.020s] [ 73%] [32mBuilding CXX object io/src/CMakeFiles/gz-common5-io.dir/CSVStreams.cc.o[0m
+[86.717s] [ 75%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-io.so[0m
+[86.797s] [ 75%] Built target gz-common5-io
+[86.812s] [35m[1mScanning dependencies of target gz-common5-profiler[0m
+[86.831s] [ 76%] [32mBuilding CXX object profiler/src/CMakeFiles/gz-common5-profiler.dir/Profiler.cc.o[0m
+[87.722s] [ 77%] [32mBuilding C object profiler/src/CMakeFiles/gz-common5-profiler.dir/Remotery/lib/Remotery.c.o[0m
+[88.441s] [ 79%] [32mBuilding CXX object profiler/src/CMakeFiles/gz-common5-profiler.dir/RemoteryProfilerImpl.cc.o[0m
+[89.485s] [ 80%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-profiler.so[0m
+[89.580s] [ 80%] Built target gz-common5-profiler
+[89.594s] [35m[1mScanning dependencies of target gz-common5-testing[0m
+[89.614s] [ 82%] [32mBuilding CXX object testing/src/CMakeFiles/gz-common5-testing.dir/BazelTestPaths.cc.o[0m
+[90.566s] [ 83%] [32mBuilding CXX object testing/src/CMakeFiles/gz-common5-testing.dir/CMakeTestPaths.cc.o[0m
+[91.304s] [ 85%] [32mBuilding CXX object testing/src/CMakeFiles/gz-common5-testing.dir/RedirectConsoleStream.cc.o[0m
+[92.480s] [ 86%] [32mBuilding CXX object testing/src/CMakeFiles/gz-common5-testing.dir/TestPaths.cc.o[0m
+[93.511s] [ 88%] [32mBuilding CXX object testing/src/CMakeFiles/gz-common5-testing.dir/Utils.cc.o[0m
+[94.070s] [ 89%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-testing.so[0m
+[94.177s] [ 89%] Built target gz-common5-testing
+[94.192s] [35m[1mScanning dependencies of target gz-common5-geospatial[0m
+[94.237s] [ 91%] [32mBuilding CXX object geospatial/src/CMakeFiles/gz-common5-geospatial.dir/Dem.cc.o[0m
+[96.497s] [ 92%] [32mBuilding CXX object geospatial/src/CMakeFiles/gz-common5-geospatial.dir/ImageHeightmap.cc.o[0m
+[97.487s] [ 94%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-geospatial.so[0m
+[97.631s] [ 94%] Built target gz-common5-geospatial
+[97.644s] [35m[1mScanning dependencies of target gz-common5-events[0m
+[97.664s] [ 95%] [32mBuilding CXX object events/src/CMakeFiles/gz-common5-events.dir/Event.cc.o[0m
+[98.815s] [ 97%] [32mBuilding CXX object events/src/CMakeFiles/gz-common5-events.dir/MouseEvent.cc.o[0m
+[99.426s] [ 98%] [32mBuilding CXX object events/src/CMakeFiles/gz-common5-events.dir/KeyEvent.cc.o[0m
+[99.738s] [100%] [32m[1mLinking CXX shared library ../../lib/libgz-common5-events.so[0m
+[99.821s] [100%] Built target gz-common5-events
+[99.834s] Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-common5 -- -j3 -l3
+[99.874s] Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-common5
+[99.883s] -- Install configuration: "RelWithDebInfo"
+[99.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-all/gz-common5-all-config.cmake
+[99.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-all/gz-common5-all-config-version.cmake
+[99.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-all/gz-common5-all-targets.cmake
+[99.889s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/detail/Export.hh
+[99.890s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Export.hh
+[99.890s] -- Installing: /home/julia/workspace/install/lib/libgz-common5.so.5.3.1
+[99.902s] -- Installing: /home/julia/workspace/install/lib/libgz-common5.so.5
+[99.902s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5.so.5.3.1" to ""
+[99.902s] -- Installing: /home/julia/workspace/install/lib/libgz-common5.so
+[99.903s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5/gz-common5-config.cmake
+[99.903s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5/gz-common5-config-version.cmake
+[99.903s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5/gz-common5-targets.cmake
+[99.903s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5/gz-common5-targets-relwithdebinfo.cmake
+[99.904s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5.pc
+[99.904s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition
+[99.904s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common.hh
+[99.904s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.904s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SpecializedPlugin.hh
+[99.904s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Battery.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Uuid.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/TemplateHelpers.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/URI.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SystemPaths.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Util.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/PluginPtr.hh
+[99.905s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Export.hh
+[99.906s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/FlagSet.hh
+[99.906s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Console.hh
+[99.906s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/TempDirectory.hh
+[99.906s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/PluginInfo.hh
+[99.906s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SingletonT.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MovingWindowFilter.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Timer.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MaterialDensity.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/WorkerPool.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SpecializedPluginPtr.hh
+[99.907s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/PluginLoader.hh
+[99.908s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SuppressWarning.hh
+[99.908s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/PluginMacros.hh
+[99.908s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/EnumIface.hh
+[99.908s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/config.hh
+[99.908s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Base64.hh
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/SpecializedPlugin.hh
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/TemplateHelpers.hh
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/PluginPtr.hh
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/Export.hh
+[99.909s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/PluginLoader.hh
+[99.910s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/PluginMacros.hh
+[99.910s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/detail/Plugin.hh
+[99.910s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Filesystem.hh
+[99.910s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/StringUtils.hh
+[99.911s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Plugin.hh
+[99.911s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SignalHandler.hh
+[99.911s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/detail/TemplateHelpers.hh
+[99.912s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Base64.hh
+[99.912s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Battery.hh
+[99.912s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Console.hh
+[99.913s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/EnumIface.hh
+[99.913s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Filesystem.hh
+[99.913s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/FlagSet.hh
+[99.914s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MaterialDensity.hh
+[99.915s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MovingWindowFilter.hh
+[99.915s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SignalHandler.hh
+[99.915s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SingletonT.hh
+[99.916s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/StringUtils.hh
+[99.916s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SuppressWarning.hh
+[99.916s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SystemPaths.hh
+[99.916s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/TempDirectory.hh
+[99.916s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/TemplateHelpers.hh
+[99.917s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Timer.hh
+[99.917s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/URI.hh
+[99.917s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Util.hh
+[99.917s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Uuid.hh
+[99.918s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/WorkerPool.hh
+[99.918s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/../common.hh
+[99.918s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/config.hh
+[99.918s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/av/detail/Export.hh
+[99.919s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/av/Export.hh
+[99.919s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-av.so.5.3.1
+[99.922s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-av.so.5
+[99.922s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-av.so.5.3.1" to ""
+[99.922s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-av.so
+[99.922s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-av/gz-common5-av-config.cmake
+[99.923s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-av/gz-common5-av-config-version.cmake
+[99.923s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-av/gz-common5-av-targets.cmake
+[99.923s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-av/gz-common5-av-targets-relwithdebinfo.cmake
+[99.924s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-av.pc
+[99.924s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.924s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.924s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av
+[99.924s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av/Util.hh
+[99.924s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av/Export.hh
+[99.925s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av/detail
+[99.925s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av/detail/Export.hh
+[99.925s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/av.hh
+[99.925s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/VideoEncoder.hh
+[99.926s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/ffmpeg_inc.hh
+[99.926s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/AudioDecoder.hh
+[99.926s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Video.hh
+[99.926s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/HWVideo.hh
+[99.927s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/av/Util.hh
+[99.927s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/AudioDecoder.hh
+[99.927s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/HWVideo.hh
+[99.928s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Video.hh
+[99.928s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/VideoEncoder.hh
+[99.928s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/ffmpeg_inc.hh
+[99.928s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/av/../av.hh
+[99.929s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/events/detail/Export.hh
+[99.929s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/events/Export.hh
+[99.930s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-events.so.5.3.1
+[99.931s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-events.so.5
+[99.931s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-events.so.5.3.1" to ""
+[99.932s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-events.so
+[99.932s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-events/gz-common5-events-config.cmake
+[99.932s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-events/gz-common5-events-config-version.cmake
+[99.932s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-events/gz-common5-events-targets.cmake
+[99.932s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-events/gz-common5-events-targets-relwithdebinfo.cmake
+[99.933s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-events.pc
+[99.933s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.933s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.933s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Event.hh
+[99.933s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/KeyEvent.hh
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events.hh
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events/Types.hh
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events/Export.hh
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events/detail
+[99.934s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/events/detail/Export.hh
+[99.935s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MouseEvent.hh
+[99.935s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/events/Types.hh
+[99.935s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Event.hh
+[99.935s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/KeyEvent.hh
+[99.936s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MouseEvent.hh
+[99.936s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/events/../events.hh
+[99.936s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/detail/Export.hh
+[99.936s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/Export.hh
+[99.937s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-geospatial.so.5.3.1
+[99.938s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-geospatial.so.5
+[99.938s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-geospatial.so.5.3.1" to ""
+[99.939s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-geospatial.so
+[99.939s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-geospatial/gz-common5-geospatial-config.cmake
+[99.939s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-geospatial/gz-common5-geospatial-config-version.cmake
+[99.939s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-geospatial/gz-common5-geospatial-targets.cmake
+[99.939s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-geospatial/gz-common5-geospatial-targets-relwithdebinfo.cmake
+[99.940s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-geospatial.pc
+[99.940s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.940s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.940s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial
+[99.941s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/Export.hh
+[99.941s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/HeightmapData.hh
+[99.941s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/Dem.hh
+[99.941s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/detail
+[99.941s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/detail/Export.hh
+[99.942s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial/ImageHeightmap.hh
+[99.942s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/geospatial.hh
+[99.942s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/Dem.hh
+[99.942s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/HeightmapData.hh
+[99.943s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/ImageHeightmap.hh
+[99.943s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/geospatial/../geospatial.hh
+[99.943s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/graphics/detail/Export.hh
+[99.944s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/graphics/Export.hh
+[99.944s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-graphics.so.5.3.1
+[99.964s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-graphics.so.5
+[99.964s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-graphics.so.5.3.1" to ""
+[99.965s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-graphics.so
+[99.965s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-graphics/gz-common5-graphics-config.cmake
+[99.965s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-graphics/gz-common5-graphics-config-version.cmake
+[99.965s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-graphics/gz-common5-graphics-targets.cmake
+[99.966s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-graphics/gz-common5-graphics-targets-relwithdebinfo.cmake
+[99.966s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-graphics.pc
+[99.966s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.966s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.966s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics/Types.hh
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics/Export.hh
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics/detail
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics/detail/Export.hh
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/ColladaLoader.hh
+[99.967s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SkeletonNode.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SVGLoader.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Animation.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/graphics.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MeshLoader.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/KeyFrame.hh
+[99.968s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/STLLoader.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Skeleton.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Material.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Image.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/GTSMeshUtils.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Pbr.hh
+[99.969s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MeshExporter.hh
+[99.970s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MeshManager.hh
+[99.970s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SkeletonAnimation.hh
+[99.970s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/ColladaExporter.hh
+[99.970s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/NodeAnimation.hh
+[99.970s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Mesh.hh
+[99.971s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/OBJLoader.hh
+[99.971s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/SubMesh.hh
+[99.971s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/BVHLoader.hh
+[99.971s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/MeshCSG.hh
+[99.971s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/NodeTransform.hh
+[99.972s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/graphics/Types.hh
+[99.972s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Animation.hh
+[99.973s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/AssimpLoader.hh
+[99.973s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/BVHLoader.hh
+[99.973s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/ColladaExporter.hh
+[99.973s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/ColladaLoader.hh
+[99.973s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/GTSMeshUtils.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Image.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/KeyFrame.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Material.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Mesh.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MeshCSG.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MeshExporter.hh
+[99.974s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MeshLoader.hh
+[99.975s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/MeshManager.hh
+[99.975s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/NodeAnimation.hh
+[99.975s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/NodeTransform.hh
+[99.975s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/OBJLoader.hh
+[99.975s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Pbr.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/STLLoader.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SVGLoader.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Skeleton.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SkeletonAnimation.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SkeletonNode.hh
+[99.976s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/SubMesh.hh
+[99.977s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/graphics/../graphics.hh
+[99.977s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/io/detail/Export.hh
+[99.977s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/io/Export.hh
+[99.978s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-io.so.5.3.1
+[99.978s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-io.so.5
+[99.979s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-io.so.5.3.1" to ""
+[99.979s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-io.so
+[99.979s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-io/gz-common5-io-config.cmake
+[99.979s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-io/gz-common5-io-config-version.cmake
+[99.980s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-io/gz-common5-io-targets.cmake
+[99.980s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-io/gz-common5-io-targets-relwithdebinfo.cmake
+[99.980s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-io.pc
+[99.980s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/CSVStreams.hh
+[99.981s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/DataFrame.hh
+[99.981s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/IOBase.hh
+[99.981s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/io/../io.hh
+[99.981s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.982s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.982s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/profiler
+[99.982s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/profiler/Export.hh
+[99.982s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/profiler/detail
+[99.982s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/profiler/detail/Export.hh
+[99.982s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/Profiler.hh
+[99.983s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/gz
+[99.983s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/gz/common
+[99.983s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/Profiler.hh
+[99.983s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/profiler/detail/Export.hh
+[99.984s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/profiler/Export.hh
+[99.984s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-profiler.so.5.3.1
+[99.985s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-profiler.so.5
+[99.985s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-profiler.so.5.3.1" to ""
+[99.986s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-profiler.so
+[99.986s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-profiler/gz-common5-profiler-config.cmake
+[99.986s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-profiler/gz-common5-profiler-config-version.cmake
+[99.986s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-profiler/gz-common5-profiler-targets.cmake
+[99.986s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-profiler/gz-common5-profiler-targets-relwithdebinfo.cmake
+[99.987s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-profiler.pc
+[99.987s] -- Installing: /home/julia/workspace/install/libexec/gz/gz-common5/gz_remotery_vis
+[99.987s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis
+[99.987s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern
+[99.988s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib
+[99.988s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager
+[99.988s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Styles
+[99.988s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Styles/WindowManager.css
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Treeview.js
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/TreeviewItem.js
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Label.js
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/WindowManager.js
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/ComboBox.js
+[99.989s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Grid.js
+[99.990s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Container.js
+[99.990s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Window.js
+[99.990s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/Button.js
+[99.990s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/WindowManager/Code/EditBox.js
+[99.990s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core
+[99.991s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code
+[99.991s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/DOM.js
+[99.991s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Bind.js
+[99.991s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/MurmurHash3.js
+[99.991s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Animation.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Core.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/LocalStore.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Convert.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Mouse.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/extern/BrowserLib/Core/Code/Keyboard.js
+[99.992s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/index.html
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Styles
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Styles/Remotery.css
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/WebSocketConnection.js
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/PixelTimeRange.js
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/SampleWindow.js
+[99.993s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/TimelineWindow.js
+[99.994s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/Remotery.js
+[99.994s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/TitleWindow.js
+[99.994s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/DataViewReader.js
+[99.994s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/Console.js
+[99.995s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/ThreadFrame.js
+[99.995s] -- Installing: /home/julia/workspace/install/share/gz/gz-common5/profiler_vis/Code/TimelineRow.js
+[99.995s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/detail/Export.hh
+[99.995s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/Export.hh
+[99.996s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-testing.so.5.3.1
+[99.997s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-testing.so.5
+[99.997s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-common5-testing.so.5.3.1" to ""
+[99.998s] -- Installing: /home/julia/workspace/install/lib/libgz-common5-testing.so
+[99.998s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-testing/gz-common5-testing-config.cmake
+[99.998s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-testing/gz-common5-testing-config-version.cmake
+[99.998s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-testing/gz-common5-testing-targets.cmake
+[99.999s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-common5-testing/gz-common5-testing-targets-relwithdebinfo.cmake
+[99.999s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-common5-testing.pc
+[99.999s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition
+[99.999s] -- Up-to-date: /home/julia/workspace/install/include/gz/common5/ignition/common
+[99.999s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing.hh
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/Utils.hh
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/CMakeTestPaths.hh
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/Export.hh
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/BazelTestPaths.hh
+[100.000s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/TestPaths.hh
+[100.001s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/AutoLogFixture.hh
+[100.001s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/detail
+[100.001s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/detail/Export.hh
+[100.001s] -- Installing: /home/julia/workspace/install/include/gz/common5/ignition/common/testing/detail/AutoLogFixture.hh
+[100.002s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/AutoLogFixture.hh
+[100.002s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/BazelTestPaths.hh
+[100.002s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/CMakeTestPaths.hh
+[100.003s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/RedirectConsoleStream.hh
+[100.003s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/TestPaths.hh
+[100.003s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/Utils.hh
+[100.004s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/detail/AutoLogFixture.hh
+[100.004s] -- Installing: /home/julia/workspace/install/include/gz/common5/gz/common/testing/../testing.hh
+[100.011s] Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-common5

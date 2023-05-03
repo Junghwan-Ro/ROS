@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/gui8
+
+Name: Gazebo gui
+Description: A set of gui classes for robot applications
+Version: 8.0.0
+Requires: gz-cmake3 >= 1.1 protobuf >= 3 gz-utils2 gz-math7 gz-common5 gz-plugin2 gz-transport12 gz-rendering8 gz-msgs9 Qt5Core Qt5Quick Qt5QuickControls2 Qt5Widgets
+Requires.private: tinyxml2
+Libs: -L${libdir} -lgz-gui8 
+Libs.private: 
+CFlags: -I${includedir} 

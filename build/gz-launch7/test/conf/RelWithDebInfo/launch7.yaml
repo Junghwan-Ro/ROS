@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz launch
+format: 1.0.0
+library_name: gz-launch
+library_version: 7.0.0~pre1
+library_path: /home/julia/workspace/build/gz-launch7/test/lib/RelWithDebInfo/ruby/gz/cmdlaunch7
+commands:
+    - launch: Run and manage executables and plugins.
+---

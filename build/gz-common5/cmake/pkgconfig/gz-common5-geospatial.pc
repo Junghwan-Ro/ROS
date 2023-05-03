@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/common5
+
+Name: Gazebo common geospatial
+Description: A set of common geospatial classes for robot applications
+Version: 5.3.1
+Requires: gz-math7 gz-common5 = 5.3.1
+Requires.private: gdal = 3.0
+Libs: -L${libdir} -lgz-common5-geospatial 
+Libs.private: 
+CFLags: -I${includedir} 

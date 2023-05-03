@@ -1,0 +1,57 @@
+[0.053s] Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[0.157s] [100%] Built target gz-fuel_tools9
+[0.174s] Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[0.242s] Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9
+[0.251s] -- Install configuration: "RelWithDebInfo"
+[0.251s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-config.cmake
+[0.251s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-config-version.cmake
+[0.252s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9-all/gz-fuel_tools9-all-targets.cmake
+[0.262s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/detail/Export.hh
+[0.262s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Export.hh
+[0.264s] -- Up-to-date: /home/julia/workspace/install/lib/libgz-fuel_tools9.so.9.0.0
+[0.264s] -- Up-to-date: /home/julia/workspace/install/lib/libgz-fuel_tools9.so.9
+[0.264s] -- Up-to-date: /home/julia/workspace/install/lib/libgz-fuel_tools9.so
+[0.265s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-config.cmake
+[0.265s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-config-version.cmake
+[0.265s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-targets.cmake
+[0.266s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-fuel_tools9/gz-fuel_tools9-targets-relwithdebinfo.cmake
+[0.266s] -- Up-to-date: /home/julia/workspace/install/lib/pkgconfig/gz-fuel_tools9.pc
+[0.266s] -- Up-to-date: /home/julia/workspace/install/lib/ruby/gz/cmdfuel9.rb
+[0.267s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition
+[0.267s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools.hh
+[0.267s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools
+[0.267s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ModelIter.hh
+[0.267s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/WorldIter.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Helpers.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ModelIdentifier.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/ClientConfig.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/RestClient.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Export.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/WorldIdentifier.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/CollectionIdentifier.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Model.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Zip.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/JSONParser.hh
+[0.268s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Result.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/Interface.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/config.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/ignition/fuel_tools/FuelClient.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ClientConfig.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/CollectionIdentifier.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/FuelClient.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Helpers.hh
+[0.269s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Interface.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/JSONParser.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Model.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ModelIdentifier.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/ModelIter.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/RestClient.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Result.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/WorldIdentifier.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/WorldIter.hh
+[0.270s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/Zip.hh
+[0.271s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/../fuel_tools.hh
+[0.271s] -- Up-to-date: /home/julia/workspace/install/include/gz/fuel_tools9/gz/fuel_tools/config.hh
+[0.271s] -- Up-to-date: /home/julia/workspace/install/share/gz/fuel9.yaml
+[0.271s] -- Up-to-date: /home/julia/workspace/install/share/gz/fuel_tools9/config.yaml
+[0.278s] Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9

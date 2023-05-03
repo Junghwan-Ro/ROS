@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz-transport-log.
+format: 1.0.0
+library_name: gz-transport-log
+library_version: 13.0.0~pre1
+library_path: /home/julia/workspace/build/gz-transport13/log/test/lib/ruby/gz/cmdlog13.rb
+commands:
+    - log   : Record or playback topics.
+---

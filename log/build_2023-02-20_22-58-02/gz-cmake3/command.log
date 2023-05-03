@@ -1,0 +1,1 @@
+Invoking command in '/home/julia/workspace/build/gz-cmake3': /usr/bin/cmake /home/julia/workspace/src/gz-cmake -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install

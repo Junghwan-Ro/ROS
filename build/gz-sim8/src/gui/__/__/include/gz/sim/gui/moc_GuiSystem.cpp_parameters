@@ -1,0 +1,6 @@
+-I/home/julia/workspace/src/gz-sim/include
+-I/home/julia/workspace/build/gz-sim8/include
+-DGZ_PROFILER_ENABLE=0
+-o
+/home/julia/workspace/build/gz-sim8/src/gui/__/__/include/gz/sim/gui/moc_GuiSystem.cpp
+/home/julia/workspace/src/gz-sim/include/gz/sim/gui/GuiSystem.hh

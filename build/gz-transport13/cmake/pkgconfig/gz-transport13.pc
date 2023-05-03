@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/transport13
+
+Name: Gazebo transport
+Description: A set of transport classes for robot applications
+Version: 13.0.0
+Requires: gz-cmake3 >= 1.1 protobuf >= 3 uuid gz-utils2 gz-msgs10
+Requires.private: libzmq >= 4
+Libs: -L${libdir} -lgz-transport13 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

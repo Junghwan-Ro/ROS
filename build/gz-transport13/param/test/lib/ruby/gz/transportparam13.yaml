@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz-transport-param.
+format: 1.0.0
+library_name: gz-transport-param
+library_version: 13.0.0~pre1
+library_path: /home/julia/workspace/build/gz-transport13/param/test/lib/ruby/gz/cmdparam13.rb
+commands:
+    - param   : List, get or set parameters.
+---

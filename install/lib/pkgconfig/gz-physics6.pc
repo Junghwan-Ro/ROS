@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/physics6
+
+Name: Gazebo physics
+Description: A set of physics classes for robot applications
+Version: 6.3.0
+Requires: gz-cmake3 >= 1.1 gz-math7 gz-plugin2 gz-utils2 eigen3
+Requires.private: 
+Libs: -L${libdir} -lgz-physics6 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

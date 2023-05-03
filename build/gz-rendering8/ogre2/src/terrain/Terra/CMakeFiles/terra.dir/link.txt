@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libterra.a  CMakeFiles/terra.dir/src/Hlms/OgreHlmsJsonTerra.cpp.o CMakeFiles/terra.dir/src/Hlms/OgreHlmsTerra.cpp.o CMakeFiles/terra.dir/src/Hlms/OgreHlmsTerraDatablock.cpp.o CMakeFiles/terra.dir/src/Hlms/PbsListener/OgreHlmsPbsTerraShadows.cpp.o CMakeFiles/terra.dir/src/Terra.cpp.o CMakeFiles/terra.dir/src/TerraShadowMapper.cpp.o CMakeFiles/terra.dir/src/TerraWorkspaceListener.cpp.o CMakeFiles/terra.dir/src/TerrainCell.cpp.o
+/usr/bin/ranlib ../../../../lib/libterra.a

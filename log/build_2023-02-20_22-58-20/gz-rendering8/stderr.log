@@ -1,0 +1,10 @@
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+CMake Warning at /home/julia/workspace/install/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake:69 (message):
+   CONFIGURATION WARNINGS:
+   -- Skipping component [optix]: Missing dependency [OptiX].
+      ^~~~~ Set SKIP_optix=true in cmake to suppress this warning.
+   
+Call Stack (most recent call first):
+  CMakeLists.txt:204 (gz_configure_build)
+
+

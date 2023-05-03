@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/rendering8
+
+Name: Gazebo rendering ogre2
+Description: A set of rendering ogre2 classes for robot applications
+Version: 8.0.0
+Requires: gl gz-rendering8 = 8.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-rendering8-ogre2 
+Libs.private: 
+CFLags: -I${includedir} 

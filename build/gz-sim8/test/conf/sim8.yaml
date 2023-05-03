@@ -1,0 +1,8 @@
+--- # Subcommands available inside Gazebo Sim
+format: 1.0.0
+library_name: gz-sim-gz
+library_version: 8.0.0~pre1
+library_path: /home/julia/workspace/build/gz-sim8/test/lib/ruby/gz/cmdsim8
+commands:
+    - sim : Run and manage the Gazebo Simulator.
+---

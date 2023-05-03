@@ -1,0 +1,8 @@
+--- # Subcommands available inside sdformat.
+format: 1.0.0
+library_name: sdformat
+library_version: 13.3.0
+library_path: /home/julia/workspace/install/lib/ruby/gz/cmdsdformat13
+commands:
+    - sdf   : Utilities for SDF files.
+---

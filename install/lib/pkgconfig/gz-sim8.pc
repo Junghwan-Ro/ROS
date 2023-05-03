@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sim8
+
+Name: Gazebo sim
+Description: A set of sim classes for robot applications
+Version: 8.0.0
+Requires: gz-cmake3 >= 1.1 sdformat13 gz-plugin2 gz-transport12 gz-msgs9 gz-common5 gz-fuel_tools8 gz-gui8 Qt5Core Qt5Quick Qt5QuickControls2 gz-physics6 gz-sensors8 gz-rendering8 gz-math7 gz-utils2 protobuf >= 3
+Requires.private: 
+Libs: -L${libdir} -lgz-sim8 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz-plugin.
+format: 1.0.0
+library_name: gz-plugin
+library_version: 2.0.1
+library_path: /home/julia/workspace/install/lib/ruby/gz/cmdplugin2
+commands:
+    - plugin  : Print information about plugins.
+---

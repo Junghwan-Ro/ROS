@@ -1,0 +1,94 @@
+[  1%] [34m[1mAutomatic MOC for target gz-gui8[0m
+[  1%] Built target gz-gui8_autogen
+[ 17%] Built target gz-gui8
+[ 21%] Built target GridConfig
+[ 24%] Built target CameraTracking
+[ 28%] Built target ImageDisplay
+[ 32%] Built target InteractiveViewControl
+[ 36%] Built target KeyPublisher
+[ 40%] Built target TransportPlotting
+[ 44%] Built target PointCloud
+[ 48%] Built target Publisher
+[ 52%] Built target MarkerManager
+[ 59%] Built target MinimalScene
+[ 62%] Built target NavSatMap
+[ 66%] Built target Screenshot
+[ 70%] Built target ShutdownButton
+[ 74%] Built target Teleop
+[ 78%] Built target TapeMeasure
+[ 82%] Built target TopicEcho
+[ 86%] Built target TransportSceneManager
+[ 90%] Built target TopicViewer
+[ 96%] Built target WorldControl
+[100%] Built target WorldStats
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-config.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-config-version.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-targets.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/ruby/gz/cmdgui8.rb
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz2.completion.d/gui8.bash_completion.sh
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libCameraTracking.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libGridConfig.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libGrid3D.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libImageDisplay.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libInteractiveViewControl.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libKeyPublisher.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportPlotting.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libPointCloud.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libPublisher.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libMarkerManager.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libMinimalScene.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libNavSatMap.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libScreenshot.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libShutdownButton.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTapeMeasure.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTeleop.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicEcho.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicViewer.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportSceneManager.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldControl.so
+-- Up-to-date: /home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldStats.so
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/PlottingInterface.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/qt.h
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Application.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/MainWindow.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Dialog.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/GuiEvents.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Helpers.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/ign.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Conversions.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Export.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Enums.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/DragDropModel.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/config.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/SearchModel.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Plugin.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/detail/Export.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Export.hh
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-gui8.so.8.0.0~pre1
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-gui8.so.8
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-gui8.so
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-config.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-config-version.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-targets.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-targets-relwithdebinfo.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/pkgconfig/gz-gui8.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Application.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Conversions.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Dialog.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/DragDropModel.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Enums.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/GuiEvents.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Helpers.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/MainWindow.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/PlottingInterface.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/Plugin.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/SearchModel.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/gz.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/qt.h
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/../gui.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/gui8/gz/gui/config.hh
+-- Up-to-date: /home/julia/workspace/install/share/gz/gui8.yaml

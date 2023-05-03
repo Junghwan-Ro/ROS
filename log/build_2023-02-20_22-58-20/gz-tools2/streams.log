@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.129s] -- The CXX compiler identification is GNU 9.4.0
+[0.133s] -- Check for working C compiler: /usr/bin/cc
+[0.205s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.206s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.354s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.447s] -- gz-tools2 version 2.0.0
+[0.448s] -- Operating system is Linux
+[0.454s] -- Found CPack generators: DEB
+[0.460s] -- 
+[0.460s] 
+[0.460s] -- ====== Finding Dependencies ======
+[0.461s] -- Found Backward: /home/julia/workspace/src/gz-tools/src/Backward  
+[1.460s] -- 
+[1.460s] -- Searching for host SSE information
+[1.491s] -- SSE2 found
+[1.491s] -- SSE3 found
+[1.491s] -- SSE4.1 found
+[1.491s] -- SSE4.2 found
+[1.597s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[1.598s] -- Build configuration successful
+[1.598s] -- Build type: RelWithDebInfo
+[1.598s] -- Install prefix: /home/julia/workspace/install
+[1.601s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[1.602s] -- Configuring done
+[1.607s] -- Generating done
+[1.608s] -- Build files have been written to: /home/julia/workspace/build/gz-tools2
+[1.612s] Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1.615s] Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[1.654s] [35m[1mScanning dependencies of target backward[0m
+[1.673s] [ 50%] [32mBuilding CXX object src/CMakeFiles/backward.dir/backward.cc.o[0m
+[3.908s] [100%] [32m[1mLinking CXX shared library ../lib/libgz-tools2-backward.so[0m
+[3.976s] [100%] Built target backward
+[3.986s] Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[4.022s] Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2
+[4.031s] -- Install configuration: "RelWithDebInfo"
+[4.031s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config.cmake
+[4.032s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config-version.cmake
+[4.032s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-targets.cmake
+[4.037s] -- Installing: /home/julia/workspace/install/share/gz/gz.completion
+[4.037s] -- Installing: /home/julia/workspace/install/share/bash-completion/completions/gz
+[4.037s] -- Installing: /home/julia/workspace/install/lib/libgz-tools2-backward.so
+[4.038s] -- Installing: /home/julia/workspace/install/bin/gz
+[4.049s] Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2

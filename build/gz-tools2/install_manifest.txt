@@ -1,0 +1,7 @@
+/home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config.cmake
+/home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config-version.cmake
+/home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-targets.cmake
+/home/julia/workspace/install/share/gz/gz.completion
+/home/julia/workspace/install/share/bash-completion/completions/gz
+/home/julia/workspace/install/lib/libgz-tools2-backward.so
+/home/julia/workspace/install/bin/gz

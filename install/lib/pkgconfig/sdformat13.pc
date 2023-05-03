@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sdformat13
+
+Name: Gazebo sdformat
+Description: A set of sdformat classes for robot applications
+Version: 13.3.0
+Requires: gz-cmake3 >= 1.1 tinyxml2 gz-math7 gz-utils2
+Requires.private: 
+Libs: -L${libdir} -lsdformat13 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

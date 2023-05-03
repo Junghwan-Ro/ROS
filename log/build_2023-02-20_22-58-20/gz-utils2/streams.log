@@ -1,0 +1,137 @@
+[0.019s] Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-utils -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.091s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.211s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.212s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.370s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.464s] -- gz-utils2 version 2.0.0
+[0.465s] -- Operating system is Linux
+[0.470s] -- Found CPack generators: DEB
+[1.466s] -- 
+[1.466s] -- Searching for host SSE information
+[1.497s] -- SSE2 found
+[1.497s] -- SSE3 found
+[1.497s] -- SSE4.1 found
+[1.497s] -- SSE4.2 found
+[1.515s] -- Configuring library: gz-utils2
+[1.520s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.605s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.606s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.686s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.686s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.769s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.772s] -- Testing is disabled -- skipping UNIT tests
+[1.775s] -- Configuring library: gz-utils2-cli
+[1.776s] -- Testing is disabled -- skipping UNIT tests
+[1.869s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[1.870s] -- Build configuration successful
+[1.870s] -- Build type: RelWithDebInfo
+[1.870s] -- Install prefix: /home/julia/workspace/install
+[1.875s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[1.879s] -- Configuring done
+[1.894s] -- Generating done
+[1.896s] -- Build files have been written to: /home/julia/workspace/build/gz-utils2
+[1.904s] Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-utils -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1.905s] Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-utils2 -- -j3 -l3
+[1.942s] [35m[1mScanning dependencies of target gz-utils2[0m
+[1.954s] [ 50%] [32mBuilding CXX object src/CMakeFiles/gz-utils2.dir/Environment.cc.o[0m
+[2.533s] [100%] [32m[1mLinking CXX shared library ../lib/libgz-utils2.so[0m
+[2.632s] [100%] Built target gz-utils2
+[2.642s] Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-utils2 -- -j3 -l3
+[2.680s] Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-utils2
+[2.690s] -- Install configuration: "RelWithDebInfo"
+[2.690s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-config.cmake
+[2.690s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-config-version.cmake
+[2.690s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-all/gz-utils2-all-targets.cmake
+[2.696s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/Export.hh
+[2.697s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/Export.hh
+[2.697s] -- Installing: /home/julia/workspace/install/lib/libgz-utils2.so.2.0.0
+[2.697s] -- Installing: /home/julia/workspace/install/lib/libgz-utils2.so.2
+[2.697s] -- Installing: /home/julia/workspace/install/lib/libgz-utils2.so
+[2.697s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-config.cmake
+[2.697s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-config-version.cmake
+[2.698s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-targets.cmake
+[2.698s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2/gz-utils2-targets-relwithdebinfo.cmake
+[2.698s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-utils2.pc
+[2.698s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition
+[2.698s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/ImplPtr.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/Environment.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/Export.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/NeverDestroyed.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/ExtraTestMacros.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/SuppressWarning.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/config.hh
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail
+[2.699s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/ImplPtr.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/Export.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/DefaultOps.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/ExtraTestMacros.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/detail/SuppressWarning.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/DefaultOps.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/ExtraTestMacros.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/ImplPtr.hh
+[2.700s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/detail/SuppressWarning.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/Environment.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/ExtraTestMacros.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/ImplPtr.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/NeverDestroyed.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/SuppressWarning.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/../utils.hh
+[2.701s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/config.hh
+[2.702s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config.cmake
+[2.702s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config-version.cmake
+[2.702s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-targets.cmake
+[2.702s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-utils2-cli.pc
+[2.702s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition
+[2.703s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli.hh
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/IgnitionFormatter.hpp
+[2.703s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition
+[2.703s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils
+[2.703s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Formatter.hpp
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Config.hpp
+[2.703s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Option.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/FormatterFwd.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/App.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Timer.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Split.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/CLI.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/TypeTools.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Macros.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/StringTools.hpp
+[2.704s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Error.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/ConfigFwd.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Validators.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/ignition/utils/cli/Version.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/App.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/CLI.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Config.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/ConfigFwd.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Error.hpp
+[2.705s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Formatter.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/FormatterFwd.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Macros.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Option.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Split.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/StringTools.hpp
+[2.706s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Timer.hpp
+[2.707s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/TypeTools.hpp
+[2.707s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Validators.hpp
+[2.707s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/Version.hpp
+[2.707s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/../cli.hh
+[2.707s] -- Installing: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/GzFormatter.hpp
+[2.708s] -- Up-to-date: /home/julia/workspace/install/include/gz/utils2/gz/utils/cli/../cli.hh
+[2.722s] Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-utils2

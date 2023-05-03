@@ -1,0 +1,1520 @@
+[0.030s] Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/sdformat -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.099s] -- The C compiler identification is GNU 9.4.0
+[0.167s] -- The CXX compiler identification is GNU 9.4.0
+[0.171s] -- Check for working C compiler: /usr/bin/cc
+[0.254s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.255s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.421s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.521s] -- sdformat13 version 13.3.0
+[0.521s] -- Operating system is Linux
+[0.528s] -- Found CPack generators: DEB
+[0.541s] -- Checking for module 'tinyxml2'
+[0.562s] --   Found tinyxml2, version 6.2.0
+[0.611s] -- Looking for TINYXML2 - found
+[0.611s] 
+[0.681s] -- Looking for GzURDFDOM - found
+[0.681s] 
+[0.785s] -- Found PY_psutil: /usr/lib/python3/dist-packages/psutil  
+[0.785s] -- Found ruby executable: /usr/bin/ruby
+[0.786s] -- Looking for gz-math7 -- found version 7.1.0
+[0.786s] -- Searching for dependencies of gz-math7
+[0.786s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.786s] -- Searching for dependencies of gz-utils2
+[0.788s] -- Looking for gz-math7 - found
+[0.788s] 
+[0.788s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.788s] -- Searching for dependencies of gz-utils2
+[0.788s] -- Searching for <gz-utils2> component [cli]
+[0.789s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.789s] -- Searching for dependencies of gz-utils2-cli
+[0.789s] -- Looking for gz-utils2 - found
+[0.789s] 
+[0.790s] -- Searching for Python - found version 3.8.10.
+[0.804s] -- Found PythonInterp: /usr/bin/python3.8 (found suitable version "3.8.10", minimum required is "3") 
+[0.824s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.047s] -- Found Python3: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8") found components: Development 
+[1.047s] -- Searching for pybind11 - found version 2.4.3.
+[2.199s] -- 
+[2.199s] -- Searching for host SSE information
+[2.229s] -- SSE2 found
+[2.230s] -- SSE3 found
+[2.230s] -- SSE4.1 found
+[2.230s] -- SSE4.2 found
+[2.248s] -- Configuring library: sdformat13
+[2.249s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.336s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.337s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.422s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.422s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.512s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.591s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[2.592s] -- Build configuration successful
+[2.592s] -- Build type: RelWithDebInfo
+[2.592s] -- Install prefix: /home/julia/workspace/install
+[2.661s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.663s] -- Performing Test HAS_FLTO
+[2.824s] -- Performing Test HAS_FLTO - Success
+[2.824s] -- LTO enabled
+[2.824s] -- Configuration successful. Type make to compile sdf
+[2.833s] -- Configuring done
+[2.955s] -- Generating done
+[2.959s] -- Build files have been written to: /home/julia/workspace/build/sdformat13
+[2.975s] Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/sdformat -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.977s] Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/sdformat13 -- -j3 -l3
+[3.060s] [35m[1mScanning dependencies of target sdformat13[0m
+[3.084s] [35m[1mScanning dependencies of target schema1_5[0m
+[3.086s] [35m[1mScanning dependencies of target schema1_6[0m
+[3.122s] [  0%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[3.132s] [  0%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[3.216s] [  0%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Actor.cc.o[0m
+[3.375s] [  0%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[3.510s] [  1%] [34m[1mRunning xml schema compiler on air_pressure.sdf[0m
+[3.657s] [  1%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[3.778s] [  1%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[4.022s] [  2%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[4.056s] [  2%] [34m[1mRunning xml schema compiler on atmosphere.sdf[0m
+[4.280s] [  2%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[4.287s] [  2%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[4.483s] [  2%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[4.501s] [  2%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[4.701s] [  2%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[4.710s] [  3%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[4.969s] [  3%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[4.985s] [  3%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[5.214s] [  4%] [34m[1mRunning xml schema compiler on collision_engine.sdf[0m
+[5.246s] [  4%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[5.456s] [  4%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[5.498s] [  4%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[5.713s] [  4%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[5.774s] [  4%] [34m[1mRunning xml schema compiler on collision_engine.sdf[0m
+[5.943s] [  4%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[6.015s] [  5%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[6.078s] [  5%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[6.226s] [  6%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[6.251s] [  6%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[6.441s] [  6%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[6.449s] [  6%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[6.675s] [  6%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[6.708s] [  6%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[6.857s] [  6%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[6.989s] [  6%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[7.041s] [  7%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[7.197s] [  7%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[7.250s] [  7%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[7.377s] [  8%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[7.455s] [  8%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[7.577s] [  8%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[7.693s] [  8%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[7.695s] [  8%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[7.854s] [  8%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[7.889s] [  8%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[8.061s] [  8%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[8.192s] [  9%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[8.374s] [ 10%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[8.485s] [ 10%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[8.754s] [ 10%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[8.755s] [ 10%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[8.932s] [ 10%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[9.072s] [ 10%] [34m[1mRunning xml schema compiler on lidar.sdf[0m
+[9.260s] [ 10%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[9.335s] [ 10%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[9.580s] [ 11%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[9.605s] [ 11%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[9.812s] [ 11%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[9.833s] [ 12%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[10.194s] [ 12%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[10.269s] [ 12%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[10.537s] [ 12%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[10.617s] [ 12%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[10.957s] [ 12%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[10.978s] [ 13%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[11.305s] [ 13%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[11.326s] [ 13%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[11.573s] [ 14%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[11.627s] [ 14%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[11.873s] [ 14%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[11.898s] [ 14%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[12.225s] [ 14%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[12.225s] [ 14%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[12.449s] [ 14%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[12.610s] [ 15%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[12.661s] [ 16%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[12.872s] [ 16%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[12.937s] [ 16%] [34m[1mRunning xml schema compiler on particle_emitter.sdf[0m
+[13.134s] [ 16%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[13.212s] [ 16%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[13.424s] [ 16%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[13.550s] [ 16%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[13.707s] [ 16%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[13.786s] [ 16%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[13.977s] [ 17%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[14.052s] [ 18%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[14.305s] [ 18%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[14.414s] [ 18%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[14.606s] [ 18%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[14.698s] [ 18%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[14.969s] [ 18%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[14.971s] [ 18%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[15.182s] [ 18%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[15.207s] [ 18%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[15.405s] [ 19%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[15.505s] [ 20%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[15.714s] [ 20%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[15.813s] [ 20%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[16.011s] [ 20%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[16.095s] [ 20%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[16.306s] [ 20%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[16.358s] [ 20%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[16.605s] [ 20%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[16.649s] [ 20%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[16.992s] [ 21%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[17.016s] [ 22%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[17.311s] [ 22%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[17.312s] [ 22%] [34m[1mRunning xml schema compiler on urdf.sdf[0m
+[17.466s] [ 22%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[17.634s] [ 22%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[17.662s] [ 22%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[17.876s] [ 22%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[17.955s] [ 22%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[18.167s] [ 23%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[18.253s] [ 23%] Built target schema1_5
+[18.354s] [ 23%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[18.403s] [ 23%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/AirPressure.cc.o[0m
+[18.593s] [ 23%] [34m[1mRunning xml schema compiler on urdf.sdf[0m
+[18.859s] [ 23%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[19.115s] [ 23%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[19.257s] [ 23%] Built target schema1_6
+[20.626s] [ 24%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/AirSpeed.cc.o[0m
+[21.676s] [ 24%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Altimeter.cc.o[0m
+[22.828s] [ 24%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Atmosphere.cc.o[0m
+[24.736s] [ 24%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Box.cc.o[0m
+[26.275s] [ 24%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Camera.cc.o[0m
+[31.569s] [ 25%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Capsule.cc.o[0m
+[33.093s] [ 25%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Collision.cc.o[0m
+[34.890s] [ 25%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Console.cc.o[0m
+[35.855s] [ 25%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Converter.cc.o[0m
+[38.260s] [ 25%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Cylinder.cc.o[0m
+[39.864s] [ 26%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Element.cc.o[0m
+[43.418s] [ 26%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Ellipsoid.cc.o[0m
+[45.199s] [ 26%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Error.cc.o[0m
+[45.817s] [ 26%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Exception.cc.o[0m
+[46.370s] [ 26%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Filesystem.cc.o[0m
+[46.864s] [ 27%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/ForceTorque.cc.o[0m
+[48.981s] [ 27%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Frame.cc.o[0m
+[50.937s] [ 27%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/FrameSemantics.cc.o[0m
+[58.393s] [ 27%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Geometry.cc.o[0m
+[60.582s] [ 28%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Gui.cc.o[0m
+[62.317s] [ 28%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Heightmap.cc.o[0m
+[65.739s] [ 28%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Imu.cc.o[0m
+[68.449s] [ 28%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceElements.cc.o[0m
+[69.388s] [ 28%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceFrame.cc.o[0m
+[69.958s] [ 29%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceJoint.cc.o[0m
+[70.507s] [ 29%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceLink.cc.o[0m
+[71.057s] [ 29%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceModel.cc.o[0m
+[72.570s] [ 29%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/InterfaceModelPoseGraph.cc.o[0m
+[73.593s] [ 29%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Joint.cc.o[0m
+[77.031s] [ 30%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/JointAxis.cc.o[0m
+[79.821s] [ 30%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Lidar.cc.o[0m
+[82.094s] [ 30%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Light.cc.o[0m
+[85.443s] [ 30%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Link.cc.o[0m
+[90.418s] [ 30%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Magnetometer.cc.o[0m
+[91.640s] [ 31%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Material.cc.o[0m
+[94.977s] [ 31%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Mesh.cc.o[0m
+[96.970s] [ 31%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Model.cc.o[0m
+[103.849s] [ 31%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/NavSat.cc.o[0m
+[104.979s] [ 31%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Noise.cc.o[0m
+[106.768s] [ 32%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/OutputConfig.cc.o[0m
+[107.571s] [ 32%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Param.cc.o[0m
+[114.345s] [ 32%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/ParamPassing.cc.o[0m
+[118.034s] [ 32%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/ParserConfig.cc.o[0m
+[119.621s] [ 32%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/ParticleEmitter.cc.o[0m
+[124.252s] [ 33%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Pbr.cc.o[0m
+[126.975s] [ 33%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Physics.cc.o[0m
+[129.577s] [ 33%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Plane.cc.o[0m
+[131.297s] [ 33%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Plugin.cc.o[0m
+[133.159s] [ 33%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Polyline.cc.o[0m
+[135.007s] [ 34%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/PrintConfig.cc.o[0m
+[136.024s] [ 34%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Root.cc.o[0m
+[141.065s] [ 34%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/SDF.cc.o[0m
+[142.831s] [ 34%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/SDFExtension.cc.o[0m
+[143.475s] [ 34%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Scene.cc.o[0m
+[145.415s] [ 35%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/SemanticPose.cc.o[0m
+[146.580s] [ 35%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Sensor.cc.o[0m
+[150.767s] [ 35%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Sky.cc.o[0m
+[152.974s] [ 35%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Sphere.cc.o[0m
+[154.451s] [ 35%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Surface.cc.o[0m
+[156.723s] [ 36%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Types.cc.o[0m
+[157.458s] [ 36%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Utils.cc.o[0m
+[160.405s] [ 36%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/Visual.cc.o[0m
+[163.683s] [ 36%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/World.cc.o[0m
+[170.902s] [ 36%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/XmlUtils.cc.o[0m
+[172.174s] [ 37%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/gz.cc.o[0m
+[174.740s] [ 37%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/parser.cc.o[0m
+[184.954s] [ 37%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/parser_urdf.cc.o[0m
+[193.460s] [ 37%] [32mBuilding CXX object src/CMakeFiles/sdformat13.dir/EmbeddedSdf.cc.o[0m
+[196.995s] [ 38%] [32m[1mLinking CXX shared library ../lib/libsdformat13.so[0m
+[198.042s] [ 38%] Built target sdformat13
+[198.053s] [35m[1mScanning dependencies of target schema1_8[0m
+[198.063s] [ 38%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[198.152s] [ 38%] [34m[1mRunning xml schema compiler on air_pressure.sdf[0m
+[198.227s] [ 38%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[198.297s] [ 39%] [34m[1mRunning xml schema compiler on atmosphere.sdf[0m
+[198.371s] [ 39%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[198.445s] [ 39%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[198.513s] [ 39%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[198.585s] [ 40%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[198.658s] [ 40%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[198.745s] [ 40%] [34m[1mRunning xml schema compiler on capsule_shape.sdf[0m
+[198.820s] [ 40%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[198.905s] [ 40%] [34m[1mRunning xml schema compiler on collision_engine.sdf[0m
+[198.977s] [ 41%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[199.049s] [ 41%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[199.137s] [ 41%] [34m[1mRunning xml schema compiler on ellipsoid_shape.sdf[0m
+[199.212s] [ 41%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[199.286s] [ 41%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[199.362s] [ 42%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[199.437s] [ 42%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[199.512s] [ 42%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[199.585s] [ 42%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[199.659s] [ 42%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[199.754s] [ 43%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[199.855s] [ 43%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[199.931s] [ 43%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[200.003s] [ 43%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[200.096s] [ 43%] [34m[1mRunning xml schema compiler on lidar.sdf[0m
+[200.175s] [ 44%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[200.261s] [ 44%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[200.333s] [ 44%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[200.423s] [ 44%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[200.497s] [ 44%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[200.575s] [ 45%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[200.649s] [ 45%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[200.735s] [ 45%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[200.812s] [ 45%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[200.899s] [ 45%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[200.974s] [ 46%] [34m[1mRunning xml schema compiler on navsat.sdf[0m
+[201.048s] [ 46%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[201.127s] [ 46%] [34m[1mRunning xml schema compiler on particle_emitter.sdf[0m
+[201.217s] [ 46%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[201.304s] [ 46%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[201.378s] [ 47%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[201.453s] [ 47%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[201.539s] [ 47%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[201.630s] [ 47%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[201.706s] [ 47%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[201.782s] [ 48%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[201.863s] [ 48%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[201.944s] [ 48%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[202.015s] [ 48%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[202.093s] [ 48%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[202.173s] [ 49%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[202.255s] [ 49%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[202.345s] [ 49%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[202.417s] [ 49%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[202.486s] [ 50%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[202.556s] [ 50%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[202.634s] [ 50%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[202.721s] [ 50%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[202.797s] [ 50%] [34m[1mRunning xml schema compiler on urdf.sdf[0m
+[202.883s] [ 51%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[202.967s] [ 51%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[203.060s] [ 51%] Built target schema1_8
+[203.072s] [35m[1mScanning dependencies of target schema1_9[0m
+[203.086s] [ 51%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[203.178s] [ 51%] [34m[1mRunning xml schema compiler on air_pressure.sdf[0m
+[203.249s] [ 51%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[203.325s] [ 52%] [34m[1mRunning xml schema compiler on atmosphere.sdf[0m
+[203.397s] [ 52%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[203.477s] [ 52%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[203.558s] [ 52%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[203.631s] [ 52%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[203.721s] [ 53%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[203.834s] [ 53%] [34m[1mRunning xml schema compiler on capsule_shape.sdf[0m
+[203.909s] [ 53%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[204.007s] [ 53%] [34m[1mRunning xml schema compiler on collision_engine.sdf[0m
+[204.082s] [ 53%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[204.161s] [ 54%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[204.233s] [ 54%] [34m[1mRunning xml schema compiler on ellipsoid_shape.sdf[0m
+[204.318s] [ 54%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[204.390s] [ 54%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[204.464s] [ 54%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[204.539s] [ 55%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[204.613s] [ 55%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[204.688s] [ 55%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[204.762s] [ 55%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[204.836s] [ 55%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[204.907s] [ 56%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[204.982s] [ 56%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[205.055s] [ 56%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[205.148s] [ 56%] [34m[1mRunning xml schema compiler on lidar.sdf[0m
+[205.227s] [ 56%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[205.301s] [ 57%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[205.385s] [ 57%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[205.464s] [ 57%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[205.538s] [ 57%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[205.609s] [ 57%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[205.683s] [ 58%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[205.774s] [ 58%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[205.848s] [ 58%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[205.935s] [ 58%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[206.012s] [ 58%] [34m[1mRunning xml schema compiler on navsat.sdf[0m
+[206.085s] [ 59%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[206.162s] [ 59%] [34m[1mRunning xml schema compiler on particle_emitter.sdf[0m
+[206.246s] [ 59%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[206.362s] [ 59%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[206.442s] [ 60%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[206.523s] [ 60%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[206.601s] [ 60%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[206.684s] [ 60%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[206.784s] [ 60%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[206.872s] [ 61%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[206.975s] [ 61%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[207.046s] [ 61%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[207.116s] [ 61%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[207.200s] [ 61%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[207.281s] [ 62%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[207.366s] [ 62%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[207.469s] [ 62%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[207.542s] [ 62%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[207.613s] [ 62%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[207.691s] [ 63%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[207.766s] [ 63%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[207.850s] [ 63%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[207.926s] [ 63%] [34m[1mRunning xml schema compiler on urdf.sdf[0m
+[208.011s] [ 63%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[208.092s] [ 64%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[208.220s] [ 64%] Built target schema1_9
+[208.232s] [35m[1mScanning dependencies of target schema1_10[0m
+[208.245s] [ 64%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[208.344s] [ 65%] [34m[1mRunning xml schema compiler on air_pressure.sdf[0m
+[208.412s] [ 65%] [34m[1mRunning xml schema compiler on air_speed.sdf[0m
+[208.517s] [ 65%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[208.614s] [ 65%] [34m[1mRunning xml schema compiler on atmosphere.sdf[0m
+[208.690s] [ 65%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[208.768s] [ 66%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[208.863s] [ 66%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[208.944s] [ 66%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[209.019s] [ 66%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[209.109s] [ 66%] [34m[1mRunning xml schema compiler on capsule_shape.sdf[0m
+[209.182s] [ 67%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[209.270s] [ 67%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[209.341s] [ 67%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[209.417s] [ 67%] [34m[1mRunning xml schema compiler on ellipsoid_shape.sdf[0m
+[209.529s] [ 67%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[209.629s] [ 68%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[209.739s] [ 68%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[209.813s] [ 68%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[209.887s] [ 68%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[209.974s] [ 68%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[210.052s] [ 69%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[210.126s] [ 69%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[210.201s] [ 69%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[210.283s] [ 69%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[210.371s] [ 69%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[210.459s] [ 70%] [34m[1mRunning xml schema compiler on lidar.sdf[0m
+[210.538s] [ 70%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[210.615s] [ 70%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[210.686s] [ 70%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[210.772s] [ 70%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[210.842s] [ 71%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[210.911s] [ 71%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[210.984s] [ 71%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[211.068s] [ 71%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[211.137s] [ 71%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[211.223s] [ 72%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[211.300s] [ 72%] [34m[1mRunning xml schema compiler on navsat.sdf[0m
+[211.371s] [ 72%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[211.442s] [ 72%] [34m[1mRunning xml schema compiler on particle_emitter.sdf[0m
+[211.523s] [ 72%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[211.608s] [ 73%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[211.680s] [ 73%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[211.754s] [ 73%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[211.823s] [ 73%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[211.901s] [ 73%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[211.973s] [ 74%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[212.051s] [ 74%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[212.127s] [ 74%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[212.198s] [ 74%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[212.273s] [ 75%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[212.374s] [ 75%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[212.488s] [ 75%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[212.609s] [ 75%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[212.750s] [ 75%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[212.862s] [ 76%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[212.955s] [ 76%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[213.029s] [ 76%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[213.126s] [ 76%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[213.213s] [ 76%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[213.293s] [ 77%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[213.377s] [ 77%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[213.472s] [ 77%] Built target schema1_10
+[213.482s] [35m[1mScanning dependencies of target pysdformat13[0m
+[213.554s] [ 77%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/_gz_sdformat_pybind11.cc.o[0m
+[217.310s] [ 77%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyAirPressure.cc.o[0m
+[221.233s] [ 77%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyAirSpeed.cc.o[0m
+[225.191s] [ 77%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyAltimeter.cc.o[0m
+[228.895s] [ 78%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyAtmosphere.cc.o[0m
+[233.465s] [ 78%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyBox.cc.o[0m
+[236.899s] [ 78%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyCamera.cc.o[0m
+[242.315s] [ 78%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyCapsule.cc.o[0m
+[245.445s] [ 78%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyCollision.cc.o[0m
+[248.981s] [ 79%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyCylinder.cc.o[0m
+[252.901s] [ 79%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyEllipsoid.cc.o[0m
+[256.038s] [ 79%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyError.cc.o[0m
+[259.803s] [ 79%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyForceTorque.cc.o[0m
+[263.683s] [ 79%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyFrame.cc.o[0m
+[267.108s] [ 80%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyGeometry.cc.o[0m
+[271.957s] [ 80%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyGui.cc.o[0m
+[275.492s] [ 80%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyHeightmap.cc.o[0m
+[279.686s] [ 80%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyIMU.cc.o[0m
+[283.064s] [ 80%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyJoint.cc.o[0m
+[287.775s] [ 81%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyJointAxis.cc.o[0m
+[291.247s] [ 81%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyLidar.cc.o[0m
+[294.760s] [ 81%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyLight.cc.o[0m
+[299.489s] [ 81%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyLink.cc.o[0m
+[304.112s] [ 81%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyMagnetometer.cc.o[0m
+[307.402s] [ 82%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyMaterial.cc.o[0m
+[311.623s] [ 82%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyMesh.cc.o[0m
+[315.631s] [ 82%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyModel.cc.o[0m
+[321.361s] [ 82%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyNavSat.cc.o[0m
+[324.858s] [ 82%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyNoise.cc.o[0m
+[329.481s] [ 83%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyParserConfig.cc.o[0m
+[334.063s] [ 83%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyParticleEmitter.cc.o[0m
+[339.502s] [ 83%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyPbr.cc.o[0m
+[344.343s] [ 83%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyPhysics.cc.o[0m
+[347.531s] [ 83%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyPlane.cc.o[0m
+[350.880s] [ 84%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyPlugin.cc.o[0m
+[354.319s] [ 84%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyPolyline.cc.o[0m
+[357.592s] [ 84%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyRoot.cc.o[0m
+[361.388s] [ 84%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyScene.cc.o[0m
+[364.858s] [ 84%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pySemanticPose.cc.o[0m
+[368.007s] [ 85%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pySensor.cc.o[0m
+[374.579s] [ 85%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pySky.cc.o[0m
+[378.378s] [ 85%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pySphere.cc.o[0m
+[382.372s] [ 85%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pySurface.cc.o[0m
+[387.164s] [ 85%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyVisual.cc.o[0m
+[392.160s] [ 86%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pyWorld.cc.o[0m
+[397.814s] [ 86%] [32mBuilding CXX object python/CMakeFiles/pysdformat13.dir/src/sdf/pybind11_helpers.cc.o[0m
+[398.555s] [ 86%] [32m[1mLinking CXX shared module ../lib/sdformat13.cpython-38-x86_64-linux-gnu.so[0m
+[441.533s] [ 86%] Built target pysdformat13
+[441.543s] [35m[1mScanning dependencies of target schema1_7[0m
+[441.554s] [ 87%] [34m[1mRunning xml schema compiler on actor.sdf[0m
+[441.650s] [ 87%] [34m[1mRunning xml schema compiler on altimeter.sdf[0m
+[441.719s] [ 87%] [34m[1mRunning xml schema compiler on atmosphere.sdf[0m
+[441.808s] [ 87%] [34m[1mRunning xml schema compiler on audio_source.sdf[0m
+[441.885s] [ 88%] [34m[1mRunning xml schema compiler on audio_sink.sdf[0m
+[441.957s] [ 88%] [34m[1mRunning xml schema compiler on battery.sdf[0m
+[442.030s] [ 88%] [34m[1mRunning xml schema compiler on box_shape.sdf[0m
+[442.130s] [ 88%] [34m[1mRunning xml schema compiler on camera.sdf[0m
+[442.246s] [ 88%] [34m[1mRunning xml schema compiler on collision.sdf[0m
+[442.337s] [ 89%] [34m[1mRunning xml schema compiler on collision_engine.sdf[0m
+[442.444s] [ 89%] [34m[1mRunning xml schema compiler on contact.sdf[0m
+[442.549s] [ 89%] [34m[1mRunning xml schema compiler on cylinder_shape.sdf[0m
+[442.641s] [ 89%] [34m[1mRunning xml schema compiler on frame.sdf[0m
+[442.750s] [ 89%] [34m[1mRunning xml schema compiler on forcetorque.sdf[0m
+[442.860s] [ 90%] [34m[1mRunning xml schema compiler on geometry.sdf[0m
+[442.947s] [ 90%] [34m[1mRunning xml schema compiler on gps.sdf[0m
+[443.048s] [ 90%] [34m[1mRunning xml schema compiler on gripper.sdf[0m
+[443.159s] [ 90%] [34m[1mRunning xml schema compiler on gui.sdf[0m
+[443.242s] [ 91%] [34m[1mRunning xml schema compiler on heightmap_shape.sdf[0m
+[443.323s] [ 91%] [34m[1mRunning xml schema compiler on image_shape.sdf[0m
+[443.432s] [ 91%] [34m[1mRunning xml schema compiler on imu.sdf[0m
+[443.511s] [ 91%] [34m[1mRunning xml schema compiler on inertial.sdf[0m
+[443.619s] [ 91%] [34m[1mRunning xml schema compiler on joint.sdf[0m
+[443.728s] [ 92%] [34m[1mRunning xml schema compiler on lidar.sdf[0m
+[443.821s] [ 92%] [34m[1mRunning xml schema compiler on light.sdf[0m
+[443.935s] [ 92%] [34m[1mRunning xml schema compiler on light_state.sdf[0m
+[444.026s] [ 92%] [34m[1mRunning xml schema compiler on link.sdf[0m
+[444.134s] [ 92%] [34m[1mRunning xml schema compiler on link_state.sdf[0m
+[444.217s] [ 93%] [34m[1mRunning xml schema compiler on logical_camera.sdf[0m
+[444.322s] [ 93%] [34m[1mRunning xml schema compiler on magnetometer.sdf[0m
+[444.410s] [ 93%] [34m[1mRunning xml schema compiler on material.sdf[0m
+[444.516s] [ 93%] [34m[1mRunning xml schema compiler on mesh_shape.sdf[0m
+[444.625s] [ 93%] [34m[1mRunning xml schema compiler on model.sdf[0m
+[444.754s] [ 94%] [34m[1mRunning xml schema compiler on model_state.sdf[0m
+[444.862s] [ 94%] [34m[1mRunning xml schema compiler on navsat.sdf[0m
+[444.964s] [ 94%] [34m[1mRunning xml schema compiler on noise.sdf[0m
+[445.067s] [ 94%] [34m[1mRunning xml schema compiler on particle_emitter.sdf[0m
+[445.148s] [ 94%] [34m[1mRunning xml schema compiler on physics.sdf[0m
+[445.252s] [ 95%] [34m[1mRunning xml schema compiler on plane_shape.sdf[0m
+[445.358s] [ 95%] [34m[1mRunning xml schema compiler on plugin.sdf[0m
+[445.449s] [ 95%] [34m[1mRunning xml schema compiler on polyline_shape.sdf[0m
+[445.539s] [ 95%] [34m[1mRunning xml schema compiler on population.sdf[0m
+[445.642s] [ 95%] [34m[1mRunning xml schema compiler on pose.sdf[0m
+[445.713s] [ 96%] [34m[1mRunning xml schema compiler on projector.sdf[0m
+[445.803s] [ 96%] [34m[1mRunning xml schema compiler on ray.sdf[0m
+[445.923s] [ 96%] [34m[1mRunning xml schema compiler on rfidtag.sdf[0m
+[446.000s] [ 96%] [34m[1mRunning xml schema compiler on rfid.sdf[0m
+[446.105s] [ 96%] [34m[1mRunning xml schema compiler on road.sdf[0m
+[446.212s] [ 97%] [34m[1mRunning xml schema compiler on root.sdf[0m
+[446.319s] [ 97%] [34m[1mRunning xml schema compiler on scene.sdf[0m
+[446.425s] [ 97%] [34m[1mRunning xml schema compiler on sensor.sdf[0m
+[446.552s] [ 97%] [34m[1mRunning xml schema compiler on spherical_coordinates.sdf[0m
+[446.649s] [ 97%] [34m[1mRunning xml schema compiler on sphere_shape.sdf[0m
+[446.748s] [ 98%] [34m[1mRunning xml schema compiler on sonar.sdf[0m
+[446.859s] [ 98%] [34m[1mRunning xml schema compiler on state.sdf[0m
+[446.977s] [ 98%] [34m[1mRunning xml schema compiler on surface.sdf[0m
+[447.081s] [ 98%] [34m[1mRunning xml schema compiler on transceiver.sdf[0m
+[447.192s] [ 98%] [34m[1mRunning xml schema compiler on urdf.sdf[0m
+[447.295s] [100%] [34m[1mRunning xml schema compiler on visual.sdf[0m
+[447.410s] [100%] [34m[1mRunning xml schema compiler on world.sdf[0m
+[447.522s] [100%] [34m[1mRunning xml schema compiler on air_pressure.sdf[0m
+[447.632s] [100%] Built target schema1_7
+[447.653s] Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/sdformat13 -- -j3 -l3
+[447.714s] Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/sdformat13
+[447.728s] -- Install configuration: "RelWithDebInfo"
+[447.729s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13-all/sdformat13-all-config.cmake
+[447.729s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13-all/sdformat13-all-config-version.cmake
+[447.729s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13-all/sdformat13-all-targets.cmake
+[447.729s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/detail/Export.hh
+[447.729s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Export.hh
+[447.730s] -- Installing: /home/julia/workspace/install/lib/libsdformat13.so.13.3.0
+[447.822s] -- Installing: /home/julia/workspace/install/lib/libsdformat13.so.13
+[447.823s] -- Set runtime path of "/home/julia/workspace/install/lib/libsdformat13.so.13.3.0" to ""
+[447.823s] -- Installing: /home/julia/workspace/install/lib/libsdformat13.so
+[447.823s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13/sdformat13-config.cmake
+[447.823s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13/sdformat13-config-version.cmake
+[447.823s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13/sdformat13-targets.cmake
+[447.823s] -- Installing: /home/julia/workspace/install/lib/cmake/sdformat13/sdformat13-targets-relwithdebinfo.cmake
+[447.823s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/sdformat13.pc
+[447.823s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdsdformat13.rb
+[447.824s] -- Installing: /home/julia/workspace/install/share/gz/gz2.completion.d/sdf13.bash_completion.sh
+[447.824s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Actor.hh
+[447.824s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/AirPressure.hh
+[447.824s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/AirSpeed.hh
+[447.824s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Altimeter.hh
+[447.824s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Assert.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Atmosphere.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Box.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Camera.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Capsule.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Collision.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Console.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Cylinder.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Element.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Ellipsoid.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Error.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Exception.hh
+[447.825s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Filesystem.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/ForceTorque.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Frame.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Geometry.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Gui.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Heightmap.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Imu.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceElements.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceFrame.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceJoint.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceLink.hh
+[447.826s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceModel.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/InterfaceModelPoseGraph.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Joint.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/JointAxis.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Lidar.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Light.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Link.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Magnetometer.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Material.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Mesh.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Model.hh
+[447.827s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/NavSat.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Noise.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/OutputConfig.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Param.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/ParserConfig.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/ParticleEmitter.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Pbr.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Physics.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Plane.hh
+[447.828s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Plugin.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Polyline.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/PrintConfig.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Root.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/SDFImpl.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Scene.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/SemanticPose.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Sensor.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Sky.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Sphere.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Surface.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Types.hh
+[447.829s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/Visual.hh
+[447.830s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/World.hh
+[447.830s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/parser.hh
+[447.830s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/system_util.hh
+[447.830s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/../sdformat.hh
+[447.830s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/config.hh
+[447.831s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/sdf.hh
+[447.831s] -- Installing: /home/julia/workspace/install/include/gz/sdformat13/sdf/sdf_config.h
+[447.831s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/actor.sdf
+[447.832s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/camera.sdf
+[447.832s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/collision.sdf
+[447.832s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/contact.sdf
+[447.833s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/gazebo.sdf
+[447.833s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/geometry.sdf
+[447.833s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/gripper.sdf
+[447.834s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/gui.sdf
+[447.834s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/inertial.sdf
+[447.834s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/joint.sdf
+[447.835s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/light.sdf
+[447.835s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/link.sdf
+[447.835s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/model.sdf
+[447.835s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/physics.sdf
+[447.836s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/plugin.sdf
+[447.836s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/projector.sdf
+[447.836s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/ray.sdf
+[447.836s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/rfidtag.sdf
+[447.837s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/rfid.sdf
+[447.837s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/road.sdf
+[447.837s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/scene.sdf
+[447.838s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/sensor.sdf
+[447.838s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/state.sdf
+[447.838s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/surface.sdf
+[447.839s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/visual.sdf
+[447.839s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.0/world.sdf
+[447.840s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/1_0.convert
+[447.840s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/actor.sdf
+[447.841s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/camera.sdf
+[447.841s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/collision.sdf
+[447.841s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/contact.sdf
+[447.841s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/gazebo.sdf
+[447.842s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/geometry.sdf
+[447.842s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/gripper.sdf
+[447.842s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/gui.sdf
+[447.842s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/inertial.sdf
+[447.843s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/joint.sdf
+[447.843s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/light.sdf
+[447.843s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/link.sdf
+[447.844s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/model.sdf
+[447.844s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/physics.sdf
+[447.844s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/plugin.sdf
+[447.844s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/projector.sdf
+[447.845s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/ray.sdf
+[447.845s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/rfidtag.sdf
+[447.845s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/rfid.sdf
+[447.846s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/road.sdf
+[447.846s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/scene.sdf
+[447.846s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/sensor.sdf
+[447.846s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/state.sdf
+[447.847s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/surface.sdf
+[447.847s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/visual.sdf
+[447.847s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.2/world.sdf
+[447.848s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/1_2.convert
+[447.848s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/actor.sdf
+[447.849s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/camera.sdf
+[447.849s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/collision.sdf
+[447.849s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/contact.sdf
+[447.849s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/geometry.sdf
+[447.850s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/gripper.sdf
+[447.850s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/gui.sdf
+[447.850s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/imu.sdf
+[447.850s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/inertial.sdf
+[447.851s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/joint.sdf
+[447.851s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/light.sdf
+[447.851s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/link.sdf
+[447.852s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/model.sdf
+[447.852s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/physics.sdf
+[447.852s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/plugin.sdf
+[447.853s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/projector.sdf
+[447.853s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/ray.sdf
+[447.853s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/rfidtag.sdf
+[447.854s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/rfid.sdf
+[447.854s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/road.sdf
+[447.854s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/root.sdf
+[447.855s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/scene.sdf
+[447.855s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/sensor.sdf
+[447.855s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/state.sdf
+[447.855s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/surface.sdf
+[447.856s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/visual.sdf
+[447.856s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.3/world.sdf
+[447.857s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/1_3.convert
+[447.857s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/actor.sdf
+[447.857s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/audio_source.sdf
+[447.858s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/audio_sink.sdf
+[447.858s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/box_shape.sdf
+[447.858s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/camera.sdf
+[447.858s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/collision.sdf
+[447.859s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/contact.sdf
+[447.859s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/cylinder_shape.sdf
+[447.859s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/forcetorque.sdf
+[447.860s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/geometry.sdf
+[447.860s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/gps.sdf
+[447.860s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/gripper.sdf
+[447.861s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/gui.sdf
+[447.861s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/heightmap_shape.sdf
+[447.861s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/image_shape.sdf
+[447.862s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/imu.sdf
+[447.862s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/inertial.sdf
+[447.862s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/joint.sdf
+[447.863s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/light.sdf
+[447.863s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/link.sdf
+[447.863s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/mesh_shape.sdf
+[447.864s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/model.sdf
+[447.864s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/noise.sdf
+[447.864s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/physics.sdf
+[447.865s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/plane_shape.sdf
+[447.865s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/plugin.sdf
+[447.865s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/projector.sdf
+[447.866s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/ray.sdf
+[447.866s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/rfidtag.sdf
+[447.866s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/rfid.sdf
+[447.867s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/road.sdf
+[447.867s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/root.sdf
+[447.867s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/scene.sdf
+[447.867s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/sensor.sdf
+[447.868s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/spherical_coordinates.sdf
+[447.868s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/sphere_shape.sdf
+[447.869s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/sonar.sdf
+[447.869s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/state.sdf
+[447.869s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/surface.sdf
+[447.870s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/transceiver.sdf
+[447.870s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/visual.sdf
+[447.870s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.4/world.sdf
+[447.871s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/1_4.convert
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/actor.sdf
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/altimeter.sdf
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/audio_source.sdf
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/audio_sink.sdf
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/battery.sdf
+[447.872s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/box_shape.sdf
+[447.873s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/camera.sdf
+[447.873s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/collision.sdf
+[447.873s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/collision_engine.sdf
+[447.873s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/contact.sdf
+[447.873s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/cylinder_shape.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/frame.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/forcetorque.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/geometry.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gps.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gripper.sdf
+[447.874s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gui.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/heightmap_shape.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/image_shape.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/imu.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/inertial.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/joint.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/light.sdf
+[447.875s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/light_state.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/link.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/link_state.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/logical_camera.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/magnetometer.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/material.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/mesh_shape.sdf
+[447.876s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/model.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/model_state.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/noise.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/physics.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/plane_shape.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/plugin.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/polyline_shape.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/population.sdf
+[447.877s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/pose.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/projector.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/ray.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/rfidtag.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/rfid.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/road.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/root.sdf
+[447.878s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/scene.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sensor.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/spherical_coordinates.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sphere_shape.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sonar.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/state.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/surface.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/transceiver.sdf
+[447.879s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/urdf.sdf
+[447.880s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/visual.sdf
+[447.880s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/world.sdf
+[447.880s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/actor.xsd
+[447.880s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/altimeter.xsd
+[447.880s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/audio_source.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/audio_sink.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/battery.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/box_shape.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/camera.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/collision.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/collision_engine.xsd
+[447.881s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/contact.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/cylinder_shape.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/frame.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/forcetorque.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/geometry.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gps.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gripper.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/gui.xsd
+[447.882s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/heightmap_shape.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/image_shape.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/imu.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/inertial.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/joint.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/light.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/light_state.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/link.xsd
+[447.883s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/link_state.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/logical_camera.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/magnetometer.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/material.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/mesh_shape.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/model.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/model_state.xsd
+[447.884s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/noise.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/physics.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/plane_shape.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/plugin.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/polyline_shape.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/population.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/pose.xsd
+[447.885s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/projector.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/ray.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/rfidtag.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/rfid.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/road.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/root.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/scene.xsd
+[447.886s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sensor.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/spherical_coordinates.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sphere_shape.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/sonar.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/state.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/surface.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/transceiver.xsd
+[447.887s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/urdf.xsd
+[447.888s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/visual.xsd
+[447.888s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.5/world.xsd
+[447.888s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/1_5.convert
+[447.889s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/actor.sdf
+[447.889s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/air_pressure.sdf
+[447.889s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/altimeter.sdf
+[447.889s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/atmosphere.sdf
+[447.889s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/audio_source.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/audio_sink.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/battery.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/box_shape.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/camera.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/collision.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/collision_engine.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/contact.sdf
+[447.890s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/cylinder_shape.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/frame.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/forcetorque.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/geometry.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gps.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gripper.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gui.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/heightmap_shape.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/image_shape.sdf
+[447.891s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/imu.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/inertial.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/joint.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/lidar.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/light.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/light_state.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/link.sdf
+[447.892s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/link_state.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/logical_camera.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/magnetometer.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/material.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/mesh_shape.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/model.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/model_state.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/noise.sdf
+[447.893s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/particle_emitter.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/physics.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/plane_shape.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/plugin.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/polyline_shape.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/population.sdf
+[447.894s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/pose.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/projector.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/ray.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/rfidtag.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/rfid.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/road.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/root.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/scene.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sensor.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/spherical_coordinates.sdf
+[447.895s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sphere_shape.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sonar.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/state.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/surface.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/transceiver.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/urdf.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/visual.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/world.sdf
+[447.896s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/actor.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/air_pressure.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/altimeter.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/atmosphere.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/audio_source.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/audio_sink.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/battery.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/box_shape.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/camera.xsd
+[447.897s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/collision.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/collision_engine.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/contact.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/cylinder_shape.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/frame.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/forcetorque.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/geometry.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gps.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gripper.xsd
+[447.898s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/gui.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/heightmap_shape.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/image_shape.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/imu.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/inertial.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/joint.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/lidar.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/light.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/light_state.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/link.xsd
+[447.899s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/link_state.xsd
+[447.904s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/logical_camera.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/magnetometer.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/material.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/mesh_shape.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/model.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/model_state.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/noise.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/particle_emitter.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/physics.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/plane_shape.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/plugin.xsd
+[447.905s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/polyline_shape.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/population.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/pose.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/projector.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/ray.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/rfidtag.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/rfid.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/road.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/root.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/scene.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sensor.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/spherical_coordinates.xsd
+[447.906s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sphere_shape.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/sonar.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/state.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/surface.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/transceiver.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/urdf.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/visual.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.6/world.xsd
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/1_6.convert
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/actor.sdf
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/air_pressure.sdf
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/altimeter.sdf
+[447.907s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/atmosphere.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/audio_source.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/audio_sink.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/battery.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/box_shape.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/camera.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/collision.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/collision_engine.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/contact.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/cylinder_shape.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/frame.sdf
+[447.908s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/forcetorque.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/geometry.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gps.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gripper.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gui.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/heightmap_shape.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/image_shape.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/imu.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/inertial.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/joint.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/lidar.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/light.sdf
+[447.909s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/light_state.sdf
+[447.910s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/link.sdf
+[447.916s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/link_state.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/logical_camera.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/magnetometer.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/material.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/mesh_shape.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/model.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/model_state.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/navsat.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/noise.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/particle_emitter.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/physics.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/plane_shape.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/plugin.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/polyline_shape.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/population.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/pose.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/projector.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/ray.sdf
+[447.917s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/rfidtag.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/rfid.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/road.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/root.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/scene.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sensor.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/spherical_coordinates.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sphere_shape.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sonar.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/state.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/surface.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/transceiver.sdf
+[447.918s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/urdf.sdf
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/visual.sdf
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/world.sdf
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/actor.xsd
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/air_pressure.xsd
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/altimeter.xsd
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/atmosphere.xsd
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/audio_source.xsd
+[447.919s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/audio_sink.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/battery.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/box_shape.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/camera.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/collision.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/collision_engine.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/contact.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/cylinder_shape.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/frame.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/forcetorque.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/geometry.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gps.xsd
+[447.920s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gripper.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/gui.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/heightmap_shape.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/image_shape.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/imu.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/inertial.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/joint.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/lidar.xsd
+[447.921s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/light.xsd
+[447.928s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/light_state.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/link.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/link_state.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/logical_camera.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/magnetometer.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/material.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/mesh_shape.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/model.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/model_state.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/navsat.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/noise.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/particle_emitter.xsd
+[447.929s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/physics.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/plane_shape.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/plugin.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/polyline_shape.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/population.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/pose.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/projector.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/ray.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/rfidtag.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/rfid.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/road.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/root.xsd
+[447.930s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/scene.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sensor.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/spherical_coordinates.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sphere_shape.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/sonar.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/state.xsd
+[447.931s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/surface.xsd
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/transceiver.xsd
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/urdf.xsd
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/visual.xsd
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.7/world.xsd
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/1_7.convert
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/actor.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/air_pressure.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/altimeter.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/atmosphere.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/audio_source.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/audio_sink.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/battery.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/box_shape.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/camera.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/capsule_shape.sdf
+[447.932s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/collision.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/collision_engine.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/contact.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/cylinder_shape.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/ellipsoid_shape.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/frame.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/forcetorque.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/geometry.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gps.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gripper.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gui.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/heightmap_shape.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/image_shape.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/imu.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/inertial.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/joint.sdf
+[447.933s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/lidar.sdf
+[447.940s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/light.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/light_state.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/link.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/link_state.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/logical_camera.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/magnetometer.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/material.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/mesh_shape.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/model.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/model_state.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/navsat.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/noise.sdf
+[447.941s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/particle_emitter.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/physics.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/plane_shape.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/plugin.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/polyline_shape.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/population.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/pose.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/projector.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/ray.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/rfidtag.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/rfid.sdf
+[447.942s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/road.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/root.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/scene.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sensor.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/spherical_coordinates.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sphere_shape.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sonar.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/state.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/surface.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/transceiver.sdf
+[447.943s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/urdf.sdf
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/visual.sdf
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/world.sdf
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/actor.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/air_pressure.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/altimeter.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/atmosphere.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/audio_source.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/audio_sink.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/battery.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/box_shape.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/camera.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/capsule_shape.xsd
+[447.944s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/collision.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/collision_engine.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/contact.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/cylinder_shape.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/ellipsoid_shape.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/frame.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/forcetorque.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/geometry.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gps.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gripper.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/gui.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/heightmap_shape.xsd
+[447.945s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/image_shape.xsd
+[447.946s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/imu.xsd
+[447.946s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/inertial.xsd
+[447.946s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/joint.xsd
+[447.946s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/lidar.xsd
+[447.946s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/light.xsd
+[447.952s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/light_state.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/link.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/link_state.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/logical_camera.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/magnetometer.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/material.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/mesh_shape.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/model.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/model_state.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/navsat.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/noise.xsd
+[447.953s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/particle_emitter.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/physics.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/plane_shape.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/plugin.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/polyline_shape.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/population.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/pose.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/projector.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/ray.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/rfidtag.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/rfid.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/road.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/root.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/scene.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sensor.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/spherical_coordinates.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sphere_shape.xsd
+[447.954s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/sonar.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/state.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/surface.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/transceiver.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/urdf.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/visual.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.8/world.xsd
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/1_8.convert
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/actor.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/air_pressure.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/altimeter.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/atmosphere.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/audio_source.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/audio_sink.sdf
+[447.955s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/battery.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/box_shape.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/camera.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/capsule_shape.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/collision.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/collision_engine.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/contact.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/cylinder_shape.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/ellipsoid_shape.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/frame.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/forcetorque.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/geometry.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gps.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gripper.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gui.sdf
+[447.956s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/heightmap_shape.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/image_shape.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/imu.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/inertial.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/joint.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/lidar.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/light.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/light_state.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/link.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/link_state.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/logical_camera.sdf
+[447.957s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/magnetometer.sdf
+[447.958s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/material.sdf
+[447.964s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/mesh_shape.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/model.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/model_state.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/navsat.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/noise.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/particle_emitter.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/physics.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/plane_shape.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/plugin.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/polyline_shape.sdf
+[447.965s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/population.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/pose.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/projector.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/ray.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/rfidtag.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/rfid.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/road.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/root.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/scene.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sensor.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/spherical_coordinates.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sphere_shape.sdf
+[447.966s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sonar.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/state.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/surface.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/transceiver.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/urdf.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/visual.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/world.sdf
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/actor.xsd
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/air_pressure.xsd
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/altimeter.xsd
+[447.967s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/atmosphere.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/audio_source.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/audio_sink.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/battery.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/box_shape.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/camera.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/capsule_shape.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/collision.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/collision_engine.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/contact.xsd
+[447.968s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/cylinder_shape.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/ellipsoid_shape.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/frame.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/forcetorque.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/geometry.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gps.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gripper.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/gui.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/heightmap_shape.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/image_shape.xsd
+[447.969s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/imu.xsd
+[447.976s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/inertial.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/joint.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/lidar.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/light.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/light_state.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/link.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/link_state.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/logical_camera.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/magnetometer.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/material.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/mesh_shape.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/model.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/model_state.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/navsat.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/noise.xsd
+[447.977s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/particle_emitter.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/physics.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/plane_shape.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/plugin.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/polyline_shape.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/population.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/pose.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/projector.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/ray.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/rfidtag.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/rfid.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/road.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/root.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/scene.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sensor.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/spherical_coordinates.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sphere_shape.xsd
+[447.978s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/sonar.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/state.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/surface.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/transceiver.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/urdf.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/visual.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.9/world.xsd
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/1_9.convert
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/actor.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/air_pressure.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/air_speed.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/altimeter.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/atmosphere.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/audio_source.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/audio_sink.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/battery.sdf
+[447.979s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/box_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/camera.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/capsule_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/collision.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/contact.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/cylinder_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/ellipsoid_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/frame.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/forcetorque.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/geometry.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gps.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gripper.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gui.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/heightmap_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/image_shape.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/imu.sdf
+[447.980s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/inertial.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/joint.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/lidar.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/light.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/light_state.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/link.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/link_state.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/logical_camera.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/magnetometer.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/material.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/mesh_shape.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/model.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/model_state.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/navsat.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/noise.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/particle_emitter.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/physics.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/plane_shape.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/plugin.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/polyline_shape.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/population.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/pose.sdf
+[447.981s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/projector.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/ray.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/rfidtag.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/rfid.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/road.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/root.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/scene.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sensor.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/spherical_coordinates.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sphere_shape.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sonar.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/state.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/surface.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/transceiver.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/visual.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/world.sdf
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/actor.xsd
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/air_pressure.xsd
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/air_speed.xsd
+[447.982s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/altimeter.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/atmosphere.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/audio_source.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/audio_sink.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/battery.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/box_shape.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/camera.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/capsule_shape.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/collision.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/contact.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/cylinder_shape.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/ellipsoid_shape.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/frame.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/forcetorque.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/geometry.xsd
+[447.983s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gps.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gripper.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/gui.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/heightmap_shape.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/image_shape.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/imu.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/inertial.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/joint.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/lidar.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/light.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/light_state.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/link.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/link_state.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/logical_camera.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/magnetometer.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/material.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/mesh_shape.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/model.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/model_state.xsd
+[447.984s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/navsat.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/noise.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/particle_emitter.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/physics.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/plane_shape.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/plugin.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/polyline_shape.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/population.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/pose.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/projector.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/ray.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/rfidtag.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/rfid.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/road.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/root.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/scene.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sensor.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/spherical_coordinates.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sphere_shape.xsd
+[447.985s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/sonar.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/state.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/surface.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/transceiver.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/visual.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/sdformat13/1.10/world.xsd
+[447.986s] -- Installing: /home/julia/workspace/install/share/gz/sdformat13.yaml
+[447.986s] -- Installing: /home/julia/workspace/install/lib/python/sdformat13.cpython-38-x86_64-linux-gnu.so
+[448.042s] -- Set runtime path of "/home/julia/workspace/install/lib/python/sdformat13.cpython-38-x86_64-linux-gnu.so" to ""
+[448.052s] Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/sdformat13

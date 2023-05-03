@@ -1,0 +1,1764 @@
+[0.022s] Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-msgs -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.088s] -- The C compiler identification is GNU 9.4.0
+[0.134s] -- The CXX compiler identification is GNU 9.4.0
+[0.137s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.213s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.384s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.490s] -- gz-msgs10 version 10.0.0
+[0.490s] -- Operating system is Linux
+[0.496s] -- Found CPack generators: DEB
+[0.502s] -- 
+[0.502s] 
+[0.502s] -- ====== Finding Dependencies ======
+[0.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.841s] -- Looking for Protobuf - found
+[0.841s] 
+[0.842s] -- Looking for gz-math7 -- found version 7.1.0
+[0.842s] -- Searching for dependencies of gz-math7
+[0.843s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.843s] -- Searching for dependencies of gz-utils2
+[0.845s] -- Looking for gz-math7 - found
+[0.845s] 
+[0.849s] -- Checking for module 'tinyxml2'
+[0.865s] --   Found tinyxml2, version 6.2.0
+[0.914s] -- Looking for tinyxml2 - found
+[0.914s] 
+[2.036s] -- 
+[2.036s] -- Searching for host SSE information
+[2.066s] -- SSE2 found
+[2.066s] -- SSE3 found
+[2.066s] -- SSE4.1 found
+[2.066s] -- SSE4.2 found
+[2.178s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[2.264s] -- Installing Ruby messages to /home/julia/workspace/install/lib/ruby/ignition/msgs10
+[2.265s] -- Installing Ruby messages to /home/julia/workspace/install/lib/ruby/gz/msgs10
+[2.268s] -- Configuring library: gz-msgs10
+[2.271s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.358s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.359s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.443s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.444s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.538s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.538s] -- Testing is disabled -- skipping UNIT tests
+[2.618s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[2.618s] -- Build configuration successful
+[2.620s] -- Testing is disabled -- skipping UNIT tests
+[2.620s] -- Build type: RelWithDebInfo
+[2.620s] -- Install prefix: /home/julia/workspace/install
+[2.624s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.627s] -- Configuring done
+[2.696s] -- Generating done
+[2.698s] -- Build files have been written to: /home/julia/workspace/build/gz-msgs10
+[2.712s] Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-msgs -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.712s] Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-msgs10 -- -j3 -l3
+[2.755s] [35m[1mScanning dependencies of target gz_msgs_gen[0m
+[2.768s] [  0%] [32mBuilding CXX object src/CMakeFiles/gz_msgs_gen.dir/Generator.cc.o[0m
+[2.772s] [  0%] [32mBuilding CXX object src/CMakeFiles/gz_msgs_gen.dir/generator_main.cc.o[0m
+[7.584s] [  1%] [32m[1mLinking CXX executable ../bin/gz_msgs_gen[0m
+[7.852s] [  1%] Built target gz_msgs_gen
+[7.903s] [  2%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/wrench.proto[0m
+[7.928s] [  2%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/actuators.proto[0m
+[7.928s] [  2%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/actor.proto[0m
+[8.057s] [  2%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/air_pressure_sensor.proto[0m
+[8.058s] [  2%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/air_speed_sensor.proto[0m
+[8.128s] [  3%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/altimeter.proto[0m
+[8.172s] [  3%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/altimeter_sensor.proto[0m
+[8.197s] [  3%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/annotated_axis_aligned_2d_box.proto[0m
+[8.280s] [  3%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/annotated_axis_aligned_2d_box_v.proto[0m
+[8.352s] [  4%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/annotated_oriented_3d_box.proto[0m
+[8.399s] [  4%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/annotated_oriented_3d_box_v.proto[0m
+[8.417s] [  4%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/any.proto[0m
+[8.509s] [  4%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/atmosphere.proto[0m
+[8.538s] [  5%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/axis.proto[0m
+[8.553s] [  5%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/axis_aligned_2d_box.proto[0m
+[8.630s] [  5%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/axis_aligned_box.proto[0m
+[8.681s] [  5%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/battery.proto[0m
+[8.734s] [  6%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/battery_state.proto[0m
+[8.734s] [  6%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/boolean.proto[0m
+[8.804s] [  6%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/boxgeom.proto[0m
+[8.862s] [  6%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/bytes.proto[0m
+[8.909s] [  7%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/camera_cmd.proto[0m
+[8.964s] [  7%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/camera_lens.proto[0m
+[8.970s] [  7%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/camera_info.proto[0m
+[9.026s] [  7%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/camerasensor.proto[0m
+[9.098s] [  7%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/capsulegeom.proto[0m
+[9.127s] [  8%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/cessna.proto[0m
+[9.199s] [  8%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/clock.proto[0m
+[9.268s] [  8%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/cmd_vel2d.proto[0m
+[9.304s] [  8%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/collision.proto[0m
+[9.331s] [  9%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/color.proto[0m
+[9.388s] [  9%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/conegeom.proto[0m
+[9.436s] [  9%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/contact.proto[0m
+[9.505s] [  9%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/contacts.proto[0m
+[9.561s] [ 10%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/contactsensor.proto[0m
+[9.561s] [ 10%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/cylindergeom.proto[0m
+[9.607s] [ 10%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dataframe.proto[0m
+[9.749s] [ 10%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/density.proto[0m
+[9.750s] [ 11%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/diagnostics.proto[0m
+[9.814s] [ 11%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/discovery.proto[0m
+[9.879s] [ 11%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/distortion.proto[0m
+[9.908s] [ 11%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/double.proto[0m
+[9.925s] [ 12%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/double_v.proto[0m
+[10.022s] [ 12%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/duration.proto[0m
+[10.036s] [ 12%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dvl_beam_state.proto[0m
+[10.049s] [ 12%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dvl_kinematic_estimate.proto[0m
+[10.170s] [ 12%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dvl_range_estimate.proto[0m
+[10.234s] [ 13%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dvl_tracking_target.proto[0m
+[10.252s] [ 13%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/dvl_velocity_tracking.proto[0m
+[10.388s] [ 13%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/ellipsoidgeom.proto[0m
+[10.396s] [ 13%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/empty.proto[0m
+[10.421s] [ 14%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/entity.proto[0m
+[10.570s] [ 14%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/entity_factory.proto[0m
+[10.583s] [ 14%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/entity_factory_v.proto[0m
+[10.600s] [ 14%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/entity_plugin_v.proto[0m
+[10.772s] [ 15%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/entity_wrench.proto[0m
+[10.802s] [ 15%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/float.proto[0m
+[10.805s] [ 15%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/float_v.proto[0m
+[10.928s] [ 15%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/fluid.proto[0m
+[10.984s] [ 15%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/fog.proto[0m
+[10.996s] [ 16%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/fluid_pressure.proto[0m
+[11.038s] [ 16%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/friction.proto[0m
+[11.093s] [ 16%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/fuel_metadata.proto[0m
+[11.170s] [ 17%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/geometry.proto[0m
+[11.197s] [ 17%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/gps.proto[0m
+[11.254s] [ 17%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/gps_sensor.proto[0m
+[11.322s] [ 17%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/gui.proto[0m
+[11.369s] [ 17%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/gui_camera.proto[0m
+[11.394s] [ 18%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/header.proto[0m
+[11.454s] [ 18%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/heightmapgeom.proto[0m
+[11.522s] [ 18%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/hydra.proto[0m
+[11.532s] [ 18%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/image.proto[0m
+[11.638s] [ 19%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/imagegeom.proto[0m
+[11.681s] [ 19%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/imu.proto[0m
+[11.704s] [ 19%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/imu_sensor.proto[0m
+[11.820s] [ 19%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/inertial.proto[0m
+[11.837s] [ 20%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/int32.proto[0m
+[11.886s] [ 20%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/int32_v.proto[0m
+[11.958s] [ 20%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/int64.proto[0m
+[12.030s] [ 20%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/int64_v.proto[0m
+[12.072s] [ 21%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint.proto[0m
+[12.163s] [ 21%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint_animation.proto[0m
+[12.207s] [ 21%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint_cmd.proto[0m
+[12.249s] [ 21%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint_trajectory.proto[0m
+[12.344s] [ 22%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint_trajectory_point.proto[0m
+[12.412s] [ 22%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joint_wrench.proto[0m
+[12.417s] [ 22%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joy.proto[0m
+[12.503s] [ 22%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/joystick.proto[0m
+[12.575s] [ 22%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/laserscan.proto[0m
+[12.598s] [ 23%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/lens.proto[0m
+[12.721s] [ 23%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/light.proto[0m
+[12.721s] [ 23%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/lidar_sensor.proto[0m
+[12.773s] [ 23%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/link.proto[0m
+[12.890s] [ 24%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/link_data.proto[0m
+[12.890s] [ 24%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/log_control.proto[0m
+[13.010s] [ 24%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/log_playback_control.proto[0m
+[13.055s] [ 24%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/log_playback_stats.proto[0m
+[13.081s] [ 25%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/log_status.proto[0m
+[13.176s] [ 25%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/logical_camera_image.proto[0m
+[13.219s] [ 25%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/logical_camera_sensor.proto[0m
+[13.246s] [ 25%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/magnetometer.proto[0m
+[13.364s] [ 26%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/magnetometer_sensor.proto[0m
+[13.388s] [ 26%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/marker_v.proto[0m
+[13.402s] [ 26%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/marker.proto[0m
+[13.542s] [ 26%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/material.proto[0m
+[13.559s] [ 27%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/meshgeom.proto[0m
+[13.594s] [ 27%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/model.proto[0m
+[13.701s] [ 27%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/model_configuration.proto[0m
+[13.735s] [ 27%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/model_v.proto[0m
+[13.844s] [ 27%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/navsat.proto[0m
+[13.862s] [ 28%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/navsat_sensor.proto[0m
+[13.968s] [ 28%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/occupancy_grid.proto[0m
+[14.032s] [ 28%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/odometry.proto[0m
+[14.062s] [ 28%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/odometry_with_covariance.proto[0m
+[14.124s] [ 29%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/oriented_3d_box.proto[0m
+[14.178s] [ 29%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/packet.proto[0m
+[14.267s] [ 29%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/param.proto[0m
+[14.281s] [ 29%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/param_v.proto[0m
+[14.296s] [ 30%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter.proto[0m
+[14.432s] [ 30%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter_declaration.proto[0m
+[14.459s] [ 30%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter_declarations.proto[0m
+[14.495s] [ 30%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter_error.proto[0m
+[14.608s] [ 31%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter_name.proto[0m
+[14.650s] [ 31%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/parameter_value.proto[0m
+[14.679s] [ 31%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/particle_emitter.proto[0m
+[14.799s] [ 31%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/particle_emitter_v.proto[0m
+[14.837s] [ 32%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/performance_sensor_metrics.proto[0m
+[14.860s] [ 32%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/physics.proto[0m
+[14.960s] [ 32%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pid.proto[0m
+[14.978s] [ 32%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/plugin.proto[0m
+[14.982s] [ 32%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/planegeom.proto[0m
+[15.134s] [ 33%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/plugin_v.proto[0m
+[15.139s] [ 33%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pointcloud.proto[0m
+[15.154s] [ 33%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pointcloud_packed.proto[0m
+[15.250s] [ 33%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/polylinegeom.proto[0m
+[15.284s] [ 34%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pose.proto[0m
+[15.366s] [ 34%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pose_animation.proto[0m
+[15.392s] [ 34%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pose_trajectory.proto[0m
+[15.435s] [ 34%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pose_v.proto[0m
+[15.514s] [ 35%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/pose_with_covariance.proto[0m
+[15.598s] [ 35%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/projector.proto[0m
+[15.620s] [ 35%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/propagation_grid.proto[0m
+[15.691s] [ 35%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/propagation_particle.proto[0m
+[15.753s] [ 36%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/publish.proto[0m
+[15.784s] [ 36%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/publishers.proto[0m
+[15.862s] [ 36%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/quaternion.proto[0m
+[15.886s] [ 36%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/raysensor.proto[0m
+[15.948s] [ 37%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/request.proto[0m
+[16.031s] [ 37%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/response.proto[0m
+[16.043s] [ 37%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/rest_login.proto[0m
+[16.102s] [ 37%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/rest_logout.proto[0m
+[16.225s] [ 38%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/rest_response.proto[0m
+[16.227s] [ 38%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/rest_post.proto[0m
+[16.255s] [ 38%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/road.proto[0m
+[16.380s] [ 38%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/scene.proto[0m
+[16.403s] [ 38%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sdf_generator_config.proto[0m
+[16.431s] [ 39%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/selection.proto[0m
+[16.586s] [ 39%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sensor.proto[0m
+[16.601s] [ 39%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sensor_noise.proto[0m
+[16.608s] [ 39%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sensor_v.proto[0m
+[16.777s] [ 40%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/serialized.proto[0m
+[16.794s] [ 40%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/server_control.proto[0m
+[16.804s] [ 40%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/serialized_map.proto[0m
+[16.929s] [ 40%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/shadows.proto[0m
+[16.990s] [ 41%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sim_event.proto[0m
+[17.010s] [ 41%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sky.proto[0m
+[17.111s] [ 41%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/sonar.proto[0m
+[17.183s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/spherical_coordinates.proto[0m
+[17.183s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/spheregeom.proto[0m
+[17.296s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/statistic.proto[0m
+[17.314s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/stringmsg.proto[0m
+[17.357s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/stringmsg_v.proto[0m
+[17.414s] [ 42%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/subscribe.proto[0m
+[17.457s] [ 43%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/surface.proto[0m
+[17.645s] [ 43%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/test.proto[0m
+[17.793s] [ 43%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/time.proto[0m
+[17.924s] [ 44%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/topic_info.proto[0m
+[18.064s] [ 44%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/track_visual.proto[0m
+[18.217s] [ 44%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/twist.proto[0m
+[18.336s] [ 44%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/twist_with_covariance.proto[0m
+[18.472s] [ 45%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/uint32.proto[0m
+[18.632s] [ 45%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/uint32_v.proto[0m
+[18.733s] [ 45%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/uint64.proto[0m
+[18.788s] [ 45%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/uint64_v.proto[0m
+[18.854s] [ 46%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/undo_redo.proto[0m
+[18.909s] [ 46%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/user_cmd.proto[0m
+[18.980s] [ 46%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/user_cmd_stats.proto[0m
+[19.053s] [ 46%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/vector2d.proto[0m
+[19.138s] [ 47%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/vector3d.proto[0m
+[19.253s] [ 47%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/version.proto[0m
+[19.350s] [ 47%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/version_range.proto[0m
+[19.480s] [ 47%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/versioned_name.proto[0m
+[19.585s] [ 47%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/video_record.proto[0m
+[19.685s] [ 48%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/visual.proto[0m
+[19.733s] [ 48%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/visual_v.proto[0m
+[19.780s] [ 48%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/web_request.proto[0m
+[19.827s] [ 48%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/wheel_slip_parameters_cmd.proto[0m
+[19.869s] [ 49%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/wind.proto[0m
+[19.915s] [ 49%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/wireless_node.proto[0m
+[19.956s] [ 49%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/wireless_nodes.proto[0m
+[19.999s] [ 49%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/world_control.proto[0m
+[20.044s] [ 50%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/world_control_state.proto[0m
+[20.090s] [ 50%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/world_modify.proto[0m
+[20.131s] [ 50%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/world_reset.proto[0m
+[20.176s] [ 50%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/world_stats.proto[0m
+[27.381s] [ 50%] [34m[1mRunning protoc on /home/julia/workspace/src/gz-msgs/proto/gz/msgs/tactile.proto[0m
+[27.462s] [35m[1mScanning dependencies of target gz-msgs10[0m
+[27.645s] [ 50%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/actor.pb.cc.o[0m
+[29.317s] [ 50%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/air_pressure_sensor.pb.cc.o[0m
+[30.327s] [ 51%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/air_speed_sensor.pb.cc.o[0m
+[31.374s] [ 51%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/altimeter.pb.cc.o[0m
+[32.672s] [ 51%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/altimeter_sensor.pb.cc.o[0m
+[33.913s] [ 51%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/annotated_axis_aligned_2d_box.pb.cc.o[0m
+[35.096s] [ 51%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/annotated_axis_aligned_2d_box_v.pb.cc.o[0m
+[36.404s] [ 52%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/annotated_oriented_3d_box.pb.cc.o[0m
+[37.467s] [ 52%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/annotated_oriented_3d_box_v.pb.cc.o[0m
+[38.911s] [ 52%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/any.pb.cc.o[0m
+[40.157s] [ 52%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/atmosphere.pb.cc.o[0m
+[41.465s] [ 53%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/axis.pb.cc.o[0m
+[42.885s] [ 53%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/axis_aligned_2d_box.pb.cc.o[0m
+[43.894s] [ 53%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/axis_aligned_box.pb.cc.o[0m
+[44.997s] [ 53%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/battery.pb.cc.o[0m
+[46.178s] [ 54%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/battery_state.pb.cc.o[0m
+[47.302s] [ 54%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/boolean.pb.cc.o[0m
+[48.325s] [ 54%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/boxgeom.pb.cc.o[0m
+[49.488s] [ 54%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/bytes.pb.cc.o[0m
+[50.691s] [ 55%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/camera_cmd.pb.cc.o[0m
+[51.955s] [ 55%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/camera_info.pb.cc.o[0m
+[54.088s] [ 55%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/camera_lens.pb.cc.o[0m
+[55.605s] [ 55%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/camerasensor.pb.cc.o[0m
+[56.991s] [ 56%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/capsulegeom.pb.cc.o[0m
+[58.086s] [ 56%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/cessna.pb.cc.o[0m
+[59.241s] [ 56%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/clock.pb.cc.o[0m
+[60.618s] [ 56%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/cmd_vel2d.pb.cc.o[0m
+[61.985s] [ 56%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/collision.pb.cc.o[0m
+[63.556s] [ 57%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/color.pb.cc.o[0m
+[64.843s] [ 57%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/conegeom.pb.cc.o[0m
+[65.878s] [ 57%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/contact.pb.cc.o[0m
+[67.325s] [ 57%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/contacts.pb.cc.o[0m
+[68.466s] [ 58%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/contactsensor.pb.cc.o[0m
+[69.700s] [ 58%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/cylindergeom.pb.cc.o[0m
+[70.895s] [ 58%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dataframe.pb.cc.o[0m
+[72.292s] [ 58%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/density.pb.cc.o[0m
+[73.701s] [ 59%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/diagnostics.pb.cc.o[0m
+[75.178s] [ 59%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/discovery.pb.cc.o[0m
+[77.063s] [ 59%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/distortion.pb.cc.o[0m
+[78.171s] [ 59%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/double.pb.cc.o[0m
+[79.384s] [ 60%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/double_v.pb.cc.o[0m
+[80.657s] [ 60%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/duration.pb.cc.o[0m
+[81.914s] [ 60%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dvl_beam_state.pb.cc.o[0m
+[83.389s] [ 60%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dvl_kinematic_estimate.pb.cc.o[0m
+[84.586s] [ 61%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dvl_range_estimate.pb.cc.o[0m
+[85.653s] [ 61%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dvl_tracking_target.pb.cc.o[0m
+[86.859s] [ 61%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/dvl_velocity_tracking.pb.cc.o[0m
+[88.273s] [ 61%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/ellipsoidgeom.pb.cc.o[0m
+[89.402s] [ 61%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/empty.pb.cc.o[0m
+[90.614s] [ 62%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/entity.pb.cc.o[0m
+[91.841s] [ 62%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/entity_factory.pb.cc.o[0m
+[93.676s] [ 62%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/entity_factory_v.pb.cc.o[0m
+[95.181s] [ 62%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/entity_plugin_v.pb.cc.o[0m
+[96.566s] [ 63%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/entity_wrench.pb.cc.o[0m
+[97.710s] [ 63%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/float.pb.cc.o[0m
+[99.083s] [ 63%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/float_v.pb.cc.o[0m
+[100.398s] [ 63%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/fluid.pb.cc.o[0m
+[101.694s] [ 64%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/fluid_pressure.pb.cc.o[0m
+[103.073s] [ 64%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/fog.pb.cc.o[0m
+[104.197s] [ 64%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/friction.pb.cc.o[0m
+[105.707s] [ 64%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/fuel_metadata.pb.cc.o[0m
+[110.521s] [ 65%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/geometry.pb.cc.o[0m
+[112.036s] [ 65%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/gps.pb.cc.o[0m
+[113.301s] [ 65%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/gps_sensor.pb.cc.o[0m
+[114.622s] [ 65%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/gui.pb.cc.o[0m
+[115.937s] [ 66%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/gui_camera.pb.cc.o[0m
+[117.477s] [ 66%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/header.pb.cc.o[0m
+[118.748s] [ 66%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/heightmapgeom.pb.cc.o[0m
+[120.410s] [ 66%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/hydra.pb.cc.o[0m
+[121.646s] [ 66%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/image.pb.cc.o[0m
+[122.769s] [ 67%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/imagegeom.pb.cc.o[0m
+[123.855s] [ 67%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/imu.pb.cc.o[0m
+[124.956s] [ 67%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/imu_sensor.pb.cc.o[0m
+[126.567s] [ 67%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/inertial.pb.cc.o[0m
+[127.746s] [ 68%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/int32.pb.cc.o[0m
+[128.805s] [ 68%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/int32_v.pb.cc.o[0m
+[129.976s] [ 68%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/int64.pb.cc.o[0m
+[131.146s] [ 68%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/int64_v.pb.cc.o[0m
+[132.565s] [ 69%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint.pb.cc.o[0m
+[134.505s] [ 69%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint_animation.pb.cc.o[0m
+[136.396s] [ 69%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint_cmd.pb.cc.o[0m
+[137.679s] [ 69%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint_trajectory.pb.cc.o[0m
+[138.929s] [ 70%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint_trajectory_point.pb.cc.o[0m
+[140.290s] [ 70%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joint_wrench.pb.cc.o[0m
+[141.402s] [ 70%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joy.pb.cc.o[0m
+[142.792s] [ 70%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/joystick.pb.cc.o[0m
+[144.192s] [ 71%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/laserscan.pb.cc.o[0m
+[145.917s] [ 71%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/lens.pb.cc.o[0m
+[147.144s] [ 71%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/lidar_sensor.pb.cc.o[0m
+[148.340s] [ 71%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/light.pb.cc.o[0m
+[149.723s] [ 71%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/link.pb.cc.o[0m
+[151.826s] [ 72%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/link_data.pb.cc.o[0m
+[153.163s] [ 72%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/log_control.pb.cc.o[0m
+[154.378s] [ 72%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/log_playback_control.pb.cc.o[0m
+[155.764s] [ 72%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/log_playback_stats.pb.cc.o[0m
+[156.863s] [ 73%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/log_status.pb.cc.o[0m
+[158.289s] [ 73%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/logical_camera_image.pb.cc.o[0m
+[159.747s] [ 73%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/logical_camera_sensor.pb.cc.o[0m
+[160.945s] [ 73%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/magnetometer.pb.cc.o[0m
+[162.205s] [ 74%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/magnetometer_sensor.pb.cc.o[0m
+[163.385s] [ 74%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/marker.pb.cc.o[0m
+[165.029s] [ 74%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/marker_v.pb.cc.o[0m
+[166.461s] [ 74%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/material.pb.cc.o[0m
+[168.451s] [ 75%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/meshgeom.pb.cc.o[0m
+[169.708s] [ 75%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/model.pb.cc.o[0m
+[171.452s] [ 75%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/model_configuration.pb.cc.o[0m
+[172.726s] [ 75%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/model_v.pb.cc.o[0m
+[174.088s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/navsat.pb.cc.o[0m
+[175.122s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/navsat_sensor.pb.cc.o[0m
+[176.178s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/occupancy_grid.pb.cc.o[0m
+[177.372s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/odometry.pb.cc.o[0m
+[178.327s] [ 76%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/odometry_with_covariance.pb.cc.o[0m
+[179.322s] [ 77%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/oriented_3d_box.pb.cc.o[0m
+[180.316s] [ 77%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/packet.pb.cc.o[0m
+[181.887s] [ 77%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/param.pb.cc.o[0m
+[184.948s] [ 77%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/param_v.pb.cc.o[0m
+[186.165s] [ 78%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter.pb.cc.o[0m
+[187.398s] [ 78%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter_declaration.pb.cc.o[0m
+[188.595s] [ 78%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter_declarations.pb.cc.o[0m
+[190.233s] [ 78%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter_error.pb.cc.o[0m
+[191.530s] [ 79%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter_name.pb.cc.o[0m
+[192.648s] [ 79%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/parameter_value.pb.cc.o[0m
+[193.663s] [ 79%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/particle_emitter.pb.cc.o[0m
+[195.333s] [ 79%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/particle_emitter_v.pb.cc.o[0m
+[196.761s] [ 80%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/performance_sensor_metrics.pb.cc.o[0m
+[197.847s] [ 80%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/physics.pb.cc.o[0m
+[199.373s] [ 80%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pid.pb.cc.o[0m
+[200.771s] [ 80%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/planegeom.pb.cc.o[0m
+[201.802s] [ 81%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/plugin.pb.cc.o[0m
+[202.930s] [ 81%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/plugin_v.pb.cc.o[0m
+[204.339s] [ 81%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pointcloud.pb.cc.o[0m
+[205.763s] [ 81%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pointcloud_packed.pb.cc.o[0m
+[207.504s] [ 81%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/polylinegeom.pb.cc.o[0m
+[208.843s] [ 82%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pose.pb.cc.o[0m
+[210.007s] [ 82%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pose_animation.pb.cc.o[0m
+[211.496s] [ 82%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pose_trajectory.pb.cc.o[0m
+[212.932s] [ 82%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pose_v.pb.cc.o[0m
+[214.229s] [ 83%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/pose_with_covariance.pb.cc.o[0m
+[215.324s] [ 83%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/projector.pb.cc.o[0m
+[216.745s] [ 83%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/propagation_grid.pb.cc.o[0m
+[217.822s] [ 83%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/propagation_particle.pb.cc.o[0m
+[218.827s] [ 84%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/publish.pb.cc.o[0m
+[220.376s] [ 84%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/publishers.pb.cc.o[0m
+[221.545s] [ 84%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/quaternion.pb.cc.o[0m
+[222.575s] [ 84%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/raysensor.pb.cc.o[0m
+[224.167s] [ 85%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/request.pb.cc.o[0m
+[225.265s] [ 85%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/response.pb.cc.o[0m
+[226.408s] [ 85%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/rest_login.pb.cc.o[0m
+[227.595s] [ 85%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/rest_logout.pb.cc.o[0m
+[228.626s] [ 86%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/rest_post.pb.cc.o[0m
+[229.710s] [ 86%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/rest_response.pb.cc.o[0m
+[230.718s] [ 86%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/road.pb.cc.o[0m
+[231.855s] [ 86%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/scene.pb.cc.o[0m
+[233.406s] [ 86%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sdf_generator_config.pb.cc.o[0m
+[236.433s] [ 87%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/selection.pb.cc.o[0m
+[237.661s] [ 87%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sensor.pb.cc.o[0m
+[239.261s] [ 87%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sensor_noise.pb.cc.o[0m
+[240.445s] [ 87%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sensor_v.pb.cc.o[0m
+[241.822s] [ 88%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/serialized.pb.cc.o[0m
+[243.692s] [ 88%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/serialized_map.pb.cc.o[0m
+[248.162s] [ 88%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/server_control.pb.cc.o[0m
+[249.623s] [ 88%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/shadows.pb.cc.o[0m
+[250.608s] [ 89%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sim_event.pb.cc.o[0m
+[251.659s] [ 89%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sky.pb.cc.o[0m
+[252.711s] [ 89%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/sonar.pb.cc.o[0m
+[254.011s] [ 89%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/spheregeom.pb.cc.o[0m
+[255.212s] [ 90%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/spherical_coordinates.pb.cc.o[0m
+[256.369s] [ 90%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/statistic.pb.cc.o[0m
+[258.307s] [ 90%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/stringmsg.pb.cc.o[0m
+[259.506s] [ 90%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/stringmsg_v.pb.cc.o[0m
+[260.792s] [ 91%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/subscribe.pb.cc.o[0m
+[262.181s] [ 91%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/surface.pb.cc.o[0m
+[263.516s] [ 91%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/tactile.pb.cc.o[0m
+[264.956s] [ 91%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/test.pb.cc.o[0m
+[265.938s] [ 91%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/time.pb.cc.o[0m
+[266.909s] [ 92%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/topic_info.pb.cc.o[0m
+[268.299s] [ 92%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/track_visual.pb.cc.o[0m
+[269.545s] [ 92%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/twist.pb.cc.o[0m
+[270.682s] [ 92%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/twist_with_covariance.pb.cc.o[0m
+[271.697s] [ 93%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/uint32.pb.cc.o[0m
+[272.711s] [ 93%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/uint32_v.pb.cc.o[0m
+[273.949s] [ 93%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/uint64.pb.cc.o[0m
+[274.918s] [ 93%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/uint64_v.pb.cc.o[0m
+[276.194s] [ 94%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/undo_redo.pb.cc.o[0m
+[277.468s] [ 94%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/user_cmd.pb.cc.o[0m
+[279.142s] [ 94%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/user_cmd_stats.pb.cc.o[0m
+[280.783s] [ 94%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/vector2d.pb.cc.o[0m
+[281.981s] [ 95%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/vector3d.pb.cc.o[0m
+[283.071s] [ 95%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/version.pb.cc.o[0m
+[284.315s] [ 95%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/version_range.pb.cc.o[0m
+[285.353s] [ 95%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/versioned_name.pb.cc.o[0m
+[286.640s] [ 96%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/video_record.pb.cc.o[0m
+[287.946s] [ 96%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/visual.pb.cc.o[0m
+[289.862s] [ 96%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/visual_v.pb.cc.o[0m
+[291.283s] [ 96%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/web_request.pb.cc.o[0m
+[292.704s] [ 96%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/wheel_slip_parameters_cmd.pb.cc.o[0m
+[293.843s] [ 97%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/wind.pb.cc.o[0m
+[294.874s] [ 97%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/wireless_node.pb.cc.o[0m
+[296.057s] [ 97%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/wireless_nodes.pb.cc.o[0m
+[297.273s] [ 97%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/world_control.pb.cc.o[0m
+[298.528s] [ 98%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/world_control_state.pb.cc.o[0m
+[299.804s] [ 98%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/world_modify.pb.cc.o[0m
+[300.950s] [ 98%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/world_reset.pb.cc.o[0m
+[302.032s] [ 98%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/world_stats.pb.cc.o[0m
+[303.254s] [ 99%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/wrench.pb.cc.o[0m
+[304.402s] [ 99%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/Factory.cc.o[0m
+[306.262s] [ 99%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/Filesystem.cc.o[0m
+[306.906s] [ 99%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/gz.cc.o[0m
+[307.807s] [100%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/Utility.cc.o[0m
+[311.734s] [100%] [32mBuilding CXX object src/CMakeFiles/gz-msgs10.dir/__/include/gz/msgs/actuators.pb.cc.o[0m
+[313.154s] [100%] [32m[1mLinking CXX shared library ../lib/libgz-msgs10.so[0m
+[314.804s] [100%] Built target gz-msgs10
+[314.816s] Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-msgs10 -- -j3 -l3
+[314.851s] Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-msgs10
+[314.861s] -- Install configuration: "RelWithDebInfo"
+[314.861s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10-all/gz-msgs10-all-config.cmake
+[314.861s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10-all/gz-msgs10-all-config-version.cmake
+[314.861s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10-all/gz-msgs10-all-targets.cmake
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/actor_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/actuators_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/air_pressure_sensor_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/air_speed_sensor_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/altimeter_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/altimeter_sensor_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/annotated_axis_aligned_2d_box_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/annotated_axis_aligned_2d_box_v_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/annotated_oriented_3d_box_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/annotated_oriented_3d_box_v_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/any_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/atmosphere_pb.rb
+[314.868s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/axis_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/axis_aligned_2d_box_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/axis_aligned_box_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/battery_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/battery_state_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/boolean_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/boxgeom_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/bytes_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/camera_cmd_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/camera_info_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/camera_lens_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/camerasensor_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/capsulegeom_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/cessna_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/clock_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/cmd_vel2d_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/collision_pb.rb
+[314.869s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/color_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/conegeom_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/contact_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/contacts_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/contactsensor_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/cylindergeom_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dataframe_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/density_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/diagnostics_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/discovery_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/distortion_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/double_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/double_v_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/duration_pb.rb
+[314.870s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dvl_beam_state_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dvl_kinematic_estimate_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dvl_range_estimate_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dvl_tracking_target_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/dvl_velocity_tracking_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/ellipsoidgeom_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/empty_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/entity_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/entity_factory_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/entity_factory_v_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/entity_plugin_v_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/entity_wrench_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/float_pb.rb
+[314.871s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/float_v_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/fluid_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/fluid_pressure_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/fog_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/friction_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/fuel_metadata_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/geometry_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/gps_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/gps_sensor_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/gui_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/gui_camera_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/header_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/heightmapgeom_pb.rb
+[314.872s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/hydra_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/image_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/imagegeom_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/imu_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/imu_sensor_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/inertial_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/int32_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/int32_v_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/int64_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/int64_v_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_animation_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_cmd_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_trajectory_pb.rb
+[314.873s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_trajectory_point_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joint_wrench_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joy_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/joystick_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/laserscan_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/lens_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/lidar_sensor_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/light_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/link_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/link_data_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/log_control_pb.rb
+[314.874s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/log_playback_control_pb.rb
+[314.875s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/log_playback_stats_pb.rb
+[314.875s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/log_status_pb.rb
+[314.875s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/logical_camera_image_pb.rb
+[314.875s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/logical_camera_sensor_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/magnetometer_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/magnetometer_sensor_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/marker_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/marker_v_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/material_pb.rb
+[314.882s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/meshgeom_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/model_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/model_configuration_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/model_v_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/navsat_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/navsat_sensor_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/occupancy_grid_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/odometry_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/odometry_with_covariance_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/oriented_3d_box_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/packet_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/param_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/param_v_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_declaration_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_declarations_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_error_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_name_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/parameter_value_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/particle_emitter_pb.rb
+[314.883s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/particle_emitter_v_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/performance_sensor_metrics_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/physics_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pid_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/planegeom_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/plugin_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/plugin_v_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pointcloud_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pointcloud_packed_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/polylinegeom_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pose_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pose_animation_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pose_trajectory_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pose_v_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/pose_with_covariance_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/projector_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/propagation_grid_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/propagation_particle_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/publish_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/publishers_pb.rb
+[314.884s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/quaternion_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/raysensor_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/request_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/response_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/rest_login_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/rest_logout_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/rest_post_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/rest_response_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/road_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/scene_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sdf_generator_config_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/selection_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sensor_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sensor_noise_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sensor_v_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/serialized_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/serialized_map_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/server_control_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/shadows_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sim_event_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sky_pb.rb
+[314.885s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/sonar_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/spheregeom_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/spherical_coordinates_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/statistic_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/stringmsg_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/stringmsg_v_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/subscribe_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/surface_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/tactile_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/test_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/time_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/topic_info_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/track_visual_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/twist_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/twist_with_covariance_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/uint32_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/uint32_v_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/uint64_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/uint64_v_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/undo_redo_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/user_cmd_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/user_cmd_stats_pb.rb
+[314.886s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/vector2d_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/vector3d_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/version_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/version_range_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/versioned_name_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/video_record_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/visual_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/visual_v_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/web_request_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/wheel_slip_parameters_cmd_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/wind_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/wireless_node_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/wireless_nodes_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/world_control_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/world_control_state_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/world_modify_pb.rb
+[314.887s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/world_reset_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/world_stats_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/ignition/msgs10/wrench_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/actor_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/actuators_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/air_pressure_sensor_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/air_speed_sensor_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/altimeter_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/altimeter_sensor_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/annotated_axis_aligned_2d_box_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/annotated_axis_aligned_2d_box_v_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/annotated_oriented_3d_box_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/annotated_oriented_3d_box_v_pb.rb
+[314.894s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/any_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/atmosphere_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/axis_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/axis_aligned_2d_box_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/axis_aligned_box_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/battery_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/battery_state_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/boolean_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/boxgeom_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/bytes_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/camera_cmd_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/camera_info_pb.rb
+[314.895s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/camera_lens_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/camerasensor_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/capsulegeom_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/cessna_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/clock_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/cmd_vel2d_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/collision_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/color_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/conegeom_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/contact_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/contacts_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/contactsensor_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/cylindergeom_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dataframe_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/density_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/diagnostics_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/discovery_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/distortion_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/double_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/double_v_pb.rb
+[314.896s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/duration_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dvl_beam_state_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dvl_kinematic_estimate_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dvl_range_estimate_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dvl_tracking_target_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/dvl_velocity_tracking_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/ellipsoidgeom_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/empty_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/entity_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/entity_factory_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/entity_factory_v_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/entity_plugin_v_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/entity_wrench_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/float_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/float_v_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/fluid_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/fluid_pressure_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/fog_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/friction_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/fuel_metadata_pb.rb
+[314.897s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/geometry_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/gps_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/gps_sensor_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/gui_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/gui_camera_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/header_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/heightmapgeom_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/hydra_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/image_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/imagegeom_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/imu_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/imu_sensor_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/inertial_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/int32_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/int32_v_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/int64_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/int64_v_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_pb.rb
+[314.898s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_animation_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_cmd_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_trajectory_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_trajectory_point_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joint_wrench_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joy_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/joystick_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/laserscan_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/lens_pb.rb
+[314.906s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/lidar_sensor_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/light_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/link_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/link_data_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/log_control_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/log_playback_control_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/log_playback_stats_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/log_status_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/logical_camera_image_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/logical_camera_sensor_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/magnetometer_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/magnetometer_sensor_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/marker_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/marker_v_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/material_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/meshgeom_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/model_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/model_configuration_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/model_v_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/navsat_pb.rb
+[314.907s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/navsat_sensor_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/occupancy_grid_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/odometry_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/odometry_with_covariance_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/oriented_3d_box_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/packet_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/param_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/param_v_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_declaration_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_declarations_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_error_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_name_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/parameter_value_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/particle_emitter_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/particle_emitter_v_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/performance_sensor_metrics_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/physics_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pid_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/planegeom_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/plugin_pb.rb
+[314.908s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/plugin_v_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pointcloud_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pointcloud_packed_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/polylinegeom_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pose_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pose_animation_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pose_trajectory_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pose_v_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/pose_with_covariance_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/projector_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/propagation_grid_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/propagation_particle_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/publish_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/publishers_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/quaternion_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/raysensor_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/request_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/response_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/rest_login_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/rest_logout_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/rest_post_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/rest_response_pb.rb
+[314.909s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/road_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/scene_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sdf_generator_config_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/selection_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sensor_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sensor_noise_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sensor_v_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/serialized_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/serialized_map_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/server_control_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/shadows_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sim_event_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sky_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/sonar_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/spheregeom_pb.rb
+[314.910s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/spherical_coordinates_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/statistic_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/stringmsg_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/stringmsg_v_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/subscribe_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/surface_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/tactile_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/test_pb.rb
+[314.918s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/time_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/topic_info_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/track_visual_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/twist_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/twist_with_covariance_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/uint32_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/uint32_v_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/uint64_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/uint64_v_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/undo_redo_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/user_cmd_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/user_cmd_stats_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/vector2d_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/vector3d_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/version_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/version_range_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/versioned_name_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/video_record_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/visual_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/visual_v_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/web_request_pb.rb
+[314.919s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/wheel_slip_parameters_cmd_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/wind_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/wireless_node_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/wireless_nodes_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/world_control_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/world_control_state_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/world_modify_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/world_reset_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/world_stats_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/msgs10/wrench_pb.rb
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/actor.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/actuators.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/air_pressure_sensor.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/air_speed_sensor.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/altimeter.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/altimeter_sensor.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_axis_aligned_2d_box.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_axis_aligned_2d_box_v.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_oriented_3d_box.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_oriented_3d_box_v.pb.h
+[314.920s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/any.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/atmosphere.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis_aligned_2d_box.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis_aligned_box.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/battery.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/battery_state.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/boolean.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/boxgeom.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/bytes.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_cmd.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_info.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_lens.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camerasensor.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/capsulegeom.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cessna.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/clock.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cmd_vel2d.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/collision.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/color.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/conegeom.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contact.pb.h
+[314.921s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contacts.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contactsensor.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cylindergeom.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dataframe.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/density.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/diagnostics.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/discovery.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/distortion.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/double.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/double_v.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/duration.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_beam_state.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_kinematic_estimate.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_range_estimate.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_tracking_target.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_velocity_tracking.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/ellipsoidgeom.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/empty.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_factory.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_factory_v.pb.h
+[314.922s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_plugin_v.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_wrench.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/float.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/float_v.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fluid.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fluid_pressure.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fog.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/friction.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fuel_metadata.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/geometry.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gps.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gps_sensor.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gui.pb.h
+[314.930s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gui_camera.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/header.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/heightmapgeom.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/hydra.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/image.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imagegeom.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imu.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imu_sensor.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/inertial.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int32.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int32_v.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int64.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int64_v.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_animation.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_cmd.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_trajectory.pb.h
+[314.931s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_trajectory_point.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_wrench.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joy.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joystick.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/laserscan.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/lens.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/lidar_sensor.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/light.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/link.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/link_data.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_control.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_playback_control.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_playback_stats.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_status.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/logical_camera_image.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/logical_camera_sensor.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/magnetometer.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/magnetometer_sensor.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/marker.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/marker_v.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/material.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/meshgeom.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model.pb.h
+[314.932s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model_configuration.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model_v.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/navsat.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/navsat_sensor.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/occupancy_grid.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/odometry.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/odometry_with_covariance.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/oriented_3d_box.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/packet.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/param.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/param_v.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_declaration.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_declarations.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_error.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_name.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_value.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/particle_emitter.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/particle_emitter_v.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/performance_sensor_metrics.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/physics.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pid.pb.h
+[314.933s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/planegeom.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/plugin.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/plugin_v.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pointcloud.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pointcloud_packed.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/polylinegeom.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_animation.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_trajectory.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_v.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_with_covariance.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/projector.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/propagation_grid.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/propagation_particle.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/publish.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/publishers.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/quaternion.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/raysensor.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/request.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/response.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_login.pb.h
+[314.934s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_logout.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_post.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_response.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/road.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/scene.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sdf_generator_config.pb.h
+[314.935s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/selection.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor_noise.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor_v.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/serialized.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/serialized_map.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/server_control.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/shadows.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sim_event.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sky.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sonar.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/spheregeom.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/spherical_coordinates.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/statistic.pb.h
+[314.942s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/stringmsg.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/stringmsg_v.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/subscribe.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/surface.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/tactile.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/test.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/time.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/topic_info.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/track_visual.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/twist.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/twist_with_covariance.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint32.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint32_v.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint64.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint64_v.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/undo_redo.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/user_cmd.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/user_cmd_stats.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/vector2d.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/vector3d.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/version.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/version_range.pb.h
+[314.943s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/versioned_name.pb.h
+[314.944s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/video_record.pb.h
+[314.944s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/visual.pb.h
+[314.945s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/visual_v.pb.h
+[314.945s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/web_request.pb.h
+[314.945s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wheel_slip_parameters_cmd.pb.h
+[314.945s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wind.pb.h
+[314.945s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wireless_node.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wireless_nodes.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_control.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_control_state.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_modify.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_reset.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_stats.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wrench.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/actor.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/actuators.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/air_pressure_sensor.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/air_speed_sensor.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/altimeter.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/altimeter_sensor.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/annotated_axis_aligned_2d_box.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/annotated_axis_aligned_2d_box_v.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/annotated_oriented_3d_box.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/annotated_oriented_3d_box_v.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/any.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/atmosphere.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/axis.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/axis_aligned_2d_box.pb.h
+[314.946s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/axis_aligned_box.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/battery.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/battery_state.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/boolean.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/boxgeom.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/bytes.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/camera_cmd.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/camera_info.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/camera_lens.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/camerasensor.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/capsulegeom.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/cessna.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/clock.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/cmd_vel2d.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/collision.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/color.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/conegeom.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/contact.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/contacts.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/contactsensor.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/cylindergeom.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dataframe.pb.h
+[314.947s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/density.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/diagnostics.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/discovery.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/distortion.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/double.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/double_v.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/duration.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dvl_beam_state.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dvl_kinematic_estimate.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dvl_range_estimate.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dvl_tracking_target.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/dvl_velocity_tracking.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/ellipsoidgeom.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/empty.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/entity.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/entity_factory.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/entity_factory_v.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/entity_plugin_v.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/entity_wrench.pb.h
+[314.948s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/float.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/float_v.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/fluid.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/fluid_pressure.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/fog.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/friction.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/fuel_metadata.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/geometry.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/gps.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/gps_sensor.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/gui.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/gui_camera.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/header.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/heightmapgeom.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/hydra.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/image.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/imagegeom.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/imu.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/imu_sensor.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/inertial.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/int32.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/int32_v.pb.h
+[314.949s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/int64.pb.h
+[314.950s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/int64_v.pb.h
+[314.950s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint.pb.h
+[314.950s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint_animation.pb.h
+[314.950s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint_cmd.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint_trajectory.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint_trajectory_point.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joint_wrench.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joy.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/joystick.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/laserscan.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/lens.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/lidar_sensor.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/light.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/link.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/link_data.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/log_control.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/log_playback_control.pb.h
+[314.954s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/log_playback_stats.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/log_status.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/logical_camera_image.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/logical_camera_sensor.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/magnetometer.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/magnetometer_sensor.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/marker.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/marker_v.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/material.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/meshgeom.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/model.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/model_configuration.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/model_v.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/navsat.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/navsat_sensor.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/occupancy_grid.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/odometry.pb.h
+[314.955s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/odometry_with_covariance.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/oriented_3d_box.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/packet.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/param.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/param_v.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter_declaration.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter_declarations.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter_error.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter_name.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/parameter_value.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/particle_emitter.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/particle_emitter_v.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/performance_sensor_metrics.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/physics.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pid.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/planegeom.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/plugin.pb.h
+[314.956s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/plugin_v.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pointcloud.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pointcloud_packed.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/polylinegeom.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pose.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pose_animation.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pose_trajectory.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pose_v.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/pose_with_covariance.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/projector.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/propagation_grid.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/propagation_particle.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/publish.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/publishers.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/quaternion.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/raysensor.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/request.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/response.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/rest_login.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/rest_logout.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/rest_post.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/rest_response.pb.h
+[314.957s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/road.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/scene.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sdf_generator_config.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/selection.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sensor.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sensor_noise.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sensor_v.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/serialized.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/serialized_map.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/server_control.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/shadows.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sim_event.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sky.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/sonar.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/spheregeom.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/spherical_coordinates.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/statistic.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/stringmsg.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/stringmsg_v.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/subscribe.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/surface.pb.h
+[314.958s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/tactile.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/test.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/time.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/topic_info.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/track_visual.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/twist.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/twist_with_covariance.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/uint32.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/uint32_v.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/uint64.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/uint64_v.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/undo_redo.pb.h
+[314.966s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/user_cmd.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/user_cmd_stats.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/vector2d.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/vector3d.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/version.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/version_range.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/versioned_name.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/video_record.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/visual.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/visual_v.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/web_request.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/wheel_slip_parameters_cmd.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/wind.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/wireless_node.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/wireless_nodes.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/world_control.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/world_control_state.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/world_modify.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/world_reset.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/world_stats.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/details/wrench.pb.h
+[314.967s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/actor.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/actuators.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/air_pressure_sensor.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/air_speed_sensor.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/altimeter.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/altimeter_sensor.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/annotated_axis_aligned_2d_box.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/annotated_axis_aligned_2d_box_v.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/annotated_oriented_3d_box.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/annotated_oriented_3d_box_v.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/any.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/atmosphere.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/axis.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/axis_aligned_2d_box.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/axis_aligned_box.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/battery.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/battery_state.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/boolean.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/boxgeom.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/bytes.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/camera_cmd.pb.h
+[314.968s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/camera_info.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/camera_lens.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/camerasensor.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/capsulegeom.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/cessna.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/clock.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/cmd_vel2d.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/collision.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/color.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/conegeom.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/contact.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/contacts.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/contactsensor.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/cylindergeom.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dataframe.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/density.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/diagnostics.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/discovery.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/distortion.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/double.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/double_v.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/duration.pb.h
+[314.969s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dvl_beam_state.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dvl_kinematic_estimate.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dvl_range_estimate.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dvl_tracking_target.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/dvl_velocity_tracking.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/ellipsoidgeom.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/empty.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/entity.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/entity_factory.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/entity_factory_v.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/entity_plugin_v.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/entity_wrench.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/float.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/float_v.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/fluid.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/fluid_pressure.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/fog.pb.h
+[314.970s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/friction.pb.h
+[314.971s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/fuel_metadata.pb.h
+[314.971s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/geometry.pb.h
+[314.971s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/gps.pb.h
+[314.971s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/gps_sensor.pb.h
+[314.971s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/gui.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/gui_camera.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/header.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/heightmapgeom.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/hydra.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/image.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/imagegeom.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/imu.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/imu_sensor.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/inertial.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/int32.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/int32_v.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/int64.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/int64_v.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint_animation.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint_cmd.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint_trajectory.pb.h
+[314.978s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint_trajectory_point.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joint_wrench.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joy.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/joystick.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/laserscan.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/lens.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/lidar_sensor.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/light.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/link.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/link_data.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/log_control.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/log_playback_control.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/log_playback_stats.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/log_status.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/logical_camera_image.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/logical_camera_sensor.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/magnetometer.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/magnetometer_sensor.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/marker.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/marker_v.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/material.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/meshgeom.pb.h
+[314.979s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/model.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/model_configuration.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/model_v.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/navsat.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/navsat_sensor.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/occupancy_grid.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/odometry.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/odometry_with_covariance.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/oriented_3d_box.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/packet.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/param.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/param_v.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter_declaration.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter_declarations.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter_error.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter_name.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/parameter_value.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/particle_emitter.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/particle_emitter_v.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/performance_sensor_metrics.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/physics.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pid.pb.h
+[314.980s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/planegeom.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/plugin.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/plugin_v.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pointcloud.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pointcloud_packed.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/polylinegeom.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pose.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pose_animation.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pose_trajectory.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pose_v.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/pose_with_covariance.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/projector.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/propagation_grid.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/propagation_particle.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/publish.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/publishers.pb.h
+[314.981s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/quaternion.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/raysensor.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/request.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/response.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/rest_login.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/rest_logout.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/rest_post.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/rest_response.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/road.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/scene.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sdf_generator_config.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/selection.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sensor.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sensor_noise.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sensor_v.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/serialized.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/serialized_map.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/server_control.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/shadows.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sim_event.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sky.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/sonar.pb.h
+[314.982s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/spheregeom.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/spherical_coordinates.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/statistic.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/stringmsg.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/stringmsg_v.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/subscribe.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/surface.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/tactile.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/test.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/time.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/topic_info.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/track_visual.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/twist.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/twist_with_covariance.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/uint32.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/uint32_v.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/uint64.pb.h
+[314.983s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/uint64_v.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/undo_redo.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/user_cmd.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/user_cmd_stats.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/vector2d.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/vector3d.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/version.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/version_range.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/versioned_name.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/video_record.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/visual.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/visual_v.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/web_request.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/wheel_slip_parameters_cmd.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/wind.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/wireless_node.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/wireless_nodes.pb.h
+[314.990s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/world_control.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/world_control_state.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/world_modify.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/world_reset.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/world_stats.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/wrench.pb.h
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/MessageTypes.hh
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/detail/Export.hh
+[314.991s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/Export.hh
+[314.991s] -- Installing: /home/julia/workspace/install/lib/libgz-msgs10.so.10.0.0
+[315.065s] -- Installing: /home/julia/workspace/install/lib/libgz-msgs10.so.10
+[315.066s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-msgs10.so.10.0.0" to ""
+[315.066s] -- Installing: /home/julia/workspace/install/lib/libgz-msgs10.so
+[315.067s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10/gz-msgs10-config.cmake
+[315.067s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10/gz-msgs10-config-version.cmake
+[315.067s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10/gz-msgs10-targets.cmake
+[315.067s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-msgs10/gz-msgs10-targets-relwithdebinfo.cmake
+[315.068s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-msgs10.pc
+[315.068s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdmsgs10.rb
+[315.068s] -- Installing: /home/julia/workspace/install/share/gz/gz1.completion.d/msgs10.bash_completion.sh
+[315.068s] -- Up-to-date: /home/julia/workspace/install/include/gz/msgs10/ignition
+[315.068s] -- Up-to-date: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs
+[315.068s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/PointCloudPackedUtils.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/Export.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/Factory.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/SuppressWarning.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/config.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/MessageTypes.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/Utility.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs/Filesystem.hh
+[315.069s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/ignition/msgs.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/detail/PointCloudPackedUtils.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/Factory.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/Filesystem.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/PointCloudPackedUtils.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/Utility.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/../msgs.hh
+[315.070s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/config.hh
+[315.071s] -- Installing: /home/julia/workspace/install/share/gz/msgs10.yaml
+[315.071s] -- Up-to-date: /home/julia/workspace/install/include/gz/msgs10/gz
+[315.071s] -- Up-to-date: /home/julia/workspace/install/include/gz/msgs10/gz/msgs
+[315.071s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/boolean.proto
+[315.071s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/version.proto
+[315.071s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/particle_emitter_v.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/packet.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/stringmsg_v.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_kinematic_estimate.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/publishers.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_trajectory.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wireless_node.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/raysensor.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/double_v.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/road.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/plugin_v.proto
+[315.072s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wrench.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_v.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/duration.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_playback_stats.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_plugin_v.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/air_speed_sensor.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/logical_camera_sensor.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sky.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_error.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_axis_aligned_2d_box_v.proto
+[315.073s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fluid.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/inertial.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/topic_info.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/spherical_coordinates.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/publish.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pid.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pointcloud_packed.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/vector2d.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/marker.proto
+[315.074s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/version_range.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/magnetometer_sensor.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_factory.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/subscribe.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/user_cmd.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_animation.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/versioned_name.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/lidar_sensor.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/surface.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/battery.proto
+[315.075s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contacts.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/density.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_control.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/actor.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_reset.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sonar.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_oriented_3d_box.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sdf_generator_config.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imu.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/collision.proto
+[315.076s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fuel_metadata.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/planegeom.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contactsensor.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_response.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/plugin.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/conegeom.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/logical_camera_image.proto
+[315.077s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_login.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imagegeom.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_post.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/performance_sensor_metrics.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/hydra.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gui_camera.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/lens.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/marker_v.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/navsat.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor.proto
+[315.078s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/server_control.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/odometry_with_covariance.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/statistic.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/stringmsg.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joy.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis_aligned_box.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int64_v.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cmd_vel2d.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint32_v.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/discovery.proto
+[315.079s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/oriented_3d_box.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_cmd.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint64.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/param_v.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_control.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/atmosphere.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_animation.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/bytes.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_tracking_target.proto
+[315.080s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/distortion.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/tactile.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/visual_v.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pointcloud.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/ellipsoidgeom.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/battery_state.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/any.proto
+[315.081s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/geometry.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_name.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_wrench.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/link_data.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/friction.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/magnetometer.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_beam_state.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/undo_redo.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_playback_control.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int32.proto
+[315.082s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/odometry.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_control_state.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_stats.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gui.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/quaternion.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_oriented_3d_box_v.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint64_v.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_value.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_range_estimate.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_wrench.proto
+[315.083s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/propagation_grid.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camerasensor.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/vector3d.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_declarations.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/twist.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/double.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model_configuration.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/image.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/float.proto
+[315.084s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sim_event.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fog.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/boxgeom.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/material.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/shadows.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int64.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joystick.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/axis_aligned_2d_box.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wind.proto
+[315.085s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/altimeter.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/param.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose_with_covariance.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dataframe.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cylindergeom.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/annotated_axis_aligned_2d_box.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/pose.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/track_visual.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/imu_sensor.proto
+[315.086s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/response.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gps_sensor.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/heightmapgeom.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wheel_slip_parameters_cmd.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/actuators.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_trajectory_point.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/diagnostics.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/navsat_sensor.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/link.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/float_v.proto
+[315.087s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/web_request.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/fluid_pressure.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor_v.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/model_v.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/projector.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/uint32.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/empty.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/altimeter_sensor.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/header.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/serialized_map.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/wireless_nodes.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/twist_with_covariance.proto
+[315.088s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/particle_emitter.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/spheregeom.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/entity_factory_v.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/world_modify.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_info.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/polylinegeom.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/scene.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/gps.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/video_record.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/serialized.proto
+[315.089s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/selection.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/rest_logout.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/light.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/parameter_declaration.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/clock.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/occupancy_grid.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/capsulegeom.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/sensor_noise.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/time.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/propagation_particle.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/physics.proto
+[315.090s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/laserscan.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/user_cmd_stats.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/camera_lens.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/color.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/meshgeom.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/request.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/contact.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/log_status.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/air_pressure_sensor.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/test.proto
+[315.091s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/int32_v.proto
+[315.092s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_cmd.proto
+[315.092s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/joint_trajectory.proto
+[315.092s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/visual.proto
+[315.092s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/dvl_velocity_tracking.proto
+[315.092s] -- Installing: /home/julia/workspace/install/include/gz/msgs10/gz/msgs/cessna.proto
+[315.101s] Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-msgs10

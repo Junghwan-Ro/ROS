@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "lib/ruby/rubyRUBY_wrap.cxx"
+  "lib/ruby/AngleRUBY_wrap.cxx"
+  "lib/ruby/GaussMarkovProcessRUBY_wrap.cxx"
+  "lib/ruby/RandRUBY_wrap.cxx"
+  "lib/ruby/Vector2RUBY_wrap.cxx"
+  "lib/ruby/Vector3RUBY_wrap.cxx"
+  "lib/ruby/Vector4RUBY_wrap.cxx"
+  "src/ruby/CMakeFiles/rbmath.dir/rubyRUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/AngleRUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/GaussMarkovProcessRUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/RandRUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/Vector2RUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/Vector3RUBY.stamp"
+  "src/ruby/CMakeFiles/rbmath.dir/Vector4RUBY.stamp"
+)

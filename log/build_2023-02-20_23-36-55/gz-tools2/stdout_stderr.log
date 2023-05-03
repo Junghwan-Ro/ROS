@@ -1,0 +1,9 @@
+[100%] Built target backward
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config-version.cmake
+-- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-targets.cmake
+-- Up-to-date: /home/julia/workspace/install/share/gz/gz.completion
+-- Up-to-date: /home/julia/workspace/install/share/bash-completion/completions/gz
+-- Up-to-date: /home/julia/workspace/install/lib/libgz-tools2-backward.so
+-- Up-to-date: /home/julia/workspace/install/bin/gz

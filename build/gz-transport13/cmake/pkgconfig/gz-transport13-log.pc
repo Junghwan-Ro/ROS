@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/transport13
+
+Name: Gazebo transport log
+Description: A set of transport log classes for robot applications
+Version: 13.0.0
+Requires: gz-transport13 = 13.0.0
+Requires.private: sqlite3 >= 3.7.13
+Libs: -L${libdir} -lgz-transport13-log 
+Libs.private: 
+CFLags: -I${includedir} 

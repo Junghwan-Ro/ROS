@@ -1,0 +1,9 @@
+--- # Subcommands available inside gz-transport.
+format: 1.0.0
+library_name: gz-transport
+library_version: 13.0.0~pre1
+library_path: /home/julia/workspace/build/gz-transport13/test/lib/RelWithDebInfo/ruby/gz/cmdtransport13
+commands:
+    - topic   : Print information about topics.
+    - service : Print information about services.
+---

@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-tools2 version 2.0.0
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+
+-- ====== Finding Dependencies ======
+-- Found Backward: /home/julia/workspace/src/gz-tools/src/Backward  
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-tools2
+[35m[1mScanning dependencies of target backward[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/backward.dir/backward.cc.o[0m
+[100%] [32m[1mLinking CXX shared library ../lib/libgz-tools2-backward.so[0m
+[100%] Built target backward
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-targets.cmake
+-- Installing: /home/julia/workspace/install/share/gz/gz.completion
+-- Installing: /home/julia/workspace/install/share/bash-completion/completions/gz
+-- Installing: /home/julia/workspace/install/lib/libgz-tools2-backward.so
+-- Installing: /home/julia/workspace/install/bin/gz

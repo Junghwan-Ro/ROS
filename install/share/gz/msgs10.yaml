@@ -1,0 +1,8 @@
+--- # Subcommands available inside gz-transport.
+format: 1.0.0
+library_name: gz-msgs
+library_version: 10.0.0
+library_path: /home/julia/workspace/install/lib/ruby/gz/cmdmsgs10
+commands:
+    - msg   : Print information about messages.
+---

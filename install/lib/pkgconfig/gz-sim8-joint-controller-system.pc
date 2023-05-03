@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sim8
+
+Name: Gazebo sim joint-controller-system
+Description: A set of sim joint-controller-system classes for robot applications
+Version: 8.0.0
+Requires: gz-sim8 = 8.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-sim8-joint-controller-system 
+Libs.private: 
+CFLags: -I${includedir} 

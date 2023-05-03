@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/msgs10
+
+Name: Gazebo msgs
+Description: A set of msgs classes for robot applications
+Version: 10.0.0
+Requires: gz-cmake3 >= 1.1 protobuf >= 3 gz-math7
+Requires.private: tinyxml2
+Libs: -L${libdir} -lgz-msgs10 
+Libs.private: 
+CFlags: -I${includedir} 

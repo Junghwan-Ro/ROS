@@ -1,0 +1,4 @@
+Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9
+Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9

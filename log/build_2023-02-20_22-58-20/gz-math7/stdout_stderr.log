@@ -1,0 +1,318 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-math7 version 7.1.0
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 - found
+
+-- Looking for eigen3 - found
+
+-- Searching for swig - found version 4.0.1.
+-- Searching for Ruby - found version 2.7.0.
+-- Searching for Python - found version 3.8.10.
+-- Found PythonInterp: /usr/bin/python3.8 (found suitable version "3.8.10", minimum required is "3") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Searching for pybind11 - found version 2.4.3.
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: gz-math7
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Building pybind11 interfaces
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- LTO enabled
+-- Configuring library: gz-math7-eigen3
+-- Testing is disabled -- skipping UNIT tests
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-math7
+[35m[1mScanning dependencies of target gz-math7[0m
+[35m[1mScanning dependencies of target rbmath_swig_compilation[0m
+[  1%] [34m[1mSwig compile ruby.i for ruby[0m
+[  2%] [34m[1mSwig compile Angle.i for ruby[0m
+[  3%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Angle.cc.o[0m
+[  4%] [34m[1mSwig compile GaussMarkovProcess.i for ruby[0m
+[  6%] [34m[1mSwig compile Rand.i for ruby[0m
+[  7%] [34m[1mSwig compile Vector2.i for ruby[0m
+[  8%] [34m[1mSwig compile Vector3.i for ruby[0m
+[  9%] [34m[1mSwig compile Vector4.i for ruby[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/AxisAlignedBox.cc.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Color.cc.o[0m
+[ 12%] Built target rbmath_swig_compilation
+[ 13%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/DiffDriveOdometry.cc.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Frustum.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/GaussMarkovProcess.cc.o[0m
+[ 17%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Helpers.cc.o[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Kmeans.cc.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Material.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/MovingWindowFilter.cc.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/PID.cc.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Rand.cc.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/RollingMean.cc.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/RotationSpline.cc.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SemanticVersion.cc.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SignalStats.cc.o[0m
+[ 29%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SpeedLimiter.cc.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SphericalCoordinates.cc.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Spline.cc.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SplinePrivate.cc.o[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Stopwatch.cc.o[0m
+[ 35%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Temperature.cc.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Vector3Stats.cc.o[0m
+[ 38%] [32m[1mLinking CXX shared library ../lib/libgz-math7.so[0m
+[ 38%] Built target gz-math7
+[35m[1mScanning dependencies of target rbmath[0m
+[35m[1mScanning dependencies of target math7[0m
+[ 39%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/_gz_math_pybind11.cc.o[0m
+[ 40%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Angle.cc.o[0m
+[ 41%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/rubyRUBY_wrap.cxx.o[0m
+[ 43%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/AxisAlignedBox.cc.o[0m
+[ 44%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/AngleRUBY_wrap.cxx.o[0m
+[ 45%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/GaussMarkovProcessRUBY_wrap.cxx.o[0m
+[ 46%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/RandRUBY_wrap.cxx.o[0m
+[ 48%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/Vector2RUBY_wrap.cxx.o[0m
+[ 49%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Capsule.cc.o[0m
+[ 50%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/Vector3RUBY_wrap.cxx.o[0m
+[ 51%] [32mBuilding CXX object src/ruby/CMakeFiles/rbmath.dir/__/__/lib/ruby/Vector4RUBY_wrap.cxx.o[0m
+[ 53%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Color.cc.o[0m
+[ 54%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/DiffDriveOdometry.cc.o[0m
+[ 55%] [32m[1mLinking CXX shared module ../../lib/math.so[0m
+[ 55%] Built target rbmath
+[ 56%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Ellipsoid.cc.o[0m
+[ 58%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Filter.cc.o[0m
+[ 59%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Frustum.cc.o[0m
+[ 60%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/GaussMarkovProcess.cc.o[0m
+[ 61%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Helpers.cc.o[0m
+[ 62%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Interval.cc.o[0m
+[ 64%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Kmeans.cc.o[0m
+[ 65%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Line2.cc.o[0m
+[ 66%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Line3.cc.o[0m
+[ 67%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/MassMatrix3.cc.o[0m
+[ 69%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Material.cc.o[0m
+[ 70%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Matrix3.cc.o[0m
+[ 71%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Matrix4.cc.o[0m
+[ 72%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Matrix6.cc.o[0m
+[ 74%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/MovingWindowFilter.cc.o[0m
+[ 75%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/PID.cc.o[0m
+[ 76%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Polynomial3.cc.o[0m
+[ 77%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Pose3.cc.o[0m
+[ 79%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Quaternion.cc.o[0m
+[ 80%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Rand.cc.o[0m
+[ 81%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Region3.cc.o[0m
+[ 82%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/RollingMean.cc.o[0m
+[ 83%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/RotationSpline.cc.o[0m
+[ 85%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/SemanticVersion.cc.o[0m
+[ 86%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/SignalStats.cc.o[0m
+[ 87%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/SphericalCoordinates.cc.o[0m
+[ 88%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Spline.cc.o[0m
+[ 90%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/StopWatch.cc.o[0m
+[ 91%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Temperature.cc.o[0m
+[ 92%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Triangle.cc.o[0m
+[ 93%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Triangle3.cc.o[0m
+[ 95%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Vector2.cc.o[0m
+[ 96%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Vector3.cc.o[0m
+[ 97%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Vector4.cc.o[0m
+[ 98%] [32mBuilding CXX object src/python_pybind11/CMakeFiles/math7.dir/src/Vector3Stats.cc.o[0m
+[100%] [32m[1mLinking CXX shared module test/math7.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target math7
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-all/gz-math7-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-all/gz-math7-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-all/gz-math7-all-targets.cmake
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-math7.so.7.1.0
+-- Installing: /home/julia/workspace/install/lib/libgz-math7.so.7
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-math7.so.7.1.0" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-math7.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7/gz-math7-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7/gz-math7-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7/gz-math7-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7/gz-math7-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-math7.pc
+-- Installing: /home/julia/workspace/install/lib/python/gz/math7.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/julia/workspace/install/lib/python/gz/math7.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/julia/workspace/install/lib/ruby/gz/math.so
+-- Set runtime path of "/home/julia/workspace/install/lib/ruby/gz/math.so" to ""
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Color.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/VolumetricGridLookupField.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Stopwatch.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/SpeedLimiter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Vector2.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Spline.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Plane.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/RotationSpline.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Vector3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/graph
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/graph/Edge.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/graph/GraphAlgorithms.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/graph/Vertex.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/graph/Graph.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Temperature.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Ellipsoid.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/OrientedBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/PID.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Interval.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Kmeans.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Region3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Vector4.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Helpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/MaterialType.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Angle.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Matrix6.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/DiffDriveOdometry.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Inertial.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Cylinder.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Matrix3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/RollingMean.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Sphere.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Box.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Matrix4.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Line3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Material.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/MovingWindowFilter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Capsule.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/SignalStats.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Line2.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/SemanticVersion.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Pose3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/MassMatrix3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/AxisAlignedBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Triangle.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/AdditivelySeparableScalarField3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Polynomial3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Frustum.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Triangle3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/PiecewiseScalarField3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Vector3Stats.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Quaternion.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Filter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Ellipsoid.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/AxisIndex.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/WellOrderedVector.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Cylinder.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Sphere.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Box.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/Capsule.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/detail/InterpolationPoint.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/SphericalCoordinates.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/Rand.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/GaussMarkovProcess.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/graph/Edge.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/graph/Graph.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/graph/GraphAlgorithms.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/graph/Vertex.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/AdditivelySeparableScalarField3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Angle.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/AxisAlignedBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Box.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Capsule.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Color.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Cylinder.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/DiffDriveOdometry.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Ellipsoid.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Filter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Frustum.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/GaussMarkovProcess.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Helpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Inertial.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Interval.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Kmeans.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Line2.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Line3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/MassMatrix3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Material.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/MaterialType.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Matrix3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Matrix4.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Matrix6.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/MovingWindowFilter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/OrientedBox.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/PID.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/PiecewiseScalarField3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Plane.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Polynomial3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Pose3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Quaternion.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Rand.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Region3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/RollingMean.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/RotationSpline.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/SemanticVersion.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/SignalStats.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/SpeedLimiter.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Sphere.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/SphericalCoordinates.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Spline.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Stopwatch.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Temperature.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/TimeVaryingVolumetricGrid.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/TimeVaryingVolumetricGridLookupField.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Triangle.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Triangle3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Vector2.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Vector3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Vector3Stats.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/Vector4.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/VolumetricGridLookupField.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/../math.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/config.hh
+-- Up-to-date: /home/julia/workspace/install/include/gz/math7/gz/math/detail
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Ellipsoid.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/AxisIndex.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/WellOrderedVector.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Cylinder.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Sphere.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Box.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/Capsule.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/detail/InterpolationPoint.hh
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-math7-eigen3.pc
+-- Up-to-date: /home/julia/workspace/install/include/gz/math7/ignition
+-- Up-to-date: /home/julia/workspace/install/include/gz/math7/ignition/math
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/eigen3
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/eigen3/Util.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/eigen3/Conversions.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/ignition/math/eigen3.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/eigen3/Conversions.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/eigen3/Util.hh
+-- Installing: /home/julia/workspace/install/include/gz/math7/gz/math/eigen3/../eigen3.hh

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/physics6
+
+Name: Gazebo physics sdf
+Description: A set of physics sdf classes for robot applications
+Version: 6.3.0
+Requires: sdformat13 gz-physics6 = 6.3.0
+Requires.private: 
+Libs: -L${libdir}  
+Libs.private: 
+CFLags: -I${includedir} 

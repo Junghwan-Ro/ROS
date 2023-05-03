@@ -1,0 +1,4 @@
+Invoking command in '/home/julia/workspace/build/gz-rendering8': /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+Invoking command in '/home/julia/workspace/build/gz-rendering8': /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8
+Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8

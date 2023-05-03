@@ -1,0 +1,6 @@
+-I/home/julia/workspace/src/gz-sim/include
+-I/home/julia/workspace/build/gz-sim8/include
+-DGZ_PROFILER_ENABLE=0
+-o
+/home/julia/workspace/build/gz-sim8/src/gui/plugins/global_illumination_civct/moc_CiVctCascadePrivate.cpp
+/home/julia/workspace/src/gz-sim/src/gui/plugins/global_illumination_civct/CiVctCascadePrivate.hh

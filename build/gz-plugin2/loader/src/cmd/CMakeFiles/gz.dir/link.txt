@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libgz.a  CMakeFiles/gz.dir/gz.cc.o
+/usr/bin/ranlib ../../../lib/libgz.a

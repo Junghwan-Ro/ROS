@@ -1,0 +1,193 @@
+[0.033s] Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-plugin -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.106s] -- The C compiler identification is GNU 9.4.0
+[0.158s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Check for working C compiler: /usr/bin/cc
+[0.233s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.234s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.345s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.437s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.553s] -- gz-plugin2 version 2.0.1
+[0.553s] -- Operating system is Linux
+[0.560s] -- Found CPack generators: DEB
+[0.565s] -- 
+[0.565s] 
+[0.565s] -- ====== Finding Dependencies ======
+[0.566s] -- Looking for dlfcn.h - found
+[0.570s] -- Looking for libdl - found
+[0.571s] -- Found DL: TRUE  
+[0.571s] -- Looking for libdl - found
+[0.571s] 
+[0.571s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.572s] -- Searching for dependencies of gz-utils2
+[0.572s] -- Searching for <gz-utils2> component [cli]
+[0.572s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.573s] -- Searching for dependencies of gz-utils2-cli
+[0.573s] -- Looking for gz-utils2 - found
+[0.573s] 
+[1.663s] -- 
+[1.663s] -- Searching for host SSE information
+[1.692s] -- SSE2 found
+[1.692s] -- SSE3 found
+[1.692s] -- SSE4.1 found
+[1.692s] -- SSE4.2 found
+[1.709s] -- Configuring library: gz-plugin2
+[1.710s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.792s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.793s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.890s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.890s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.992s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.992s] -- Testing is disabled -- skipping UNIT tests
+[1.996s] -- Configuring library: gz-plugin2-loader
+[2.000s] -- Testing is disabled -- skipping UNIT tests
+[2.004s] -- Configuring library: gz-plugin2-register
+[2.116s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[2.116s] -- Build configuration successful
+[2.116s] -- Build type: RelWithDebInfo
+[2.117s] -- Install prefix: /home/julia/workspace/install
+[2.122s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.126s] -- Configuring done
+[2.146s] -- Generating done
+[2.149s] -- Build files have been written to: /home/julia/workspace/build/gz-plugin2
+[2.161s] Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-plugin -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.162s] Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+[2.217s] [35m[1mScanning dependencies of target gz-plugin2[0m
+[2.236s] [  6%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/EnablePluginFromThis.cc.o[0m
+[3.011s] [ 13%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/Info.cc.o[0m
+[3.478s] [ 20%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/Plugin.cc.o[0m
+[4.578s] [ 26%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/WeakPluginPtr.cc.o[0m
+[5.171s] [ 33%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/utility.cc.o[0m
+[6.003s] [ 40%] [32mBuilding CXX object core/CMakeFiles/gz-plugin2.dir/src/Factory.cc.o[0m
+[6.711s] [ 46%] [32m[1mLinking CXX shared library ../lib/libgz-plugin2.so[0m
+[6.816s] [ 46%] Built target gz-plugin2
+[6.829s] [35m[1mScanning dependencies of target gz-plugin2-loader[0m
+[6.846s] [ 53%] [32mBuilding CXX object loader/CMakeFiles/gz-plugin2-loader.dir/src/Loader.cc.o[0m
+[9.205s] [ 60%] [32mBuilding CXX object loader/CMakeFiles/gz-plugin2-loader.dir/src/detail/Registry.cc.o[0m
+[11.044s] [ 66%] [32mBuilding CXX object loader/CMakeFiles/gz-plugin2-loader.dir/src/detail/StaticRegistry.cc.o[0m
+[12.360s] [ 73%] [32m[1mLinking CXX shared library ../lib/libgz-plugin2-loader.so[0m
+[12.476s] [ 73%] Built target gz-plugin2-loader
+[12.485s] [35m[1mScanning dependencies of target gz[0m
+[12.498s] [ 80%] [32mBuilding CXX object loader/src/cmd/CMakeFiles/gz.dir/gz.cc.o[0m
+[13.175s] [ 86%] [32m[1mLinking CXX static library ../../../lib/libgz.a[0m
+[13.223s] [ 86%] Built target gz
+[13.243s] [35m[1mScanning dependencies of target gz-plugin[0m
+[13.257s] [ 93%] [32mBuilding CXX object loader/src/cmd/CMakeFiles/gz-plugin.dir/plugin_main.cc.o[0m
+[26.619s] [100%] [32m[1mLinking CXX executable ../../../bin/gz-plugin[0m
+[26.805s] [100%] Built target gz-plugin
+[26.820s] Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+[26.858s] Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2
+[26.872s] -- Install configuration: "RelWithDebInfo"
+[26.872s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-all/gz-plugin2-all-config.cmake
+[26.872s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-all/gz-plugin2-all-config-version.cmake
+[26.872s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-all/gz-plugin2-all-targets.cmake
+[26.881s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Export.hh
+[26.882s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Export.hh
+[26.882s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2.so.2.0.1
+[26.883s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2.so.2
+[26.884s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-plugin2.so.2.0.1" to ""
+[26.884s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2.so
+[26.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2/gz-plugin2-config.cmake
+[26.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2/gz-plugin2-config-version.cmake
+[26.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2/gz-plugin2-targets.cmake
+[26.884s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2/gz-plugin2-targets-relwithdebinfo.cmake
+[26.885s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-plugin2.pc
+[26.885s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition
+[26.885s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin.hh
+[26.885s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin
+[26.885s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/SpecializedPlugin.hh
+[26.885s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/utility.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/PluginPtr.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Export.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/EnablePluginFromThis.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Factory.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/WeakPluginPtr.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/SpecializedPluginPtr.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/config.hh
+[26.886s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/SpecializedPlugin.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/utility.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/PluginPtr.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/Export.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/Factory.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/Plugin.hh
+[26.887s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Plugin.hh
+[26.888s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Info.hh
+[26.888s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Factory.hh
+[26.888s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Plugin.hh
+[26.888s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/PluginPtr.hh
+[26.888s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/SpecializedPlugin.hh
+[26.889s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/utility.hh
+[26.889s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/EnablePluginFromThis.hh
+[26.889s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Factory.hh
+[26.889s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Info.hh
+[26.889s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Plugin.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/PluginPtr.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/SpecializedPlugin.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/SpecializedPluginPtr.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/WeakPluginPtr.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/utility.hh
+[26.890s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/../plugin.hh
+[26.891s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/config.hh
+[26.891s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/loader/detail/Export.hh
+[26.891s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/loader/Export.hh
+[26.892s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2-loader.so.2.0.1
+[26.895s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2-loader.so.2
+[26.896s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-plugin2-loader.so.2.0.1" to ""
+[26.896s] -- Installing: /home/julia/workspace/install/lib/libgz-plugin2-loader.so
+[26.896s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-loader/gz-plugin2-loader-config.cmake
+[26.896s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-loader/gz-plugin2-loader-config-version.cmake
+[26.897s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-loader/gz-plugin2-loader-targets.cmake
+[26.897s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-loader/gz-plugin2-loader-targets-relwithdebinfo.cmake
+[26.897s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-plugin2-loader.pc
+[26.897s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2
+[26.897s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition
+[26.897s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin
+[26.897s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/loader
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/loader/Export.hh
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/loader/detail
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/loader/detail/Export.hh
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Loader.hh
+[26.898s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/Loader.hh
+[26.898s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz
+[26.898s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz/plugin
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Loader.hh
+[26.898s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/StaticRegistry.hh
+[26.898s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Loader.hh
+[26.899s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Registry.hh
+[26.899s] -- Installing: /home/julia/workspace/install/share/gz/plugin2.yaml
+[26.899s] -- Installing: /home/julia/workspace/install/share/gz/gz2.completion.d/plugin2.bash_completion.sh
+[26.900s] -- Installing: /home/julia/workspace/install/libexec/gz/plugin2/gz-plugin
+[26.911s] -- Set runtime path of "/home/julia/workspace/install/libexec/gz/plugin2/gz-plugin" to ""
+[26.911s] -- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdplugin2.rb
+[26.911s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-register/gz-plugin2-register-config.cmake
+[26.911s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-register/gz-plugin2-register-config-version.cmake
+[26.912s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-plugin2-register/gz-plugin2-register-targets.cmake
+[26.912s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-plugin2-register.pc
+[26.912s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2
+[26.912s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition
+[26.912s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin
+[26.912s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/RegisterMore.hh
+[26.912s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/Register.hh
+[26.912s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/RegisterStatic.hh
+[26.913s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/Register.hh
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/ignition/plugin/detail/RegisterStatic.hh
+[26.913s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz
+[26.913s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz/plugin
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/RegisterMore.hh
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/Register.hh
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/RegisterStatic.hh
+[26.913s] -- Up-to-date: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Common.hh
+[26.913s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/Register.hh
+[26.914s] -- Installing: /home/julia/workspace/install/include/gz/plugin2/gz/plugin/detail/RegisterStatic.hh
+[26.923s] Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2

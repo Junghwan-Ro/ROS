@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <xsd:annotation>
+    <xsd:documentation xml:lang='en'>
+      <![CDATA[The material of the visual element.]]>
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/types.xsd'/>
+  <xsd:element name='material'>
+    <xsd:complexType>
+      <xsd:choice maxOccurs='unbounded'>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='script'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Name of material from an installed script file. This will override the color element if the script exists.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:choice maxOccurs='unbounded'>
+              <xsd:choice  minOccurs='1' maxOccurs='unbounded'>
+              <xsd:element name='uri' type='xsd:string'>
+                <xsd:annotation>
+                  <xsd:documentation xml:lang='en'>
+                    <![CDATA[URI of the material script file]]>
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              </xsd:choice>
+              <xsd:choice  minOccurs='1' maxOccurs='1'>
+              <xsd:element name='name' type='xsd:string'>
+                <xsd:annotation>
+                  <xsd:documentation xml:lang='en'>
+                    <![CDATA[Name of the script within the script file]]>
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              </xsd:choice>
+            </xsd:choice>
+          </xsd:complexType>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='shader'>
+          <xsd:complexType>
+            <xsd:choice maxOccurs='unbounded'>
+              <xsd:choice  minOccurs='0' maxOccurs='1'>
+              <xsd:element name='normal_map' type='xsd:string'>
+                <xsd:annotation>
+                  <xsd:documentation xml:lang='en'>
+                    <![CDATA[filename of the normal map]]>
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              </xsd:choice>
+            </xsd:choice>
+            <xsd:attribute name='type' type='xsd:string' use='required' >
+              <xsd:annotation>
+                <xsd:documentation xml:lang='en'>
+                  <![CDATA[vertex, pixel, normal_map_object_space, normal_map_tangent_space]]>
+                </xsd:documentation>
+              </xsd:annotation>
+            </xsd:attribute>
+          </xsd:complexType>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='render_order' type='xsd:float'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Set render order for coplanar polygons. The higher value will be rendered on top of the other coplanar polygons]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='lighting' type='xsd:boolean'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[If false, dynamic lighting will be disabled]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='ambient' type='color'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The ambient color of a material specified by set of four numbers representing red/green/blue, each in the range of [0,1].]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='diffuse' type='color'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The diffuse color of a material specified by set of four numbers representing red/green/blue/alpha, each in the range of [0,1].]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='specular' type='color'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The specular color of a material specified by set of four numbers representing red/green/blue/alpha, each in the range of [0,1].]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='shininess' type='xsd:double'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The specular exponent of a material]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='emissive' type='color'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The emissive color of a material specified by set of four numbers representing red/green/blue, each in the range of [0,1].]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='double_sided' type='xsd:boolean'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[If true, the mesh that this material is applied to will be rendered as double sided]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='pbr'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Physically Based Rendering (PBR) material. There are two PBR workflows: metal and specular. While both workflows and their parameters can be specified at the same time, typically only one of them will be used (depending on the underlying renderer capability). It is also recommended to use the same workflow for all materials in the world.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:choice maxOccurs='unbounded'>
+              <xsd:choice  minOccurs='0' maxOccurs='1'>
+              <xsd:element name='metal'>
+                <xsd:annotation>
+                  <xsd:documentation xml:lang='en'>
+                    <![CDATA[PBR using the Metallic/Roughness workflow.]]>
+                  </xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                  <xsd:choice maxOccurs='unbounded'>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='albedo_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the diffuse/albedo map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='roughness_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the roughness map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='roughness' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Material roughness in the range of [0,1], where 0 represents a smooth surface and 1 represents a rough surface. This is the inverse of a specular map in a PBR specular workflow.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='metalness_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the metalness map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='metalness' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Material metalness in the range of [0,1], where 0 represents non-metal and 1 represents raw metal]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='environment_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the environment / reflection map, typically in the form of a cubemap]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='ambient_occlusion_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the ambient occlusion map. The map defines the amount of ambient lighting on the surface.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='normal_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the normal map. The normals can be in the object space or tangent space as specified in the 'type' attribute]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='emissive_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the emissive map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='light_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the light map. The light map is a prebaked light texture that is applied over the albedo map]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                  </xsd:choice>
+                </xsd:complexType>
+              </xsd:element>
+              </xsd:choice>
+              <xsd:choice  minOccurs='0' maxOccurs='1'>
+              <xsd:element name='specular'>
+                <xsd:annotation>
+                  <xsd:documentation xml:lang='en'>
+                    <![CDATA[PBR using the Specular/Glossiness workflow.]]>
+                  </xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                  <xsd:choice maxOccurs='unbounded'>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='albedo_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the diffuse/albedo map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='specular_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the specular map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='glossiness_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the glossiness map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='glossiness' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Material glossiness in the range of [0-1], where 0 represents a rough surface and 1 represents a smooth surface. This is the inverse of a roughness map in a PBR metal workflow.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='environment_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the environment / reflection map, typically in the form of a cubemap]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='ambient_occlusion_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the ambient occlusion map. The map defines the amount of ambient lighting on the surface.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='normal_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the normal map. The normals can be in the object space or tangent space as specified in the 'type' attribute]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='emissive_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the emissive map.]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                    <xsd:choice  minOccurs='0' maxOccurs='1'>
+                    <xsd:element name='light_map' type='xsd:string'>
+                      <xsd:annotation>
+                        <xsd:documentation xml:lang='en'>
+                          <![CDATA[Filename of the light map. The light map is a prebaked light texture that is applied over the albedo map]]>
+                        </xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    </xsd:choice>
+                  </xsd:choice>
+                </xsd:complexType>
+              </xsd:element>
+              </xsd:choice>
+            </xsd:choice>
+          </xsd:complexType>
+        </xsd:element>
+        </xsd:choice>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

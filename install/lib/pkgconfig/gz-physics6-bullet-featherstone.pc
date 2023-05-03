@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/physics6
+
+Name: Gazebo physics bullet-featherstone
+Description: A set of physics bullet-featherstone classes for robot applications
+Version: 6.3.0
+Requires: bullet >= 2.87 gz-physics6 = 6.3.0
+Requires.private: 
+Libs: -L${libdir}  
+Libs.private: 
+CFLags: -I${includedir} 

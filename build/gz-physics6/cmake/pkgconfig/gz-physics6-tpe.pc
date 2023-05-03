@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/physics6
+
+Name: Gazebo physics tpe
+Description: A set of physics tpe classes for robot applications
+Version: 6.3.0
+Requires: gz-common5 sdformat13 gz-physics6 = 6.3.0
+Requires.private: 
+Libs: -L${libdir}  
+Libs.private: 
+CFLags: -I${includedir} 

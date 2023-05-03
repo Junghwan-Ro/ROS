@@ -1,0 +1,1195 @@
+[0.035s] Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-rendering -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.104s] -- The C compiler identification is GNU 9.4.0
+[0.172s] -- The CXX compiler identification is GNU 9.4.0
+[0.178s] -- Check for working C compiler: /usr/bin/cc
+[0.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.267s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.368s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.477s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.582s] -- gz-rendering8 version 8.0.0~pre1
+[0.582s] -- Operating system is Linux
+[0.592s] -- Found CPack generators: DEB
+[0.604s] -- Looking for gz-math7 -- found version 7.1.0
+[0.605s] -- Searching for dependencies of gz-math7
+[0.605s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.606s] -- Searching for dependencies of gz-utils2
+[0.608s] -- Searching for <gz-math7> component [eigen3]
+[0.608s] -- Looking for gz-math7-eigen3 -- found version 7.1.0
+[0.609s] -- Searching for dependencies of gz-math7-eigen3
+[0.614s] -- Looking for gz-math7 - found
+[0.614s] 
+[0.616s] -- Looking for gz-common5 -- found version 5.3.1
+[0.617s] -- Searching for dependencies of gz-common5
+[0.617s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.618s] -- Looking for dlfcn.h - found
+[0.623s] -- Looking for libdl - found
+[0.625s] -- Found DL: TRUE  
+[0.631s] -- Checking for module 'uuid'
+[0.656s] --   Found uuid, version 2.34.0
+[0.702s] -- Found UUID: TRUE  
+[0.703s] -- Searching for <gz-common5> component [graphics]
+[0.703s] -- Looking for gz-common5-graphics -- found version 5.3.1
+[0.704s] -- Searching for dependencies of gz-common5-graphics
+[0.704s] -- Looking for gz-math7 -- found version 7.1.0
+[0.706s] -- Found GzAssimp: TRUE (found version "5.0.0") 
+[0.707s] -- Searching for <gz-common5> component [events]
+[0.707s] -- Looking for gz-common5-events -- found version 5.3.1
+[0.708s] -- Searching for dependencies of gz-common5-events
+[0.708s] -- Looking for gz-math7 -- found version 7.1.0
+[0.709s] -- Searching for <gz-common5> component [geospatial]
+[0.709s] -- Looking for gz-common5-geospatial -- found version 5.3.1
+[0.709s] -- Searching for dependencies of gz-common5-geospatial
+[0.710s] -- Looking for gz-math7 -- found version 7.1.0
+[0.710s] -- Looking for gz-common5 -- found version 5.3.1
+[0.711s] -- Looking for gz-common5 - found
+[0.711s] 
+[0.714s] -- Looking for gz-plugin2 -- found version 2.0.1
+[0.715s] -- Searching for dependencies of gz-plugin2
+[0.715s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.716s] -- Searching for dependencies of gz-utils2
+[0.716s] -- Searching for <gz-utils2> component [cli]
+[0.716s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.717s] -- Searching for dependencies of gz-utils2-cli
+[0.718s] -- Searching for <gz-plugin2> component [all]
+[0.718s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+[0.719s] -- Looking for gz-plugin2 -- found version 2.0.1
+[0.719s] -- Looking for gz-plugin2-loader -- found version 2.0.1
+[0.720s] -- Searching for dependencies of gz-plugin2-loader
+[0.721s] -- Looking for gz-plugin2-register -- found version 2.0.1
+[0.721s] -- Searching for dependencies of gz-plugin2-register
+[0.722s] -- Looking for gz-plugin2 - found
+[0.722s] 
+[0.723s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.723s] -- Looking for gz-utils2 - found
+[0.723s] 
+[0.801s] -- Found FreeImage: TRUE (Required is at least version "3.9") 
+[0.801s] -- Looking for FreeImage - found
+[0.801s] 
+[0.817s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
+[0.818s] -- Looking for OpenGL - found
+[0.818s] 
+[0.913s] -- Checking for module 'OGRE-RTShaderSystem >= 1.9'
+[0.931s] --   Found OGRE-RTShaderSystem , version 1.9.0
+[0.973s] -- Checking for module 'OGRE-Terrain >= 1.9'
+[0.991s] --   Found OGRE-Terrain , version 1.9.0
+[1.053s] -- Checking for module 'OGRE-Overlay >= 1.9'
+[1.072s] --   Found OGRE-Overlay , version 1.9.0
+[1.135s] -- Checking for module 'OGRE-Paging >= 1.9'
+[1.156s] --   Found OGRE-Paging , version 1.9.0
+[1.216s] -- Looking for GzOGRE - found
+[1.216s] 
+[1.240s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.246s] -- Looking for OGRE using the name: OGRE2
+[1.353s] --   + component HlmsPbs: found
+[1.357s] --   + component HlmsUnlit: found
+[1.359s] --   + component Overlay: found
+[1.362s] --   + component PlanarReflections: found
+[1.364s] -- Looking for GzOGRE2 - found
+[1.364s] 
+[1.365s] -- Skipping vulkan support for component [ogre2]
+[1.367s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[1.372s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[1.379s] -- optix library not found.  Please locate before proceeding.
+[1.379s] -- OptiX headers (optix.h and friends) not found.  Please locate before proceeding.
+[1.379s] -- optix Prime library not found.  Please locate before proceeding.
+[1.380s] -- Could NOT find OptiX (missing: OptiX_FOUND) (Required is at least version "3.8.0")
+[1.381s] -- Looking for OptiX - not found
+[1.381s] 
+[1.382s] CMake Warning at /home/julia/workspace/install/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake:69 (message):
+[1.382s]    CONFIGURATION WARNINGS:
+[1.382s]    -- Skipping component [optix]: Missing dependency [OptiX].
+[1.382s]       ^~~~~ Set SKIP_optix=true in cmake to suppress this warning.
+[1.382s]    
+[1.382s] Call Stack (most recent call first):
+[1.382s]   CMakeLists.txt:204 (gz_configure_build)
+[1.382s] 
+[1.382s] 
+[2.479s] -- 
+[2.479s] -- Searching for host SSE information
+[2.515s] -- SSE2 found
+[2.515s] -- SSE3 found
+[2.515s] -- SSE4.1 found
+[2.515s] -- SSE4.2 found
+[2.542s] -- Configuring library: gz-rendering8
+[2.545s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.638s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.639s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.718s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.718s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.797s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.800s] -- Testing is disabled -- skipping UNIT tests
+[2.807s] -- Configuring library: gz-rendering8-ogre
+[2.812s] -- Testing is disabled -- skipping UNIT tests
+[2.830s] -- Configuring library: gz-rendering8-ogre2
+[2.842s] -- Testing is disabled -- skipping UNIT tests
+[2.937s] -- The program [cppcheck] was not found! Skipping codecheck setup
+[2.937s] -- Build configuration successful
+[2.940s] -- Build type: RelWithDebInfo
+[2.940s] -- Install prefix: /home/julia/workspace/install
+[2.945s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.979s] -- Configuring done
+[3.063s] -- Generating done
+[3.067s] -- Build files have been written to: /home/julia/workspace/build/gz-rendering8
+[3.081s] Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-rendering -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[3.082s] Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+[3.141s] [35m[1mScanning dependencies of target gz-rendering8[0m
+[3.208s] [  0%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ArrowVisual.cc.o[0m
+[3.879s] [  1%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/AxisVisual.cc.o[0m
+[4.696s] [  1%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/BoundingBox.cc.o[0m
+[5.582s] [  2%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/BoundingBoxCamera.cc.o[0m
+[6.713s] [  2%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/COMVisual.cc.o[0m
+[7.468s] [  3%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Camera.cc.o[0m
+[8.661s] [  4%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/CameraLens.cc.o[0m
+[10.271s] [  4%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Capsule.cc.o[0m
+[10.584s] [  5%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/CompositeVisual.cc.o[0m
+[11.355s] [  5%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/DepthCamera.cc.o[0m
+[12.387s] [  6%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/DistortionPass.cc.o[0m
+[12.949s] [  6%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/GaussianNoisePass.cc.o[0m
+[13.193s] [  7%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Geometry.cc.o[0m
+[13.428s] [  8%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/GizmoVisual.cc.o[0m
+[14.064s] [  8%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/GpuRays.cc.o[0m
+[14.954s] [  9%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/GraphicsAPI.cc.o[0m
+[15.820s] [  9%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Grid.cc.o[0m
+[16.061s] [ 10%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/HeightmapDescriptor.cc.o[0m
+[17.254s] [ 11%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Image.cc.o[0m
+[17.600s] [ 11%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/InertiaVisual.cc.o[0m
+[18.395s] [ 12%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/JointVisual.cc.o[0m
+[19.141s] [ 12%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/LensFlarePass.cc.o[0m
+[19.739s] [ 13%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/LidarVisual.cc.o[0m
+[20.492s] [ 13%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Light.cc.o[0m
+[21.118s] [ 14%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/LightVisual.cc.o[0m
+[21.717s] [ 15%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Marker.cc.o[0m
+[22.331s] [ 15%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Material.cc.o[0m
+[23.407s] [ 16%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Mesh.cc.o[0m
+[23.979s] [ 16%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/MeshDescriptor.cc.o[0m
+[24.929s] [ 17%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/MoveToHelper.cc.o[0m
+[26.429s] [ 18%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Node.cc.o[0m
+[27.098s] [ 18%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Object.cc.o[0m
+[27.377s] [ 19%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/OrbitViewController.cc.o[0m
+[28.971s] [ 19%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/OrthoViewController.cc.o[0m
+[30.279s] [ 20%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ParticleEmitter.cc.o[0m
+[31.004s] [ 20%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/PixelFormat.cc.o[0m
+[31.845s] [ 21%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RayQuery.cc.o[0m
+[32.930s] [ 22%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderEngine.cc.o[0m
+[33.262s] [ 22%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderEngineManager.cc.o[0m
+[35.895s] [ 23%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderEnginePlugin.cc.o[0m
+[36.201s] [ 23%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderPass.cc.o[0m
+[36.468s] [ 24%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderPassSystem.cc.o[0m
+[37.562s] [ 25%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderTarget.cc.o[0m
+[38.181s] [ 25%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/RenderingIface.cc.o[0m
+[39.545s] [ 26%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Scene.cc.o[0m
+[40.736s] [ 26%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/SegmentationCamera.cc.o[0m
+[41.806s] [ 27%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Sensor.cc.o[0m
+[42.401s] [ 27%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ShaderParam.cc.o[0m
+[42.841s] [ 28%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ShaderParams.cc.o[0m
+[43.360s] [ 29%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ShaderType.cc.o[0m
+[44.258s] [ 29%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Text.cc.o[0m
+[45.029s] [ 30%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ThermalCamera.cc.o[0m
+[46.153s] [ 30%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/TransformController.cc.o[0m
+[47.880s] [ 31%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Utils.cc.o[0m
+[49.149s] [ 31%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/ViewController.cc.o[0m
+[50.270s] [ 32%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/Visual.cc.o[0m
+[50.966s] [ 33%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/WideAngleCamera.cc.o[0m
+[52.138s] [ 33%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/WireBox.cc.o[0m
+[52.752s] [ 34%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/base/BaseObject.cc.o[0m
+[53.149s] [ 34%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/base/BaseRenderEngine.cc.o[0m
+[54.988s] [ 35%] [32mBuilding CXX object src/CMakeFiles/gz-rendering8.dir/base/BaseScene.cc.o[0m
+[60.105s] [ 36%] [32m[1mLinking CXX shared library ../lib/libgz-rendering8.so[0m
+[60.339s] [ 36%] Built target gz-rendering8
+[60.351s] [35m[1mScanning dependencies of target terra[0m
+[60.539s] [ 37%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/Hlms/OgreHlmsJsonTerra.cpp.o[0m
+[60.560s] [ 37%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/Hlms/OgreHlmsTerra.cpp.o[0m
+[63.771s] [ 38%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/Hlms/OgreHlmsTerraDatablock.cpp.o[0m
+[66.198s] [ 39%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/Hlms/PbsListener/OgreHlmsPbsTerraShadows.cpp.o[0m
+[68.822s] [ 39%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/Terra.cpp.o[0m
+[72.953s] [ 40%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/TerraShadowMapper.cpp.o[0m
+[76.169s] [ 40%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/TerraWorkspaceListener.cpp.o[0m
+[79.354s] [ 41%] [32mBuilding CXX object ogre2/src/terrain/Terra/CMakeFiles/terra.dir/src/TerrainCell.cpp.o[0m
+[80.948s] [ 42%] [32m[1mLinking CXX static library ../../../../lib/libterra.a[0m
+[81.058s] [ 42%] Built target terra
+[81.071s] [35m[1mScanning dependencies of target gz-rendering8-ogre[0m
+[81.541s] [ 42%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreArrowVisual.cc.o[0m
+[85.512s] [ 43%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreAxisVisual.cc.o[0m
+[88.947s] [ 43%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreCOMVisual.cc.o[0m
+[100.889s] [ 44%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreCamera.cc.o[0m
+[112.278s] [ 44%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreCapsule.cc.o[0m
+[121.828s] [ 45%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreConversions.cc.o[0m
+[129.280s] [ 46%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreDepthCamera.cc.o[0m
+[141.391s] [ 46%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreDistortionPass.cc.o[0m
+[148.985s] [ 47%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreDynamicLines.cc.o[0m
+[157.051s] [ 47%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreDynamicRenderable.cc.o[0m
+[165.377s] [ 48%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreGaussianNoisePass.cc.o[0m
+[172.993s] [ 49%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreGeometry.cc.o[0m
+[174.215s] [ 49%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreGizmoVisual.cc.o[0m
+[179.488s] [ 50%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreGpuRays.cc.o[0m
+[191.608s] [ 50%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreGrid.cc.o[0m
+[200.153s] [ 51%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreHeightmap.cc.o[0m
+[211.973s] [ 51%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreInertiaVisual.cc.o[0m
+[223.422s] [ 52%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreJointVisual.cc.o[0m
+[227.504s] [ 53%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreLensFlarePass.cc.o[0m
+[237.167s] [ 53%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreLidarVisual.cc.o[0m
+[249.023s] [ 54%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreLight.cc.o[0m
+[257.216s] [ 54%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreLightVisual.cc.o[0m
+[266.873s] [ 55%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreMarker.cc.o[0m
+[274.606s] [ 56%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreMaterial.cc.o[0m
+[283.075s] [ 56%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreMaterialSwitcher.cc.o[0m
+[289.905s] [ 57%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreMesh.cc.o[0m
+[301.936s] [ 57%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreMeshFactory.cc.o[0m
+[313.923s] [ 58%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreNode.cc.o[0m
+[326.913s] [ 58%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreObject.cc.o[0m
+[327.986s] [ 59%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreObjectInterface.cc.o[0m
+[333.758s] [ 60%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreParticleEmitter.cc.o[0m
+[337.116s] [ 60%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRTShaderSystem.cc.o[0m
+[346.983s] [ 61%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRayQuery.cc.o[0m
+[355.927s] [ 61%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRenderEngine.cc.o[0m
+[355.929s] [ 62%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRenderPass.cc.o[0m
+[379.630s] [ 62%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRenderTarget.cc.o[0m
+[389.478s] [ 63%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreRenderTargetMaterial.cc.o[0m
+[398.120s] [ 64%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreScene.cc.o[0m
+[415.402s] [ 64%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreSelectionBuffer.cc.o[0m
+[421.422s] [ 65%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreSensor.cc.o[0m
+[424.389s] [ 65%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreText.cc.o[0m
+[425.760s] [ 66%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreThermalCamera.cc.o[0m
+[436.347s] [ 67%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreVisual.cc.o[0m
+[440.835s] [ 67%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreWideAngleCamera.cc.o[0m
+[452.345s] [ 68%] [32mBuilding CXX object ogre/src/CMakeFiles/gz-rendering8-ogre.dir/OgreWireBox.cc.o[0m
+[460.393s] [ 68%] [32m[1mLinking CXX shared library ../../lib/libgz-rendering8-ogre.so[0m
+[461.893s] [ 68%] Built target gz-rendering8-ogre
+[461.907s] [35m[1mScanning dependencies of target gz-rendering8-ogre2[0m
+[462.452s] [ 69%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2ArrowVisual.cc.o[0m
+[462.458s] [ 69%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2AxisVisual.cc.o[0m
+[463.494s] [ 70%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2BoundingBoxCamera.cc.o[0m
+[467.468s] [ 71%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2BoundingBoxMaterialSwitcher.cc.o[0m
+[467.657s] [ 71%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2COMVisual.cc.o[0m
+[481.484s] [ 71%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Capsule.cc.o[0m
+[482.055s] [ 72%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Camera.cc.o[0m
+[483.096s] [ 73%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Conversions.cc.o[0m
+[484.059s] [ 74%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2DepthCamera.cc.o[0m
+[484.982s] [ 74%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2DynamicRenderable.cc.o[0m
+[496.272s] [ 74%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Geometry.cc.o[0m
+[497.310s] [ 75%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GaussianNoisePass.cc.o[0m
+[497.724s] [ 76%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GizmoVisual.cc.o[0m
+[497.850s] [ 76%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GlobalIlluminationCiVct.cc.o[0m
+[506.344s] [ 77%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GpuRays.cc.o[0m
+[507.354s] [ 77%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Grid.cc.o[0m
+[508.386s] [ 78%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GlobalIlluminationVct.cc.o[0m
+[510.750s] [ 79%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GzHlmsPbsPrivate.cc.o[0m
+[516.340s] [ 80%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GzHlmsSphericalClipMinDistance.cc.o[0m
+[517.366s] [ 80%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GzHlmsSharedPrivate.cc.o[0m
+[519.451s] [ 81%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GzHlmsTerraPrivate.cc.o[0m
+[520.142s] [ 81%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2GzHlmsUnlitPrivate.cc.o[0m
+[523.683s] [ 81%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2InertiaVisual.cc.o[0m
+[526.698s] [ 82%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2JointVisual.cc.o[0m
+[529.362s] [ 82%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2LensFlarePass.cc.o[0m
+[530.398s] [ 83%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Heightmap.cc.o[0m
+[530.713s] [ 84%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2LidarVisual.cc.o[0m
+[539.985s] [ 84%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2LightVisual.cc.o[0m
+[544.428s] [ 85%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Marker.cc.o[0m
+[546.441s] [ 85%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Material.cc.o[0m
+[547.478s] [ 86%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Light.cc.o[0m
+[549.977s] [ 87%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2MaterialSwitcher.cc.o[0m
+[556.133s] [ 88%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2MeshFactory.cc.o[0m
+[558.170s] [ 89%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2NativeWindow.cc.o[0m
+[560.212s] [ 89%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Mesh.cc.o[0m
+[579.697s] [ 90%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Object.cc.o[0m
+[582.201s] [ 90%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2ObjectInterface.cc.o[0m
+[589.475s] [ 91%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2ParticleEmitter.cc.o[0m
+[598.046s] [ 92%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2ParticleNoiseListener.cc.o[0m
+[603.563s] [ 92%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2RayQuery.cc.o[0m
+[609.682s] [ 93%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2RenderEngine.cc.o[0m
+[628.288s] [ 93%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2RenderPass.cc.o[0m
+[628.719s] [ 94%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2RenderTarget.cc.o[0m
+[635.624s] [ 94%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2RenderTargetMaterial.cc.o[0m
+[636.636s] [ 95%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Scene.cc.o[0m
+[637.676s] [ 95%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Node.cc.o[0m
+[637.757s] [ 96%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2SegmentationCamera.cc.o[0m
+[654.980s] [ 97%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2SelectionBuffer.cc.o[0m
+[661.133s] [ 97%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Sensor.cc.o[0m
+[664.156s] [ 98%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2ThermalCamera.cc.o[0m
+[666.175s] [ 99%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2Visual.cc.o[0m
+[668.222s] [ 99%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2SegmentationMaterialSwitcher.cc.o[0m
+[679.621s] [100%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2WireBox.cc.o[0m
+[682.008s] [100%] [32mBuilding CXX object ogre2/src/CMakeFiles/gz-rendering8-ogre2.dir/Ogre2WideAngleCamera.cc.o[0m
+[688.820s] [100%] [32m[1mLinking CXX shared library ../../lib/libgz-rendering8-ogre2.so[0m
+[690.288s] [100%] Built target gz-rendering8-ogre2
+[690.311s] Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+[690.347s] Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8
+[690.356s] -- Install configuration: "RelWithDebInfo"
+[690.356s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-all/gz-rendering8-all-config.cmake
+[690.357s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-all/gz-rendering8-all-config-version.cmake
+[690.358s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-all/gz-rendering8-all-targets.cmake
+[690.363s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/detail/Export.hh
+[690.363s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Export.hh
+[690.363s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8.so.8.0.0~pre1
+[690.395s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8.so.8
+[690.396s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-rendering8.so.8.0.0~pre1" to ""
+[690.396s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8.so
+[690.396s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8/gz-rendering8-config.cmake
+[690.397s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8/gz-rendering8-config-version.cmake
+[690.398s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8/gz-rendering8-targets.cmake
+[690.398s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8/gz-rendering8-targets-relwithdebinfo.cmake
+[690.399s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-rendering8.pc
+[690.407s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/media/materials/textures/com.png
+[690.408s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition
+[690.409s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering
+[690.409s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/PixelFormat.hh
+[690.410s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Visual.hh
+[690.410s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ViewController.hh
+[690.410s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/SegmentationCamera.hh
+[690.411s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderPassSystem.hh
+[690.411s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/AxisVisual.hh
+[690.412s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/CameraLens.hh
+[690.412s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/GizmoVisual.hh
+[690.412s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/CompositeVisual.hh
+[690.413s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ThermalCamera.hh
+[690.413s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ShaderParam.hh
+[690.414s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Utils.hh
+[690.414s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Camera.hh
+[690.414s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderEnginePlugin.hh
+[690.415s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Storage.hh
+[690.415s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base
+[690.415s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseArrowVisual.hh
+[690.416s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseGpuRays.hh
+[690.416s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseMesh.hh
+[690.417s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseWireBox.hh
+[690.417s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseText.hh
+[690.417s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseLight.hh
+[690.418s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseBoundingBoxCamera.hh
+[690.418s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseSensor.hh
+[690.419s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseNode.hh
+[690.419s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseVisual.hh
+[690.419s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseRenderEngine.hh
+[690.420s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseGrid.hh
+[690.420s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseRenderPass.hh
+[690.421s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseRayQuery.hh
+[690.421s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseRenderTypes.hh
+[690.421s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseDistortionPass.hh
+[690.422s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseInertiaVisual.hh
+[690.422s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseJointVisual.hh
+[690.423s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseParticleEmitter.hh
+[690.423s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseGaussianNoisePass.hh
+[690.423s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseDepthCamera.hh
+[690.424s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseThermalCamera.hh
+[690.424s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseMaterial.hh
+[690.425s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseObject.hh
+[690.425s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseGeometry.hh
+[690.425s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseLightVisual.hh
+[690.426s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseCapsule.hh
+[690.426s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseMarker.hh
+[690.427s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseLidarVisual.hh
+[690.427s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseSegmentationCamera.hh
+[690.427s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseCamera.hh
+[690.428s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseGizmoVisual.hh
+[690.428s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseScene.hh
+[690.429s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseCOMVisual.hh
+[690.429s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseAxisVisual.hh
+[690.429s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseRenderTarget.hh
+[690.430s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseWideAngleCamera.hh
+[690.430s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseStorage.hh
+[690.431s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/base/BaseHeightmap.hh
+[690.431s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/LightVisual.hh
+[690.431s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Object.hh
+[690.432s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Text.hh
+[690.432s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RayQuery.hh
+[690.433s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/JointVisual.hh
+[690.433s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/TransformController.hh
+[690.433s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/GaussianNoisePass.hh
+[690.434s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/InertiaVisual.hh
+[690.434s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/LidarVisual.hh
+[690.435s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/TransformType.hh
+[690.435s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ShaderType.hh
+[690.436s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderEngine.hh
+[690.436s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Sensor.hh
+[690.436s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/GpuRays.hh
+[690.437s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Export.hh
+[690.437s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/WireBox.hh
+[690.437s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/DistortionPass.hh
+[690.438s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/BoundingBoxCamera.hh
+[690.438s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Grid.hh
+[690.439s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/BoundingBox.hh
+[690.439s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderTypes.hh
+[690.440s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderTarget.hh
+[690.440s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Material.hh
+[690.440s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Capsule.hh
+[690.441s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Image.hh
+[690.441s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/OrthoViewController.hh
+[690.442s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/GraphicsAPI.hh
+[690.442s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/HeightmapDescriptor.hh
+[690.442s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Geometry.hh
+[690.443s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Scene.hh
+[690.443s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ArrowVisual.hh
+[690.444s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/config.hh
+[690.444s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/MoveToHelper.hh
+[690.445s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Light.hh
+[690.445s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/COMVisual.hh
+[690.445s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ParticleEmitter.hh
+[690.446s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Mesh.hh
+[690.446s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Node.hh
+[690.447s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/DepthCamera.hh
+[690.447s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Heightmap.hh
+[690.447s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/OrbitViewController.hh
+[690.448s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderingIface.hh
+[690.449s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/Marker.hh
+[690.449s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/MeshDescriptor.hh
+[690.450s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderEngineManager.hh
+[690.450s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/WideAngleCamera.hh
+[690.450s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ShaderParams.hh
+[690.451s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/RenderPass.hh
+[690.451s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering.hh
+[690.453s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseArrowVisual.hh
+[690.453s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseAxisVisual.hh
+[690.453s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseBoundingBoxCamera.hh
+[690.453s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseCOMVisual.hh
+[690.454s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseCamera.hh
+[690.454s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseCapsule.hh
+[690.454s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseDepthCamera.hh
+[690.454s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseDistortionPass.hh
+[690.454s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGaussianNoisePass.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGeometry.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGizmoVisual.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGlobalIlluminationVct.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGpuRays.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseGrid.hh
+[690.455s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseHeightmap.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseInertiaVisual.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseJointVisual.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseLensFlarePass.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseLidarVisual.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseLight.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseLightVisual.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseMarker.hh
+[690.456s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseMaterial.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseMesh.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseNativeWindow.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseNode.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseObject.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseParticleEmitter.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseRayQuery.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseRenderEngine.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseRenderPass.hh
+[690.457s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseRenderTarget.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseRenderTypes.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseScene.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseSegmentationCamera.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseSensor.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseStorage.hh
+[690.458s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseText.hh
+[690.459s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseThermalCamera.hh
+[690.459s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseVisual.hh
+[690.459s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseWideAngleCamera.hh
+[690.459s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/base/BaseWireBox.hh
+[690.460s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ArrowVisual.hh
+[690.460s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/AxisVisual.hh
+[690.460s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/BoundingBox.hh
+[690.460s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/BoundingBoxCamera.hh
+[690.460s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/COMVisual.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Camera.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/CameraLens.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Capsule.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/CompositeVisual.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/DepthCamera.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/DistortionPass.hh
+[690.461s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GaussianNoisePass.hh
+[690.462s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Geometry.hh
+[690.462s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GizmoVisual.hh
+[690.462s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GlobalIlluminationBase.hh
+[690.462s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GlobalIlluminationCiVct.hh
+[690.462s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GlobalIlluminationVct.hh
+[690.463s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GpuRays.hh
+[690.463s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/GraphicsAPI.hh
+[690.463s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Grid.hh
+[690.463s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Heightmap.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/HeightmapDescriptor.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Image.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/InertiaVisual.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/JointVisual.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/LensFlarePass.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/LidarVisual.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Light.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/LightVisual.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Marker.hh
+[690.464s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Material.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Mesh.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/MeshDescriptor.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/MoveToHelper.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/NativeWindow.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Node.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Object.hh
+[690.465s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/OrbitViewController.hh
+[690.466s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/OrthoViewController.hh
+[690.466s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ParticleEmitter.hh
+[690.466s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/PixelFormat.hh
+[690.466s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RayQuery.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderEngine.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderEngineManager.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderEnginePlugin.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderEngineVulkanExternalDeviceStructs.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderPass.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderPassSystem.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderTarget.hh
+[690.467s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderTypes.hh
+[690.468s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/RenderingIface.hh
+[690.468s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Scene.hh
+[690.468s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/SegmentationCamera.hh
+[690.468s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Sensor.hh
+[690.469s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ShaderParam.hh
+[690.469s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ShaderParams.hh
+[690.469s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ShaderType.hh
+[690.469s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Storage.hh
+[690.469s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Text.hh
+[690.470s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ThermalCamera.hh
+[690.470s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/TransformController.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/TransformType.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Utils.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ViewController.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/Visual.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/WideAngleCamera.hh
+[690.471s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/WireBox.hh
+[690.472s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/../rendering.hh
+[690.472s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/config.hh
+[690.473s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/detail/Export.hh
+[690.474s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/Export.hh
+[690.474s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre.so.8.0.0~pre1
+[690.651s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre.so.8
+[690.651s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-rendering8-ogre.so.8.0.0~pre1" to ""
+[690.652s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre.so
+[690.652s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre/gz-rendering8-ogre-config.cmake
+[690.652s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre/gz-rendering8-ogre-config-version.cmake
+[690.653s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre/gz-rendering8-ogre-targets.cmake
+[690.654s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre/gz-rendering8-ogre-targets-relwithdebinfo.cmake
+[690.654s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-rendering8-ogre.pc
+[690.655s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre.so.8.0.0~pre1
+[690.722s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre.so.8
+[690.723s] -- Set runtime path of "/home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre.so.8.0.0~pre1" to ""
+[690.723s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre.so
+[690.723s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering-ogre.so
+[690.725s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/console.ttf
+[690.730s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/font_matisse_itc.png
+[690.731s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/gz-rendering.fontdef
+[690.731s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans
+[690.732s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans/LiberationSans-Bold.ttf
+[690.734s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans/LiberationSans-Regular.ttf
+[690.736s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans/SIL Open Font License.txt
+[690.736s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans/LiberationSans-Italic.ttf
+[690.738s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/fonts/liberation-sans/LiberationSans-BoldItalic.ttf
+[690.741s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/camera_distortion_map_fs.glsl
+[690.741s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/camera_distortion_map_vs.glsl
+[690.742s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/depth_fragment_shader.glsl
+[690.742s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/depth_points_fs.glsl
+[690.743s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/depth_points_vs.glsl
+[690.743s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/depth_vertex_shader.glsl
+[690.743s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/fragment_shader.glsl
+[690.744s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gaussian_noise_fs.glsl
+[690.744s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gaussian_noise_vs.glsl
+[690.744s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gpu_rays_1st_pass_fs.glsl
+[690.745s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gpu_rays_1st_pass_vs.glsl
+[690.745s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gpu_rays_2nd_pass_fs.glsl
+[690.746s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/gpu_rays_2nd_pass_vs.glsl
+[690.746s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/heat_source_fs.glsl
+[690.746s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/lens_flare_fs.glsl
+[690.747s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/lens_flare_vs.glsl
+[690.747s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/plain_color_fs.glsl
+[690.748s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/plain_color_vs.glsl
+[690.748s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/point_fs.glsl
+[690.748s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/point_vs.glsl
+[690.749s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/shadow_caster_fp.glsl
+[690.749s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/shadow_caster_vp.glsl
+[690.750s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/thermal_camera_fs.glsl
+[690.750s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/vertex_shader.glsl
+[690.751s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/wide_lens_map_fp.glsl
+[690.751s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/programs/wide_lens_map_vs.glsl
+[690.752s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/distortion.compositor
+[690.753s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/distortion.material
+[690.753s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/gaussian_noise.compositor
+[690.753s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/gaussian_noise.material
+[690.754s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/gpu_rays.material
+[690.754s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/lens_flare.compositor
+[690.755s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/lens_flare.material
+[690.755s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/picker.material
+[690.755s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/point_cloud_point.material
+[690.756s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/pssm.material
+[690.756s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/thermal.material
+[690.756s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/thermal_camera.compositor
+[690.757s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/wide_angle_camera.material
+[690.757s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/materials/scripts/wide_camera_lens_map.compositor
+[690.758s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/FFPLib_Common.glsl
+[690.759s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/FFPLib_Fog.glsl
+[690.759s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/FFPLib_Lighting.glsl
+[690.759s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/FFPLib_Texturing.glsl
+[690.760s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/FFPLib_Transform.glsl
+[690.760s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/SampleLib_ReflectionMap.glsl
+[690.761s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/SGXLib_IntegratedPSSM.glsl
+[690.761s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/SGXLib_NormalMapLighting.glsl
+[690.761s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre/media/rtshaderlib150/SGXLib_PerPixelLighting.glsl
+[690.762s] -- Up-to-date: /home/julia/workspace/install/include/gz/rendering8/ignition
+[690.763s] -- Up-to-date: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering
+[690.763s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre
+[690.763s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreMesh.hh
+[690.763s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreMaterial.hh
+[690.764s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreAxisVisual.hh
+[690.764s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreCapsule.hh
+[690.765s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreInertiaVisual.hh
+[690.765s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreObjectInterface.hh
+[690.766s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreMarker.hh
+[690.766s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreMeshFactory.hh
+[690.766s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreStorage.hh
+[690.767s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreDistortionPass.hh
+[690.767s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreLight.hh
+[690.768s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreNode.hh
+[690.768s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRenderTargetMaterial.hh
+[690.768s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRenderTarget.hh
+[690.769s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreSelectionBuffer.hh
+[690.769s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreVisual.hh
+[690.770s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreCamera.hh
+[690.770s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreSensor.hh
+[690.771s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreGeometry.hh
+[690.771s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreGrid.hh
+[690.771s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreObject.hh
+[690.772s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/Export.hh
+[690.772s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreGaussianNoisePass.hh
+[690.773s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreThermalCamera.hh
+[690.773s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRayQuery.hh
+[690.773s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreHeightmap.hh
+[690.774s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreMaterialSwitcher.hh
+[690.774s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRenderEngine.hh
+[690.775s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreLightVisual.hh
+[690.775s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreParticleEmitter.hh
+[690.775s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreLidarVisual.hh
+[690.776s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreGizmoVisual.hh
+[690.776s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreCOMVisual.hh
+[690.777s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreDynamicLines.hh
+[690.777s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreWideAngleCamera.hh
+[690.777s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRTShaderSystem.hh
+[690.778s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreText.hh
+[690.778s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreIncludes.hh
+[690.779s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRenderPass.hh
+[690.780s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreWireBox.hh
+[690.780s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreDynamicRenderable.hh
+[690.780s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreConversions.hh
+[690.780s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreArrowVisual.hh
+[690.781s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreScene.hh
+[690.782s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreDepthCamera.hh
+[690.782s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreJointVisual.hh
+[690.782s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreGpuRays.hh
+[690.783s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre/OgreRenderTypes.hh
+[690.783s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre.hh
+[690.785s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreArrowVisual.hh
+[690.785s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreAxisVisual.hh
+[690.786s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreCOMVisual.hh
+[690.786s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreCamera.hh
+[690.787s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreCapsule.hh
+[690.787s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreConversions.hh
+[690.788s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreDepthCamera.hh
+[690.788s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreDistortionPass.hh
+[690.788s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreDynamicLines.hh
+[690.788s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreDynamicRenderable.hh
+[690.789s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreGaussianNoisePass.hh
+[690.789s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreGeometry.hh
+[690.789s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreGizmoVisual.hh
+[690.790s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreGpuRays.hh
+[690.790s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreGrid.hh
+[690.790s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreHeightmap.hh
+[690.790s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreIncludes.hh
+[690.791s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreInertiaVisual.hh
+[690.791s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreJointVisual.hh
+[690.791s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreLensFlarePass.hh
+[690.791s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreLidarVisual.hh
+[690.791s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreLight.hh
+[690.792s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreLightVisual.hh
+[690.792s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreMarker.hh
+[690.792s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreMaterial.hh
+[690.792s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreMaterialSwitcher.hh
+[690.793s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreMesh.hh
+[690.793s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreMeshFactory.hh
+[690.793s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreNode.hh
+[690.793s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreObject.hh
+[690.794s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreObjectInterface.hh
+[690.794s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreParticleEmitter.hh
+[690.794s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRTShaderSystem.hh
+[690.795s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRayQuery.hh
+[690.795s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRenderEngine.hh
+[690.795s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRenderPass.hh
+[690.795s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRenderTarget.hh
+[690.796s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRenderTargetMaterial.hh
+[690.796s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreRenderTypes.hh
+[690.796s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreScene.hh
+[690.797s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreSelectionBuffer.hh
+[690.797s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreSensor.hh
+[690.797s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreStorage.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreText.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreThermalCamera.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreVisual.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreWideAngleCamera.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/OgreWireBox.hh
+[690.798s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre/../ogre.hh
+[690.799s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/detail/Export.hh
+[690.799s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Export.hh
+[690.800s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre2.so.8.0.0~pre1
+[690.906s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre2.so.8
+[690.907s] -- Set runtime path of "/home/julia/workspace/install/lib/libgz-rendering8-ogre2.so.8.0.0~pre1" to "/usr/lib/x86_64-linux-gnu/OGRE-2.3"
+[690.907s] -- Installing: /home/julia/workspace/install/lib/libgz-rendering8-ogre2.so
+[690.907s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre2/gz-rendering8-ogre2-config.cmake
+[690.907s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre2/gz-rendering8-ogre2-config-version.cmake
+[690.908s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre2/gz-rendering8-ogre2-targets.cmake
+[690.909s] -- Installing: /home/julia/workspace/install/lib/cmake/gz-rendering8-ogre2/gz-rendering8-ogre2-targets-relwithdebinfo.cmake
+[690.910s] -- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-rendering8-ogre2.pc
+[690.911s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre2.so.8.0.0~pre1
+[691.034s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre2.so.8
+[691.035s] -- Set runtime path of "/home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre2.so.8.0.0~pre1" to "/usr/lib/x86_64-linux-gnu/OGRE-2.3"
+[691.035s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering8-ogre2.so
+[691.035s] -- Installing: /home/julia/workspace/install/lib/gz-rendering-8/engine-plugins/libgz-rendering-ogre2.so
+[691.038s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media
+[691.042s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms
+[691.047s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra
+[691.048s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/GLSL
+[691.048s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/GLSL/PbsTerraShadows
+[691.048s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/GLSL/PbsTerraShadows/PbsTerraShadows_piece_vs_piece_ps.glsl
+[691.052s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/GLSL/VertexShader_vs.glsl
+[691.057s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/GLSL/PixelShader_ps.glsl
+[691.065s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Any
+[691.067s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Any/800.PixelShader_piece_ps.any
+[691.067s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Any/500.Structs_piece_vs_piece_ps.any
+[691.074s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Any/800.VertexShader_piece_vs.any
+[691.078s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Any/200.Textures_piece_ps.any
+[691.083s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/HLSL
+[691.083s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/HLSL/PbsTerraShadows
+[691.084s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/HLSL/PbsTerraShadows/PbsTerraShadows_piece_vs_piece_ps.hlsl
+[691.084s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/HLSL/VertexShader_vs.hlsl
+[691.091s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/HLSL/PixelShader_ps.hlsl
+[691.096s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Metal
+[691.099s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Metal/PixelShader_ps.metal
+[691.104s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Metal/PbsTerraShadows
+[691.104s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Metal/PbsTerraShadows/PbsTerraShadows_piece_vs_piece_ps.metal
+[691.105s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/Metal/VertexShader_vs.metal
+[691.105s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/gz
+[691.105s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/gz/500.gz_Structs_piece_all.any
+[691.106s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/gz/100.gz_CustomVs_piece_vs.any
+[691.106s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Terra/gz/100.gz_CustomWeights_piece_ps.any
+[691.107s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common
+[691.107s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSLES
+[691.107s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSLES/RenderDepthOnly_piece_ps.glsl
+[691.108s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSLES/CrossPlatformSettings_piece_all.glsl
+[691.108s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSLES/QuaternionCode_piece_all.glsl
+[691.108s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSLES/Matrix_piece_all.glsl
+[691.109s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL
+[691.109s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL/RenderDepthOnly_piece_ps.glsl
+[691.110s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL/CrossPlatformSettings_piece_all.glsl
+[691.110s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL/QuaternionCode_piece_all.glsl
+[691.110s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL/UavCrossPlatform_piece_all.glsl
+[691.111s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL/Matrix_piece_all.glsl
+[691.111s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any
+[691.111s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/ShadowCaster_piece_ps.any
+[691.112s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/ShadowCaster_piece_vs.any
+[691.112s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/UnpackHelpers_piece_all.any
+[691.113s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/ReverseDepthHelpers_piece_ps.any
+[691.113s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/DualParaboloid_piece_ps.any
+[691.113s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any/Cubemap_piece_all.any
+[691.114s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL
+[691.114s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL/QuaternionCode_piece_all.hlsl
+[691.115s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL/RenderDepthOnly_piece_ps.hlsl
+[691.115s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL/UavCrossPlatform_piece_all.hlsl
+[691.115s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL/Matrix_piece_all.hlsl
+[691.116s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/HLSL/CrossPlatformSettings_piece_all.hlsl
+[691.116s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal
+[691.116s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal/RenderDepthOnly_piece_ps.metal
+[691.117s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal/Matrix_piece_all.metal
+[691.117s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal/QuaternionCode_piece_all.metal
+[691.118s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal/CrossPlatformSettings_piece_all.metal
+[691.118s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Metal/UavCrossPlatform_piece_all.metal
+[691.118s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz
+[691.119s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SolidColor
+[691.119s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SolidColor/800.GzSolidColor_piece_ps.any
+[691.119s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SolidColor/800.GzSolidColor_piece_vs.any
+[691.120s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SolidColor/500.GzSolidColorStructs_piece_all.any
+[691.120s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SphericalClipMinDistance
+[691.120s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SphericalClipMinDistance/SphericalClipMinDistanceStructs_piece_all.any
+[691.121s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/SphericalClipMinDistance/GzSphericalClipMinDistance_piece_vs.any
+[691.121s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/Pbs
+[691.121s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/Pbs/800.GzPbsCode_piece_vs.any
+[691.122s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/Pbs/500.GzPbsStructs_piece_all.any
+[691.122s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Gz/Pbs/800.GzPbsCode_piece_ps.any
+[691.122s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit
+[691.123s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSLES
+[691.123s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSLES/Structs_piece_vs_piece_ps.glsl
+[691.123s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSLES/BlendModes_piece_ps.glsl
+[691.124s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSLES/VertexShader_vs.glsl
+[691.124s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSLES/PixelShader_ps.glsl
+[691.124s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSL
+[691.124s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSL/VertexShader_vs.glsl
+[691.125s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/GLSL/PixelShader_ps.glsl
+[691.125s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Any
+[691.125s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Any/800.PixelShader_piece_ps.any
+[691.126s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Any/800.VertexShader_piece_vs.any
+[691.126s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Any/700.BlendModes_piece_ps.any
+[691.127s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Any/500.StructsUnlit_piece_all.any
+[691.127s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/HLSL
+[691.127s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/HLSL/VertexShader_vs.hlsl
+[691.127s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/HLSL/PixelShader_ps.hlsl
+[691.128s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Metal
+[691.128s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Metal/PixelShader_ps.metal
+[691.128s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Unlit/Metal/VertexShader_vs.metal
+[691.129s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs
+[691.129s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES
+[691.129s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/Structs_piece_vs_piece_ps.glsl
+[691.130s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/Forward3D_piece_ps.glsl
+[691.131s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/DetailMaps_piece_ps.glsl
+[691.131s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/IrradianceVolume_piece_ps.glsl
+[691.131s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/BlendModes_piece_ps.glsl
+[691.132s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/BRDFs_piece_ps.glsl
+[691.132s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/VertexShader_vs.glsl
+[691.132s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/PixelShader_ps.glsl
+[691.133s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSLES/Textures_piece_ps.glsl
+[691.134s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSL
+[691.134s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSL/Forward3D_piece_ps.glsl
+[691.134s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSL/VertexShader_vs.glsl
+[691.135s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/GLSL/PixelShader_ps.glsl
+[691.135s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any
+[691.135s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Refractions_piece_ps.any
+[691.136s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/ShadowMapping_piece_ps.any
+[691.136s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/IrradianceField_piece_all.any
+[691.137s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/AreaLights_piece_ps.any
+[691.137s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/IrradianceField_piece_ps.any
+[691.138s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Vct_piece_all.any
+[691.138s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/UvModifierMacros_piece_ps.any
+[691.138s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/IrradianceVolume_piece_ps.any
+[691.139s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/AmbientLighting_piece_ps.any
+[691.139s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/ClearCoat_piece_ps.any
+[691.139s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/LightProfiles_piece_ps.any
+[691.140s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/AreaLights_LTC_piece_ps.any
+[691.140s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/PlanarReflections_piece_ps.any
+[691.141s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/PlanarReflections_piece_all.any
+[691.141s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main
+[691.141s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/800.PixelShader_piece_ps.any
+[691.142s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/200.BlendModes_piece_ps.any
+[691.142s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/200.DetailMaps_piece_ps.any
+[691.143s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/200.ForwardPlus_piece_ps.any
+[691.143s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/200.BRDFs_piece_ps.any
+[691.144s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/500.Structs_piece_vs_piece_ps.any
+[691.144s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/800.VertexShader_piece_vs.any
+[691.145s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Main/200.Textures_piece_ps.any
+[691.145s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/ShadowMapping_piece_all.any
+[691.145s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/200.TextureRegisters_piece_vs.any
+[691.146s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/ShadowMapping_piece_vs.any
+[691.146s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/Vct_piece_ps.any
+[691.147s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any/ForwardPlus_DecalsCubemaps_piece_ps.any
+[691.147s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/HLSL
+[691.148s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/HLSL/Forward3D_piece_ps.hlsl
+[691.148s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/HLSL/Textures_piece_ps.hlsl
+[691.148s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/HLSL/VertexShader_vs.hlsl
+[691.149s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/HLSL/PixelShader_ps.hlsl
+[691.149s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Metal
+[691.149s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Metal/PixelShader_ps.metal
+[691.150s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Metal/Textures_piece_ps.metal
+[691.150s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Metal/Forward3D_piece_ps.metal
+[691.151s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Metal/VertexShader_vs.metal
+[691.151s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0
+[691.151s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts
+[691.152s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials
+[691.152s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra
+[691.152s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL
+[691.152s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL/GpuNormalMapper_ps.glsl
+[691.153s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL/TerraGaussianBlur_cs.glsl
+[691.153s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL/TerraShadowGenerator.glsl
+[691.154s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/TerraShadowGenerator.material.json
+[691.154s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/Metal
+[691.154s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/Metal/TerraShadowGenerator.metal
+[691.155s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/Metal/GpuNormalMapper_ps.metal
+[691.155s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/Metal/TerraGaussianBlur_cs.metal
+[691.155s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GpuNormalMapper.material
+[691.156s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/TerraShadowGenerator.compositor
+[691.156s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GpuNormalMapper.compositor
+[691.156s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common
+[691.157s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/ltcMatrix1.dds
+[691.158s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/DPSM.material
+[691.158s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Mipmaps.material.json
+[691.158s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL
+[691.159s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Copyback_1xFP32_ps.glsl
+[691.159s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/EsmGaussianBlurLogFilter_cs.glsl
+[691.159s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/HiddenAreaMeshVr_ps.glsl
+[691.160s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/QuadCameraDirNoUV_vs.glsl
+[691.160s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/GaussianBlurBase_cs.glsl
+[691.161s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Resolve_1xFP32_Subsample0_ps.glsl
+[691.161s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/GaussianBlurLogFilterBase_cs.glsl
+[691.161s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Copyback_4xFP32_2DArray_ps.glsl
+[691.162s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/QuadCameraDir_vs.glsl
+[691.162s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/SkyCubemap_ps.glsl
+[691.162s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/SkyEquirectangular_ps.glsl
+[691.163s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/MipmapsGaussianBlur_cs.glsl
+[691.163s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/CubeToDpm_4xFP16_ps.glsl
+[691.163s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Copyback_3xFP32_ps.glsl
+[691.164s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/RadialDensityMask_vs.glsl
+[691.164s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/PccDepthCompressor_ps.glsl
+[691.164s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/RadialDensityMask_ps.glsl
+[691.165s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/CubeToDpsm_ps.glsl
+[691.165s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/HiddenAreaMeshVr_vs.glsl
+[691.166s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/GaussianBlurLogFilter_ps.glsl
+[691.166s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/DepthDownscaleMax_ps.glsl
+[691.167s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Copyback_4xFP32_ps.glsl
+[691.167s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL/Quad_vs.glsl
+[691.167s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/EsmGaussianBlurLogFilter.material.json
+[691.168s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/EsmGaussianBlurLogFilter.material
+[691.168s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/ltcMatrix0.dds
+[691.169s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/brtfLutDfg.dds
+[691.169s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Quad.program
+[691.170s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal
+[691.170s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/GaussianBlurLogFilter_ps.metal
+[691.170s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/GaussianBlurLogFilterBase_cs.metal
+[691.171s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/DepthDownscaleMax_ps.metal
+[691.171s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/PccDepthCompressor_ps.metal
+[691.172s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Copyback_4xFP32_ps.metal
+[691.172s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/RadialDensityMask_ps.metal
+[691.172s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/EsmGaussianBlurLogFilter_cs.metal
+[691.173s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/HiddenAreaMeshVr_ps.metal
+[691.173s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/HiddenAreaMeshVr_vs.metal
+[691.173s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/CubeToDpsm_ps.metal
+[691.174s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Copyback_3xFP32_ps.metal
+[691.174s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Quad_vs.metal
+[691.174s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/CubeToDpm_4xFP16_ps.metal
+[691.175s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/QuadCameraDirNoUV_vs.metal
+[691.175s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Copyback_1xFP32_ps.metal
+[691.176s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/GaussianBlurBase_cs.metal
+[691.176s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/SkyCubemap_ps.metal
+[691.177s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Resolve_1xFP32_Subsample0_ps.metal
+[691.177s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/MipmapsGaussianBlur_cs.metal
+[691.177s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/QuadCameraDir_vs.metal
+[691.178s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/RadialDensityMask_vs.metal
+[691.178s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/SkyEquirectangular_ps.metal
+[691.179s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Metal/Copyback_4xFP32_2DArray_ps.metal
+[691.179s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/DepthUtils.material
+[691.179s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/Copyback.material
+[691.180s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials
+[691.180s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs
+[691.180s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL
+[691.181s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/heat_signature_fs.glsl
+[691.181s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/depth_camera_final_fs.glsl
+[691.181s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/depth_camera_final_vs.glsl
+[691.183s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/selection_buffer_fs.glsl
+[691.183s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/thermal_camera_fs.glsl
+[691.183s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gpu_rays_1st_pass_vs.glsl
+[691.183s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/lens_flare_fs.glsl
+[691.183s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/plain_color_vs.glsl
+[691.184s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/point_vs.glsl
+[691.184s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/point_fs.glsl
+[691.185s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/depth_camera_fs.glsl
+[691.185s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gpu_rays_2nd_pass_fs.glsl
+[691.185s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gaussian_noise_depth_fs.glsl
+[691.186s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/wide_lens_map_fp.glsl
+[691.186s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/wide_lens_map_vs.glsl
+[691.187s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gaussian_noise_vs.glsl
+[691.188s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/skybox_fs.glsl
+[691.188s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/plain_color_fs.glsl
+[691.188s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gpu_rays_1st_pass_fs.glsl
+[691.188s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/gaussian_noise_fs.glsl
+[691.189s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/skybox_vs.glsl
+[691.189s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL/depth_camera_vs.glsl
+[691.190s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal
+[691.190s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gpu_rays_2nd_pass_fs.metal
+[691.190s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/depth_camera_vs.metal
+[691.191s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/plain_color_fs.metal
+[691.191s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/wide_lens_map_vs.metal
+[691.192s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gpu_rays_1st_pass_vs.metal
+[691.192s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gaussian_noise_depth_fs.metal
+[691.192s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/wide_lens_map_fp.metal
+[691.193s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gaussian_noise_fs.metal
+[691.193s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/skybox_fs.metal
+[691.194s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/selection_buffer_fs.metal
+[691.194s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/depth_camera_final_fs.metal
+[691.194s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gaussian_noise_vs.metal
+[691.195s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/point_fs.metal
+[691.195s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/depth_camera_final_vs.metal
+[691.195s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/plain_color_vs.metal
+[691.196s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/depth_camera_fs.metal
+[691.196s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/gpu_rays_1st_pass_fs.metal
+[691.196s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/lens_flare_fs.metal
+[691.197s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/skybox_vs.metal
+[691.197s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/thermal_camera_fs.metal
+[691.198s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/point_vs.metal
+[691.198s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal/heat_signature_fs.metal
+[691.198s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts
+[691.199s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/wide_angle_camera.material
+[691.199s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/gaussian_noise.material
+[691.199s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/GpuRays.compositor
+[691.200s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/selection_buffer.material
+[691.200s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/gpu_rays.material
+[691.201s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/lens_flare.compositor
+[691.201s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/thermal.material
+[691.201s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/picker.material
+[691.202s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/picker.program
+[691.202s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/wide_angle_camera.compositor
+[691.202s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/skybox.material
+[691.203s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/point_cloud_point.material
+[691.203s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/depth_camera.material
+[691.203s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/scripts/lens_flare.material
+[691.204s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/textures
+[691.204s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/materials/textures/skybox.dds
+[691.213s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT
+[691.213s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Voxelizer_cs.metal
+[691.214s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep1_piece_cs.any
+[691.214s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep1_cs.metal
+[691.215s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Voxelizer_piece_cs.any
+[691.215s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbWorldSpace_cs.metal
+[691.216s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightVctBounceInject_cs.hlsl
+[691.216s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbCalcultor_cs.hlsl
+[691.216s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightInjection_cs.glsl
+[691.217s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbWorldSpace_cs.glsl
+[691.217s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep1_cs.glsl
+[691.218s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep0_cs.hlsl
+[691.218s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Voxelizer_cs.hlsl
+[691.218s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbCalcultor_piece_cs.any
+[691.219s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightInjection_cs.metal
+[691.219s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep0_piece_cs.any
+[691.219s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightInjection_piece_cs.any
+[691.220s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightVctBounceInject_piece_cs.any
+[691.220s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep1_cs.hlsl
+[691.221s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep0_cs.glsl
+[691.221s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightVctBounceInject_cs.metal
+[691.222s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AnisotropicMipVctStep0_cs.metal
+[691.222s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Voxelizer.material.json
+[691.222s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbCalcultor_cs.glsl
+[691.223s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightVctBounceInject_cs.glsl
+[691.223s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Voxelizer_cs.glsl
+[691.223s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/LightInjection_cs.hlsl
+[691.224s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbWorldSpace_cs.hlsl
+[691.225s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbCalcultor_cs.metal
+[691.225s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/VctTexDownsample.compositor
+[691.225s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/AabbWorldSpace_piece_cs.any
+[691.226s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer
+[691.226s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/VoxelPartialClear_piece_cs.any
+[691.226s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/ImageVoxelizer_cs.hlsl
+[691.227s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/VoxelPartialClear_cs.hlsl
+[691.227s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/ImageVoxelizer_cs.metal
+[691.228s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/VoxelPartialClear_cs.glsl
+[691.228s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/VoxelPartialClear_cs.metal
+[691.228s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/ImageVoxelizer_piece_cs.any
+[691.229s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer/ImageVoxelizer_cs.glsl
+[691.229s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer
+[691.229s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_vs.any
+[691.230s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_ps.glsl
+[691.230s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer.material
+[691.231s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_ps.hlsl
+[691.231s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_vs.hlsl
+[691.231s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_vs.glsl
+[691.232s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_vs.metal
+[691.232s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer/VoxelVisualizer_ps.metal
+[691.232s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute
+[691.233s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools
+[691.233s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/GLSL
+[691.233s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/GLSL/ClearUav_cs.glsl
+[691.234s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/ClearUav.material.json
+[691.234s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Any
+[691.234s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Any/sRGB.any
+[691.234s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/HLSL
+[691.235s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/HLSL/ClearUav_cs.hlsl
+[691.235s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Metal
+[691.235s] -- Installing: /home/julia/workspace/install/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Metal/ClearUav_cs.metal
+[691.236s] -- Up-to-date: /home/julia/workspace/install/include/gz/rendering8/ignition
+[691.236s] -- Up-to-date: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering
+[691.237s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2
+[691.237s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2DynamicRenderable.hh
+[691.237s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Conversions.hh
+[691.238s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Mesh.hh
+[691.238s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2GizmoVisual.hh
+[691.238s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2JointVisual.hh
+[691.239s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Heightmap.hh
+[691.239s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Storage.hh
+[691.239s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Node.hh
+[691.240s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2LightVisual.hh
+[691.240s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2ThermalCamera.hh
+[691.241s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RenderTargetMaterial.hh
+[691.241s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2IgnOgreRenderingMode.hh
+[691.241s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Includes.hh
+[691.242s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2ParticleEmitter.hh
+[691.242s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RenderTypes.hh
+[691.243s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2ArrowVisual.hh
+[691.243s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2DepthCamera.hh
+[691.243s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2LidarVisual.hh
+[691.244s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2GpuRays.hh
+[691.244s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Object.hh
+[691.244s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Geometry.hh
+[691.245s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2GaussianNoisePass.hh
+[691.245s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2MeshFactory.hh
+[691.245s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2MaterialSwitcher.hh
+[691.246s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Camera.hh
+[691.246s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RenderTarget.hh
+[691.247s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Marker.hh
+[691.247s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Sensor.hh
+[691.247s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2InertiaVisual.hh
+[691.248s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Export.hh
+[691.248s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Scene.hh
+[691.249s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Light.hh
+[691.249s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RenderEngine.hh
+[691.249s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RenderPass.hh
+[691.250s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2ObjectInterface.hh
+[691.250s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Capsule.hh
+[691.251s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Visual.hh
+[691.251s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2BoundingBoxCamera.hh
+[691.251s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2SegmentationCamera.hh
+[691.252s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Grid.hh
+[691.252s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2AxisVisual.hh
+[691.253s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2SelectionBuffer.hh
+[691.253s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/detail
+[691.253s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/detail/Export.hh
+[691.254s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2COMVisual.hh
+[691.254s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2Material.hh
+[691.254s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2RayQuery.hh
+[691.255s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2/Ogre2WireBox.hh
+[691.255s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/ignition/rendering/ogre2.hh
+[691.256s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2ArrowVisual.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2AxisVisual.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2BoundingBoxCamera.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2COMVisual.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Camera.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Capsule.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Conversions.hh
+[691.257s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2DepthCamera.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2DynamicRenderable.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GaussianNoisePass.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Geometry.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GizmoVisual.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GlobalIlluminationCiVct.hh
+[691.258s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GlobalIlluminationVct.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GpuRays.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Grid.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2GzOgreRenderingMode.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Heightmap.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Includes.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2InertiaVisual.hh
+[691.259s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2JointVisual.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2LensFlarePass.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2LidarVisual.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Light.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2LightVisual.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Marker.hh
+[691.260s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Material.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2MaterialSwitcher.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Mesh.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2MeshFactory.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2NativeWindow.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Node.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Object.hh
+[691.261s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2ObjectInterface.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2ParticleEmitter.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RayQuery.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RenderEngine.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RenderPass.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RenderTarget.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RenderTargetMaterial.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2RenderTypes.hh
+[691.262s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Scene.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2SegmentationCamera.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2SelectionBuffer.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Sensor.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Storage.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2ThermalCamera.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2Visual.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2WideAngleCamera.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/Ogre2WireBox.hh
+[691.263s] -- Installing: /home/julia/workspace/install/include/gz/rendering8/gz/rendering/ogre2/../ogre2.hh
+[691.266s] Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8

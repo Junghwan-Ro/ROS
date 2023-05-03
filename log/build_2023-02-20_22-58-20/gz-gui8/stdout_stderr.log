@@ -1,0 +1,438 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-gui8 version 8.0.0~pre1
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+
+-- ====== Finding Dependencies ======
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Looking for Protobuf - found
+
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for tinyxml2 - found
+
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 - found
+
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-math7 - found
+
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.3.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-common5 - found
+
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.0.0
+-- Searching for dependencies of gz-utils2-cli
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-plugin2 - found
+
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Searching for dependencies of gz-transport12
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Searching for dependencies of gz-msgs9
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-transport12 - found
+
+-- Looking for gz-rendering8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.1.0
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.3.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.1.0
+-- Found GzAssimp: TRUE (found version "5.0.0") 
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.3.1
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.3.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-rendering8 - found
+
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-msgs9 - found
+
+-- Looking for Qt5 - found
+
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: gz-gui8
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-gui8
+[35m[1mScanning dependencies of target gz-gui8_autogen[0m
+[  1%] [34m[1mAutomatic MOC for target gz-gui8[0m
+[  1%] Built target gz-gui8_autogen
+[  1%] [34m[1mGenerating qrc_resources.cpp[0m
+[  2%] [34m[1mGenerating moc_Dialog.cpp[0m
+[  2%] [34m[1mGenerating moc_Application.cpp[0m
+[  2%] [34m[1mGenerating moc_MainWindow.cpp[0m
+[  3%] [34m[1mGenerating moc_PlottingInterface.cpp[0m
+[  4%] [34m[1mGenerating moc_Plugin.cpp[0m
+[35m[1mScanning dependencies of target gz-gui8[0m
+[  5%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/gz-gui8_autogen/mocs_compilation.cpp.o[0m
+[  6%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/Application.cc.o[0m
+[  6%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/Conversions.cc.o[0m
+[  7%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/Dialog.cc.o[0m
+[  7%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/GuiEvents.cc.o[0m
+[  8%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/Helpers.cc.o[0m
+[  9%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/gz.cc.o[0m
+[  9%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/MainWindow.cc.o[0m
+[ 10%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/PlottingInterface.cc.o[0m
+[ 11%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/DragDropModel.cc.o[0m
+[ 11%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/SearchModel.cc.o[0m
+[ 12%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/moc_Application.cpp.o[0m
+[ 13%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/moc_Dialog.cpp.o[0m
+[ 13%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/moc_MainWindow.cpp.o[0m
+[ 14%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/moc_PlottingInterface.cpp.o[0m
+[ 15%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/moc_Plugin.cpp.o[0m
+[ 15%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/qrc_resources.cpp.o[0m
+[ 16%] [32mBuilding CXX object include/gz/gui/CMakeFiles/gz-gui8.dir/__/__/__/src/Plugin.cc.o[0m
+[ 17%] [32m[1mLinking CXX shared library ../../../lib/libgz-gui8.so[0m
+[ 17%] Built target gz-gui8
+[ 19%] [34m[1mGenerating qrc_CameraTracking.cpp[0m
+[ 19%] [34m[1mGenerating qrc_GridConfig.cpp[0m
+[ 20%] [34m[1mGenerating moc_GridConfig.cpp[0m
+[ 20%] [34m[1mGenerating moc_CameraTracking.cpp[0m
+[35m[1mScanning dependencies of target CameraTracking[0m
+[35m[1mScanning dependencies of target GridConfig[0m
+[ 20%] [32mBuilding CXX object src/plugins/grid_config/CMakeFiles/GridConfig.dir/GridConfig.cc.o[0m
+[ 20%] [32mBuilding CXX object src/plugins/camera_tracking/CMakeFiles/CameraTracking.dir/CameraTracking.cc.o[0m
+[ 21%] [34m[1mGenerating qrc_ImageDisplay.cpp[0m
+[ 22%] [34m[1mGenerating moc_ImageDisplay.cpp[0m
+[35m[1mScanning dependencies of target ImageDisplay[0m
+[ 22%] [32mBuilding CXX object src/plugins/image_display/CMakeFiles/ImageDisplay.dir/ImageDisplay.cc.o[0m
+[ 23%] [32mBuilding CXX object src/plugins/grid_config/CMakeFiles/GridConfig.dir/moc_GridConfig.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/plugins/camera_tracking/CMakeFiles/CameraTracking.dir/moc_CameraTracking.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/plugins/grid_config/CMakeFiles/GridConfig.dir/qrc_GridConfig.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library ../../../lib/libGridConfig.so[0m
+[ 25%] Built target GridConfig
+[ 26%] [32mBuilding CXX object src/plugins/image_display/CMakeFiles/ImageDisplay.dir/moc_ImageDisplay.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/plugins/camera_tracking/CMakeFiles/CameraTracking.dir/qrc_CameraTracking.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library ../../../lib/libCameraTracking.so[0m
+[ 27%] Built target CameraTracking
+[ 28%] [32mBuilding CXX object src/plugins/image_display/CMakeFiles/ImageDisplay.dir/qrc_ImageDisplay.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library ../../../lib/libImageDisplay.so[0m
+[ 28%] Built target ImageDisplay
+[ 28%] [34m[1mGenerating qrc_KeyPublisher.cpp[0m
+[ 29%] [34m[1mGenerating moc_KeyPublisher.cpp[0m
+[35m[1mScanning dependencies of target KeyPublisher[0m
+[ 30%] [32mBuilding CXX object src/plugins/key_publisher/CMakeFiles/KeyPublisher.dir/KeyPublisher.cc.o[0m
+[ 31%] [32mBuilding CXX object src/plugins/key_publisher/CMakeFiles/KeyPublisher.dir/moc_KeyPublisher.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/plugins/key_publisher/CMakeFiles/KeyPublisher.dir/qrc_KeyPublisher.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library ../../../lib/libKeyPublisher.so[0m
+[ 32%] Built target KeyPublisher
+[ 32%] [34m[1mGenerating qrc_TransportPlotting.cpp[0m
+[ 33%] [34m[1mGenerating moc_TransportPlotting.cpp[0m
+[35m[1mScanning dependencies of target TransportPlotting[0m
+[ 34%] [32mBuilding CXX object src/plugins/plotting/CMakeFiles/TransportPlotting.dir/TransportPlotting.cc.o[0m
+[ 34%] [32mBuilding CXX object src/plugins/plotting/CMakeFiles/TransportPlotting.dir/moc_TransportPlotting.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/plugins/plotting/CMakeFiles/TransportPlotting.dir/qrc_TransportPlotting.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library ../../../lib/libTransportPlotting.so[0m
+[ 36%] Built target TransportPlotting
+[ 37%] [34m[1mGenerating qrc_PointCloud.cpp[0m
+[ 38%] [34m[1mGenerating moc_PointCloud.cpp[0m
+[35m[1mScanning dependencies of target PointCloud[0m
+[ 38%] [32mBuilding CXX object src/plugins/point_cloud/CMakeFiles/PointCloud.dir/PointCloud.cc.o[0m
+[ 39%] [34m[1mGenerating qrc_Publisher.cpp[0m
+[ 40%] [34m[1mGenerating moc_Publisher.cpp[0m
+[35m[1mScanning dependencies of target Publisher[0m
+[ 40%] [32mBuilding CXX object src/plugins/publisher/CMakeFiles/Publisher.dir/Publisher.cc.o[0m
+[ 41%] [32mBuilding CXX object src/plugins/point_cloud/CMakeFiles/PointCloud.dir/moc_PointCloud.cpp.o[0m
+[ 42%] [34m[1mGenerating qrc_InteractiveViewControl.cpp[0m
+[ 43%] [34m[1mGenerating moc_InteractiveViewControl.cpp[0m
+[35m[1mScanning dependencies of target InteractiveViewControl[0m
+[ 43%] [32mBuilding CXX object src/plugins/interactive_view_control/CMakeFiles/InteractiveViewControl.dir/InteractiveViewControl.cc.o[0m
+[ 44%] [32mBuilding CXX object src/plugins/point_cloud/CMakeFiles/PointCloud.dir/qrc_PointCloud.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library ../../../lib/libPointCloud.so[0m
+[ 44%] Built target PointCloud
+[ 45%] [32mBuilding CXX object src/plugins/publisher/CMakeFiles/Publisher.dir/moc_Publisher.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/plugins/publisher/CMakeFiles/Publisher.dir/qrc_Publisher.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library ../../../lib/libPublisher.so[0m
+[ 46%] Built target Publisher
+[ 47%] [32mBuilding CXX object src/plugins/interactive_view_control/CMakeFiles/InteractiveViewControl.dir/moc_InteractiveViewControl.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/plugins/interactive_view_control/CMakeFiles/InteractiveViewControl.dir/qrc_InteractiveViewControl.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library ../../../lib/libInteractiveViewControl.so[0m
+[ 48%] Built target InteractiveViewControl
+[ 48%] [34m[1mGenerating qrc_MinimalScene.cpp[0m
+[ 49%] [34m[1mGenerating moc_MinimalScene.cpp[0m
+[35m[1mScanning dependencies of target MinimalScene[0m
+[ 50%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/MinimalScene.cc.o[0m
+[ 51%] [34m[1mGenerating qrc_NavSatMap.cpp[0m
+[ 51%] [34m[1mGenerating moc_NavSatMap.cpp[0m
+[35m[1mScanning dependencies of target NavSatMap[0m
+[ 52%] [32mBuilding CXX object src/plugins/navsat_map/CMakeFiles/NavSatMap.dir/NavSatMap.cc.o[0m
+[ 53%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/MinimalSceneRhi.cc.o[0m
+[ 53%] [34m[1mGenerating qrc_MarkerManager.cpp[0m
+[ 54%] [34m[1mGenerating moc_MarkerManager.cpp[0m
+[35m[1mScanning dependencies of target MarkerManager[0m
+[ 55%] [32mBuilding CXX object src/plugins/marker_manager/CMakeFiles/MarkerManager.dir/MarkerManager.cc.o[0m
+[ 55%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/MinimalSceneRhiOpenGL.cc.o[0m
+[ 55%] [32mBuilding CXX object src/plugins/navsat_map/CMakeFiles/NavSatMap.dir/moc_NavSatMap.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/MinimalSceneRhiVulkan.cc.o[0m
+[ 57%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/EngineToQtInterface.cc.o[0m
+[ 58%] [32mBuilding CXX object src/plugins/navsat_map/CMakeFiles/NavSatMap.dir/qrc_NavSatMap.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library ../../../lib/libNavSatMap.so[0m
+[ 58%] Built target NavSatMap
+[ 59%] [32mBuilding CXX object src/plugins/marker_manager/CMakeFiles/MarkerManager.dir/moc_MarkerManager.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/moc_MinimalScene.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/plugins/marker_manager/CMakeFiles/MarkerManager.dir/qrc_MarkerManager.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library ../../../lib/libMarkerManager.so[0m
+[ 60%] Built target MarkerManager
+[ 61%] [32mBuilding CXX object src/plugins/minimal_scene/CMakeFiles/MinimalScene.dir/qrc_MinimalScene.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library ../../../lib/libMinimalScene.so[0m
+[ 62%] Built target MinimalScene
+[ 63%] [34m[1mGenerating qrc_ShutdownButton.cpp[0m
+[ 64%] [34m[1mGenerating moc_ShutdownButton.cpp[0m
+[35m[1mScanning dependencies of target ShutdownButton[0m
+[ 64%] [32mBuilding CXX object src/plugins/shutdown_button/CMakeFiles/ShutdownButton.dir/ShutdownButton.cc.o[0m
+[ 65%] [32mBuilding CXX object src/plugins/shutdown_button/CMakeFiles/ShutdownButton.dir/moc_ShutdownButton.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/plugins/shutdown_button/CMakeFiles/ShutdownButton.dir/qrc_ShutdownButton.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library ../../../lib/libShutdownButton.so[0m
+[ 66%] Built target ShutdownButton
+[ 66%] [34m[1mGenerating qrc_TapeMeasure.cpp[0m
+[ 67%] [34m[1mGenerating moc_TapeMeasure.cpp[0m
+[35m[1mScanning dependencies of target TapeMeasure[0m
+[ 68%] [32mBuilding CXX object src/plugins/tape_measure/CMakeFiles/TapeMeasure.dir/TapeMeasure.cc.o[0m
+[ 69%] [32mBuilding CXX object src/plugins/tape_measure/CMakeFiles/TapeMeasure.dir/moc_TapeMeasure.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/plugins/tape_measure/CMakeFiles/TapeMeasure.dir/qrc_TapeMeasure.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library ../../../lib/libTapeMeasure.so[0m
+[ 70%] Built target TapeMeasure
+[ 70%] [34m[1mGenerating qrc_Teleop.cpp[0m
+[ 71%] [34m[1mGenerating moc_Teleop.cpp[0m
+[35m[1mScanning dependencies of target Teleop[0m
+[ 72%] [32mBuilding CXX object src/plugins/teleop/CMakeFiles/Teleop.dir/Teleop.cc.o[0m
+[ 73%] [32mBuilding CXX object src/plugins/teleop/CMakeFiles/Teleop.dir/moc_Teleop.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/plugins/teleop/CMakeFiles/Teleop.dir/qrc_Teleop.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library ../../../lib/libTeleop.so[0m
+[ 74%] Built target Teleop
+[ 74%] [34m[1mGenerating qrc_TopicEcho.cpp[0m
+[ 75%] [34m[1mGenerating moc_TopicEcho.cpp[0m
+[35m[1mScanning dependencies of target TopicEcho[0m
+[ 76%] [32mBuilding CXX object src/plugins/topic_echo/CMakeFiles/TopicEcho.dir/TopicEcho.cc.o[0m
+[ 77%] [32mBuilding CXX object src/plugins/topic_echo/CMakeFiles/TopicEcho.dir/moc_TopicEcho.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/plugins/topic_echo/CMakeFiles/TopicEcho.dir/qrc_TopicEcho.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library ../../../lib/libTopicEcho.so[0m
+[ 78%] Built target TopicEcho
+[ 78%] [34m[1mGenerating qrc_TopicViewer.cpp[0m
+[ 79%] [34m[1mGenerating moc_TopicViewer.cpp[0m
+[35m[1mScanning dependencies of target TopicViewer[0m
+[ 80%] [32mBuilding CXX object src/plugins/topic_viewer/CMakeFiles/TopicViewer.dir/TopicViewer.cc.o[0m
+[ 81%] [32mBuilding CXX object src/plugins/topic_viewer/CMakeFiles/TopicViewer.dir/moc_TopicViewer.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/plugins/topic_viewer/CMakeFiles/TopicViewer.dir/qrc_TopicViewer.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library ../../../lib/libTopicViewer.so[0m
+[ 82%] Built target TopicViewer
+[ 83%] [34m[1mGenerating qrc_TransportSceneManager.cpp[0m
+[ 83%] [34m[1mGenerating moc_TransportSceneManager.cpp[0m
+[35m[1mScanning dependencies of target TransportSceneManager[0m
+[ 84%] [32mBuilding CXX object src/plugins/transport_scene_manager/CMakeFiles/TransportSceneManager.dir/TransportSceneManager.cc.o[0m
+[ 85%] [34m[1mGenerating qrc_WorldControl.cpp[0m
+[ 85%] [34m[1mGenerating moc_WorldControl.cpp[0m
+[ 86%] [34m[1mGenerating moc_WorldControlEventListener.cpp[0m
+[35m[1mScanning dependencies of target WorldControl[0m
+[ 86%] [32mBuilding CXX object src/plugins/world_control/CMakeFiles/WorldControl.dir/WorldControl.cc.o[0m
+[ 87%] [34m[1mGenerating qrc_Screenshot.cpp[0m
+[ 88%] [34m[1mGenerating moc_Screenshot.cpp[0m
+[35m[1mScanning dependencies of target Screenshot[0m
+[ 88%] [32mBuilding CXX object src/plugins/screenshot/CMakeFiles/Screenshot.dir/Screenshot.cc.o[0m
+[ 89%] [32mBuilding CXX object src/plugins/world_control/CMakeFiles/WorldControl.dir/WorldControlEventListener.cc.o[0m
+[ 89%] [32mBuilding CXX object src/plugins/transport_scene_manager/CMakeFiles/TransportSceneManager.dir/moc_TransportSceneManager.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/plugins/screenshot/CMakeFiles/Screenshot.dir/moc_Screenshot.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/plugins/transport_scene_manager/CMakeFiles/TransportSceneManager.dir/qrc_TransportSceneManager.cpp.o[0m
+[ 92%] [32m[1mLinking CXX shared library ../../../lib/libTransportSceneManager.so[0m
+[ 93%] [32mBuilding CXX object src/plugins/world_control/CMakeFiles/WorldControl.dir/moc_WorldControl.cpp.o[0m
+[ 93%] Built target TransportSceneManager
+[ 94%] [32mBuilding CXX object src/plugins/screenshot/CMakeFiles/Screenshot.dir/qrc_Screenshot.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library ../../../lib/libScreenshot.so[0m
+[ 94%] Built target Screenshot
+[ 94%] [32mBuilding CXX object src/plugins/world_control/CMakeFiles/WorldControl.dir/moc_WorldControlEventListener.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/plugins/world_control/CMakeFiles/WorldControl.dir/qrc_WorldControl.cpp.o[0m
+[ 96%] [32m[1mLinking CXX shared library ../../../lib/libWorldControl.so[0m
+[ 96%] Built target WorldControl
+[ 97%] [34m[1mGenerating qrc_WorldStats.cpp[0m
+[ 97%] [34m[1mGenerating moc_WorldStats.cpp[0m
+[35m[1mScanning dependencies of target WorldStats[0m
+[ 98%] [32mBuilding CXX object src/plugins/world_stats/CMakeFiles/WorldStats.dir/WorldStats.cc.o[0m
+[ 99%] [32mBuilding CXX object src/plugins/world_stats/CMakeFiles/WorldStats.dir/moc_WorldStats.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/plugins/world_stats/CMakeFiles/WorldStats.dir/qrc_WorldStats.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library ../../../lib/libWorldStats.so[0m
+[100%] Built target WorldStats
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8-all/gz-gui8-all-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdgui8.rb
+-- Installing: /home/julia/workspace/install/share/gz/gz2.completion.d/gui8.bash_completion.sh
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libCameraTracking.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libCameraTracking.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libGridConfig.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libGridConfig.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libGrid3D.so
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libImageDisplay.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libImageDisplay.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libInteractiveViewControl.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libInteractiveViewControl.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libKeyPublisher.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libKeyPublisher.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportPlotting.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportPlotting.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libPointCloud.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libPointCloud.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libPublisher.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libPublisher.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libMarkerManager.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libMarkerManager.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libMinimalScene.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libMinimalScene.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libNavSatMap.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libNavSatMap.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libScreenshot.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libScreenshot.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libShutdownButton.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libShutdownButton.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTapeMeasure.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTapeMeasure.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTeleop.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTeleop.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicEcho.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicEcho.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicViewer.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTopicViewer.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportSceneManager.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libTransportSceneManager.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldControl.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldControl.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldStats.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-gui-8/plugins/libWorldStats.so" to ""
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/PlottingInterface.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/qt.h
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Application.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/MainWindow.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Dialog.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/GuiEvents.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Helpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/ign.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Conversions.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Enums.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/DragDropModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/SearchModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/ignition/gui/Plugin.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-gui8.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-gui8.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-gui8.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-gui8.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-gui8/gz-gui8-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-gui8.pc
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Application.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Conversions.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Dialog.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/DragDropModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Enums.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/GuiEvents.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Helpers.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/MainWindow.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/PlottingInterface.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/Plugin.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/SearchModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/gz.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/qt.h
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/../gui.hh
+-- Installing: /home/julia/workspace/install/include/gz/gui8/gz/gui/config.hh
+-- Installing: /home/julia/workspace/install/share/gz/gui8.yaml

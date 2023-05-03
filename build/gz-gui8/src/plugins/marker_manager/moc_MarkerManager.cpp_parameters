@@ -1,0 +1,6 @@
+-I/home/julia/workspace/src/gz-gui/include
+-I/home/julia/workspace/build/gz-gui8/include
+-I/home/julia/workspace/build/gz-gui8
+-o
+/home/julia/workspace/build/gz-gui8/src/plugins/marker_manager/moc_MarkerManager.cpp
+/home/julia/workspace/src/gz-gui/src/plugins/marker_manager/MarkerManager.hh

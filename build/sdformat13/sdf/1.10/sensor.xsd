@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+  <xsd:annotation>
+    <xsd:documentation xml:lang='en'>
+      <![CDATA[The sensor tag describes the type and properties of a sensor.]]>
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/types.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/pose.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/plugin.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/air_pressure.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/air_speed.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/altimeter.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/camera.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/contact.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/forcetorque.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/gps.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/imu.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/lidar.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/logical_camera.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/magnetometer.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/navsat.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/ray.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/rfid.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/rfidtag.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/sonar.xsd'/>
+  <xsd:include schemaLocation='http://sdformat.org/schemas/transceiver.xsd'/>
+  <xsd:element name='sensor'>
+    <xsd:complexType>
+      <xsd:choice maxOccurs='unbounded'>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='always_on' type='xsd:boolean'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[If true the sensor will always be updated according to the update rate.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='update_rate' type='xsd:double'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[The frequency at which the sensor data is generated. If left unspecified, the sensor will generate data every cycle.]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='visualize' type='xsd:boolean'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[If true, the sensor is visualized in the GUI]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='topic' type='xsd:string'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[Name of the topic on which data is published. This is necessary for visualization]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:choice  minOccurs='0' maxOccurs='1'>
+        <xsd:element name='enable_metrics' type='xsd:boolean'>
+          <xsd:annotation>
+            <xsd:documentation xml:lang='en'>
+              <![CDATA[If true, the sensor will publish performance metrics]]>
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        </xsd:choice>
+        <xsd:element ref='pose'/>
+        <xsd:element ref='plugin'/>
+        <xsd:element ref='air_pressure'/>
+        <xsd:element ref='air_speed'/>
+        <xsd:element ref='altimeter'/>
+        <xsd:element ref='camera'/>
+        <xsd:element ref='contact'/>
+        <xsd:element ref='force_torque'/>
+        <xsd:element ref='gps'/>
+        <xsd:element ref='imu'/>
+        <xsd:element ref='lidar'/>
+        <xsd:element ref='logical_camera'/>
+        <xsd:element ref='magnetometer'/>
+        <xsd:element ref='navsat'/>
+        <xsd:element ref='ray'/>
+        <xsd:element ref='rfidtag'/>
+        <xsd:element ref='rfid'/>
+        <xsd:element ref='sonar'/>
+        <xsd:element ref='transceiver'/>
+      </xsd:choice>
+      <xsd:attribute name='name' type='xsd:string' use='required' >
+        <xsd:annotation>
+          <xsd:documentation xml:lang='en'>
+            <![CDATA[A unique name for the sensor. This name must not match another model in the model.]]>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name='type' type='xsd:string' use='required' >
+        <xsd:annotation>
+          <xsd:documentation xml:lang='en'>
+            <![CDATA[The type name of the sensor. By default, SDFormat supports types
+                  air_pressure,
+                  air_speed,
+                  altimeter,
+                  camera,
+                  contact,
+                  boundingbox_camera, boundingbox,
+                  custom,
+                  depth_camera, depth,
+                  force_torque,
+                  gps,
+                  gpu_lidar,
+                  gpu_ray,
+                  imu,
+                  lidar,
+                  logical_camera,
+                  magnetometer,
+                  multicamera,
+                  navsat,
+                  ray,
+                  rfid,
+                  rfidtag,
+                  rgbd_camera, rgbd,
+                  segmentation_camera, segmentation,
+                  sonar,
+                  thermal_camera, thermal,
+                  wireless_receiver, and
+                  wireless_transmitter.
+      The "ray", "gpu_ray", and "gps" types are equivalent to "lidar", "gpu_lidar", and "navsat", respectively. It is preferred to use "lidar", "gpu_lidar", and "navsat" since "ray", "gpu_ray", and "gps" will be deprecated. The "ray", "gpu_ray", and "gps" types are maintained for legacy support.
+    ]]>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

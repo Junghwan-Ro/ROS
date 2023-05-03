@@ -1,0 +1,586 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-sensors8 version 8.0.0~pre1
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+
+-- ====== Finding Dependencies ======
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Looking for Protobuf - found
+
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-math7 - found
+
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.3.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-common5 - found
+
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Searching for dependencies of gz-transport12
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.0.0
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Searching for dependencies of gz-msgs9
+-- Looking for gz-math7 -- found version 7.1.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for gz-transport12 - found
+
+-- Looking for gz-rendering8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.1.0
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.3.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.1.0
+-- Found GzAssimp: TRUE (found version "5.0.0") 
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.3.1
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.3.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2-loader -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-loader
+-- Looking for gz-plugin2-register -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-rendering8> component [ogre]
+-- Looking for gz-rendering8-ogre -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-rendering8-ogre
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
+-- Searching for <gz-rendering8> component [ogre2]
+-- Looking for gz-rendering8-ogre2 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-rendering8-ogre2
+-- Looking for gz-rendering8 - found
+
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-msgs9 - found
+
+-- Looking for sdformat13 -- found version 13.3.0
+-- Searching for dependencies of sdformat13
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for sdformat13 - found
+
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: gz-sensors8
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring library: gz-sensors8-rendering
+-- Configuring library: gz-sensors8-camera
+-- Configuring library: gz-sensors8-depth_camera
+-- Configuring library: gz-sensors8-dvl
+-- Configuring library: gz-sensors8-lidar
+-- Configuring library: gz-sensors8-gpu_lidar
+-- Configuring library: gz-sensors8-logical_camera
+-- Configuring library: gz-sensors8-magnetometer
+-- Configuring library: gz-sensors8-imu
+-- Configuring library: gz-sensors8-altimeter
+-- Configuring library: gz-sensors8-air_pressure
+-- Configuring library: gz-sensors8-air_speed
+-- Configuring library: gz-sensors8-force_torque
+-- Configuring library: gz-sensors8-navsat
+-- Configuring library: gz-sensors8-rgbd_camera
+-- Configuring library: gz-sensors8-thermal_camera
+-- Configuring library: gz-sensors8-boundingbox_camera
+-- Configuring library: gz-sensors8-segmentation_camera
+-- Configuring library: gz-sensors8-wide_angle_camera
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-sensors8
+[35m[1mScanning dependencies of target gz-sensors8[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/EnvironmentalData.cc.o[0m
+[  3%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/Distortion.cc.o[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/BrownDistortionModel.cc.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/GaussianNoiseModel.cc.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/Manager.cc.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/Noise.cc.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/Sensor.cc.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/SensorFactory.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/SensorTypes.cc.o[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/Util.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8.dir/PointCloudUtil.cc.o[0m
+[ 21%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8.so[0m
+[ 21%] Built target gz-sensors8
+[35m[1mScanning dependencies of target gz-sensors8-rendering[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/RenderingSensor.cc.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/RenderingEvents.cc.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/ImageBrownDistortionModel.cc.o[0m
+[35m[1mScanning dependencies of target gz-sensors8-logical_camera[0m
+[35m[1mScanning dependencies of target gz-sensors8-air_speed[0m
+[ 29%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-logical_camera.dir/LogicalCameraSensor.cc.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-air_speed.dir/AirSpeedSensor.cc.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/ImageDistortion.cc.o[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/ImageGaussianNoiseModel.cc.o[0m
+[ 36%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-air_speed.so[0m
+[ 38%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-logical_camera.so[0m
+[ 38%] Built target gz-sensors8-air_speed
+[ 40%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rendering.dir/ImageNoise.cc.o[0m
+[ 40%] Built target gz-sensors8-logical_camera
+[ 41%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-rendering.so[0m
+[ 41%] Built target gz-sensors8-rendering
+[35m[1mScanning dependencies of target gz-sensors8-force_torque[0m
+[ 43%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-force_torque.dir/ForceTorqueSensor.cc.o[0m
+[ 45%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-force_torque.so[0m
+[ 45%] Built target gz-sensors8-force_torque
+[35m[1mScanning dependencies of target gz-sensors8-navsat[0m
+[ 47%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-navsat.dir/NavSatSensor.cc.o[0m
+[ 49%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-navsat.so[0m
+[ 49%] Built target gz-sensors8-navsat
+[35m[1mScanning dependencies of target gz-sensors8-air_pressure[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-air_pressure.dir/AirPressureSensor.cc.o[0m
+[ 52%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-air_pressure.so[0m
+[ 52%] Built target gz-sensors8-air_pressure
+[35m[1mScanning dependencies of target gz-sensors8-magnetometer[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-magnetometer.dir/MagnetometerSensor.cc.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-magnetometer.so[0m
+[ 56%] Built target gz-sensors8-magnetometer
+[35m[1mScanning dependencies of target gz-sensors8-imu[0m
+[35m[1mScanning dependencies of target gz-sensors8-altimeter[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-altimeter.dir/AltimeterSensor.cc.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-imu.dir/ImuSensor.cc.o[0m
+[ 61%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-altimeter.so[0m
+[ 61%] Built target gz-sensors8-altimeter
+[ 63%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-imu.so[0m
+[ 63%] Built target gz-sensors8-imu
+[35m[1mScanning dependencies of target gz-sensors8-dvl[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-dvl.dir/DopplerVelocityLog.cc.o[0m
+[ 67%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-dvl.so[0m
+[ 67%] Built target gz-sensors8-dvl
+[35m[1mScanning dependencies of target gz-sensors8-lidar[0m
+[35m[1mScanning dependencies of target gz-sensors8-camera[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-camera.dir/CameraSensor.cc.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-lidar.dir/Lidar.cc.o[0m
+[ 72%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-lidar.so[0m
+[ 72%] Built target gz-sensors8-lidar
+[ 74%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-camera.so[0m
+[ 74%] Built target gz-sensors8-camera
+[35m[1mScanning dependencies of target gz-sensors8-gpu_lidar[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-gpu_lidar.dir/GpuLidarSensor.cc.o[0m
+[ 78%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-gpu_lidar.so[0m
+[ 78%] Built target gz-sensors8-gpu_lidar
+[35m[1mScanning dependencies of target gz-sensors8-segmentation_camera[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-segmentation_camera.dir/SegmentationCameraSensor.cc.o[0m
+[ 81%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-segmentation_camera.so[0m
+[ 81%] Built target gz-sensors8-segmentation_camera
+[35m[1mScanning dependencies of target gz-sensors8-boundingbox_camera[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-boundingbox_camera.dir/BoundingBoxCameraSensor.cc.o[0m
+[35m[1mScanning dependencies of target gz-sensors8-thermal_camera[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-thermal_camera.dir/ThermalCameraSensor.cc.o[0m
+[35m[1mScanning dependencies of target gz-sensors8-wide_angle_camera[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-wide_angle_camera.dir/WideAngleCameraSensor.cc.o[0m
+[ 89%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-boundingbox_camera.so[0m
+[ 89%] Built target gz-sensors8-boundingbox_camera
+[ 90%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-thermal_camera.so[0m
+[ 90%] Built target gz-sensors8-thermal_camera
+[ 92%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-wide_angle_camera.so[0m
+[ 92%] Built target gz-sensors8-wide_angle_camera
+[35m[1mScanning dependencies of target gz-sensors8-depth_camera[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-depth_camera.dir/DepthCameraSensor.cc.o[0m
+[ 96%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-depth_camera.so[0m
+[ 96%] Built target gz-sensors8-depth_camera
+[35m[1mScanning dependencies of target gz-sensors8-rgbd_camera[0m
+[ 98%] [32mBuilding CXX object src/CMakeFiles/gz-sensors8-rgbd_camera.dir/RgbdCameraSensor.cc.o[0m
+[100%] [32m[1mLinking CXX shared library ../lib/libgz-sensors8-rgbd_camera.so[0m
+[100%] Built target gz-sensors8-rgbd_camera
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-all/gz-sensors8-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-all/gz-sensors8-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-all/gz-sensors8-all-targets.cmake
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8/gz-sensors8-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8/gz-sensors8-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8/gz-sensors8-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8/gz-sensors8-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/rendering/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/rendering/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rendering.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rendering.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-rendering.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rendering.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rendering/gz-sensors8-rendering-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rendering/gz-sensors8-rendering-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rendering/gz-sensors8-rendering-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rendering/gz-sensors8-rendering-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-rendering.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-camera/gz-sensors8-camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-camera/gz-sensors8-camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-camera/gz-sensors8-camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-camera/gz-sensors8-camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/depth_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/depth_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-depth_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-depth_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-depth_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-depth_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-depth_camera/gz-sensors8-depth_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-depth_camera/gz-sensors8-depth_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-depth_camera/gz-sensors8-depth_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-depth_camera/gz-sensors8-depth_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-depth_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/dvl/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/dvl/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-dvl.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-dvl.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-dvl.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-dvl.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-dvl/gz-sensors8-dvl-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-dvl/gz-sensors8-dvl-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-dvl/gz-sensors8-dvl-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-dvl/gz-sensors8-dvl-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-dvl.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/lidar/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/lidar/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-lidar.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-lidar.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-lidar.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-lidar.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-lidar/gz-sensors8-lidar-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-lidar/gz-sensors8-lidar-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-lidar/gz-sensors8-lidar-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-lidar/gz-sensors8-lidar-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-lidar.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/gpu_lidar/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/gpu_lidar/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-gpu_lidar.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-gpu_lidar.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-gpu_lidar.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-gpu_lidar.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-gpu_lidar/gz-sensors8-gpu_lidar-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-gpu_lidar/gz-sensors8-gpu_lidar-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-gpu_lidar/gz-sensors8-gpu_lidar-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-gpu_lidar/gz-sensors8-gpu_lidar-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-gpu_lidar.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/logical_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/logical_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-logical_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-logical_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-logical_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-logical_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-logical_camera/gz-sensors8-logical_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-logical_camera/gz-sensors8-logical_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-logical_camera/gz-sensors8-logical_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-logical_camera/gz-sensors8-logical_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-logical_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/magnetometer/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/magnetometer/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-magnetometer.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-magnetometer.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-magnetometer.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-magnetometer.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-magnetometer/gz-sensors8-magnetometer-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-magnetometer/gz-sensors8-magnetometer-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-magnetometer/gz-sensors8-magnetometer-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-magnetometer/gz-sensors8-magnetometer-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-magnetometer.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/imu/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/imu/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-imu.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-imu.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-imu.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-imu.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-imu/gz-sensors8-imu-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-imu/gz-sensors8-imu-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-imu/gz-sensors8-imu-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-imu/gz-sensors8-imu-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-imu.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/altimeter/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/altimeter/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-altimeter.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-altimeter.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-altimeter.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-altimeter.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-altimeter/gz-sensors8-altimeter-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-altimeter/gz-sensors8-altimeter-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-altimeter/gz-sensors8-altimeter-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-altimeter/gz-sensors8-altimeter-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-altimeter.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/air_pressure/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/air_pressure/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_pressure.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_pressure.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-air_pressure.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_pressure.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_pressure/gz-sensors8-air_pressure-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_pressure/gz-sensors8-air_pressure-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_pressure/gz-sensors8-air_pressure-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_pressure/gz-sensors8-air_pressure-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-air_pressure.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/air_speed/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/air_speed/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_speed.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_speed.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-air_speed.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-air_speed.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_speed/gz-sensors8-air_speed-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_speed/gz-sensors8-air_speed-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_speed/gz-sensors8-air_speed-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-air_speed/gz-sensors8-air_speed-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-air_speed.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/force_torque/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/force_torque/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-force_torque.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-force_torque.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-force_torque.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-force_torque.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-force_torque/gz-sensors8-force_torque-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-force_torque/gz-sensors8-force_torque-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-force_torque/gz-sensors8-force_torque-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-force_torque/gz-sensors8-force_torque-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-force_torque.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/navsat/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/navsat/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-navsat.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-navsat.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-navsat.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-navsat.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-navsat/gz-sensors8-navsat-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-navsat/gz-sensors8-navsat-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-navsat/gz-sensors8-navsat-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-navsat/gz-sensors8-navsat-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-navsat.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/rgbd_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/rgbd_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rgbd_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rgbd_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-rgbd_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-rgbd_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rgbd_camera/gz-sensors8-rgbd_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rgbd_camera/gz-sensors8-rgbd_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rgbd_camera/gz-sensors8-rgbd_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-rgbd_camera/gz-sensors8-rgbd_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-rgbd_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/thermal_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/thermal_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-thermal_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-thermal_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-thermal_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-thermal_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-thermal_camera/gz-sensors8-thermal_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-thermal_camera/gz-sensors8-thermal_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-thermal_camera/gz-sensors8-thermal_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-thermal_camera/gz-sensors8-thermal_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-thermal_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/boundingbox_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/boundingbox_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-boundingbox_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-boundingbox_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-boundingbox_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-boundingbox_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-boundingbox_camera/gz-sensors8-boundingbox_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-boundingbox_camera/gz-sensors8-boundingbox_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-boundingbox_camera/gz-sensors8-boundingbox_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-boundingbox_camera/gz-sensors8-boundingbox_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-boundingbox_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/segmentation_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/segmentation_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-segmentation_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-segmentation_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-segmentation_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-segmentation_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-segmentation_camera/gz-sensors8-segmentation_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-segmentation_camera/gz-sensors8-segmentation_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-segmentation_camera/gz-sensors8-segmentation_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-segmentation_camera/gz-sensors8-segmentation_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-segmentation_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/wide_angle_camera/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/wide_angle_camera/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-wide_angle_camera.so.8.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-wide_angle_camera.so.8
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-sensors8-wide_angle_camera.so.8.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-sensors8-wide_angle_camera.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-wide_angle_camera/gz-sensors8-wide_angle_camera-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-wide_angle_camera/gz-sensors8-wide_angle_camera-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-wide_angle_camera/gz-sensors8-wide_angle_camera-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-sensors8-wide_angle_camera/gz-sensors8-wide_angle_camera-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-sensors8-wide_angle_camera.pc
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/logical_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/logical_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/air_pressure
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/air_pressure/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ForceTorqueSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/RenderingEvents.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Lidar.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/segmentation_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/segmentation_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/rendering
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/rendering/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/MagnetometerSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/SensorFactory.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ImageDistortion.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/LogicalCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/altimeter
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/altimeter/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/boundingbox_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/boundingbox_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/wide_angle_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/wide_angle_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ThermalCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/gpu_lidar
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/gpu_lidar/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/force_torque
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/force_torque/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/GaussianNoiseModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ImageGaussianNoiseModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/lidar
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/lidar/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Util.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/magnetometer
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/magnetometer/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/AltimeterSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Distortion.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/rgbd_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/rgbd_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/BoundingBoxCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/WideAngleCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Sensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/RenderingSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/NavSatSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/BrownDistortionModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/depth_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/depth_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ImuSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/AirPressureSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/thermal_camera
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/thermal_camera/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/SensorTypes.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/GpuLidarSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/DepthCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/RgbdCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/navsat
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/navsat/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Noise.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/SegmentationCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/CameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/imu
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/imu/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ImageBrownDistortionModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/ImageNoise.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/ignition/sensors/Manager.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/AirPressureSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/AirSpeedSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/AltimeterSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/BoundingBoxCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/BrownDistortionModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/CameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/DepthCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Distortion.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/DopplerVelocityLog.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/EnvironmentalData.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ForceTorqueSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/GaussianNoiseModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/GpuLidarSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ImageBrownDistortionModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ImageDistortion.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ImageGaussianNoiseModel.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ImageNoise.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ImuSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Lidar.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/LogicalCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/MagnetometerSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Manager.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/NavSatSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Noise.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/RenderingEvents.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/RenderingSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/RgbdCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/SegmentationCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Sensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/SensorFactory.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/SensorTypes.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/ThermalCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/Util.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/WideAngleCameraSensor.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/../sensors.hh
+-- Installing: /home/julia/workspace/install/include/gz/sensors8/gz/sensors/config.hh

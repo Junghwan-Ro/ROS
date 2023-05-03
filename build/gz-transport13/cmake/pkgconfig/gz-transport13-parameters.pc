@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/transport13
+
+Name: Gazebo transport parameters
+Description: A set of transport parameters classes for robot applications
+Version: 13.0.0
+Requires: gz-transport13 = 13.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-transport13-parameters 
+Libs.private: 
+CFLags: -I${includedir} 

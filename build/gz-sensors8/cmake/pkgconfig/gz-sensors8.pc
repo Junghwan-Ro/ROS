@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/sensors8
+
+Name: Gazebo sensors
+Description: A set of sensors classes for robot applications
+Version: 8.0.0
+Requires: gz-cmake3 >= 1.1 protobuf >= 3 gz-math7 gz-common5 gz-transport12 gz-rendering8 gz-msgs9 sdformat13
+Requires.private: 
+Libs: -L${libdir} -lgz-sensors8 
+Libs.private: 
+CFlags: -I${includedir} 

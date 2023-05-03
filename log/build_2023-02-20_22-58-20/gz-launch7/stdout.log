@@ -1,0 +1,396 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-launch7 version 7.0.0~pre1
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- 
+
+-- ====== Finding Dependencies ======
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for tinyxml2 - found
+
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for gz-common5 - found
+
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.0.0
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-utils2 - found
+
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-plugin2 - found
+
+-- Searching for gz program - found. CLI tests can be built.
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Searching for dependencies of gz-transport12
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Searching for dependencies of gz-msgs9
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-transport12 - found
+
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-msgs9 - found
+
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-math7 - found
+
+-- Looking for gz-gui8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-gui8
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.3.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Looking for gz-rendering8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.1.0
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.3.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.1.0
+-- Found GzAssimp: TRUE (found version "5.0.0") 
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.3.1
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.1.0
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.3.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-gui8 - found
+
+-- Looking for Qt5 - found
+
+-- Looking for gz-sim8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sim8
+-- Looking for sdformat13 -- found version 13.3.0
+-- Searching for dependencies of sdformat13
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Searching for dependencies of gz-transport12
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Searching for <gz-transport12> component [log]
+-- Looking for gz-transport12-log -- found version 12.1.0
+-- Searching for dependencies of gz-transport12-log
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [profiler]
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [av]
+-- Looking for gz-common5-av -- found version 5.3.1
+-- Searching for dependencies of gz-common5-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.5.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 58.8.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.29.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.54.100
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.31.100
+-- Found AVUTIL: TRUE  
+-- Searching for <gz-common5> component [io]
+-- Looking for gz-common5-io -- found version 5.3.1
+-- Searching for dependencies of gz-common5-io
+-- Looking for gz-fuel_tools8 -- found version 8.0.1
+-- Searching for dependencies of gz-fuel_tools8
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for gz-gui8 -- found version 8.0.0~pre1
+-- Looking for gz-physics6 -- found version 6.3.0
+-- Searching for dependencies of gz-physics6
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-plugin2 -- found version 2.0.1
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-physics6> component [heightmap]
+-- Looking for gz-physics6-heightmap -- found version 6.3.0
+-- Searching for dependencies of gz-physics6-heightmap
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for <gz-physics6> component [mesh]
+-- Looking for gz-physics6-mesh -- found version 6.3.0
+-- Searching for dependencies of gz-physics6-mesh
+-- Looking for gz-common5 -- found version 5.3.1
+-- Searching for <gz-physics6> component [sdf]
+-- Looking for gz-physics6-sdf -- found version 6.3.0
+-- Searching for dependencies of gz-physics6-sdf
+-- Looking for sdformat13 -- found version 13.3.0
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-common5 -- found version 5.3.1
+-- Looking for gz-transport12 -- found version 12.1.0
+-- Looking for gz-rendering8 -- found version 8.0.0~pre1
+-- Looking for gz-msgs9 -- found version 9.3.0
+-- Looking for sdformat13 -- found version 13.3.0
+-- Searching for <gz-sensors8> component [air_pressure]
+-- Looking for gz-sensors8-air_pressure -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-air_pressure
+-- Searching for <gz-sensors8> component [altimeter]
+-- Looking for gz-sensors8-altimeter -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-altimeter
+-- Searching for <gz-sensors8> component [imu]
+-- Looking for gz-sensors8-imu -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-imu
+-- Searching for <gz-sensors8> component [force_torque]
+-- Looking for gz-sensors8-force_torque -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-force_torque
+-- Searching for <gz-sensors8> component [logical_camera]
+-- Looking for gz-sensors8-logical_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-logical_camera
+-- Searching for <gz-sensors8> component [magnetometer]
+-- Looking for gz-sensors8-magnetometer -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-magnetometer
+-- Searching for <gz-sensors8> component [navsat]
+-- Looking for gz-sensors8-navsat -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-navsat
+-- Searching for <gz-sensors8> component [rendering]
+-- Looking for gz-sensors8-rendering -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-rendering
+-- Searching for <gz-sensors8> component [lidar]
+-- Looking for gz-sensors8-lidar -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-lidar
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [gpu_lidar]
+-- Looking for gz-sensors8-gpu_lidar -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-gpu_lidar
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [camera]
+-- Looking for gz-sensors8-camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-camera
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [boundingbox_camera]
+-- Looking for gz-sensors8-boundingbox_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-boundingbox_camera
+-- Searching for <gz-sensors8> component [segmentation_camera]
+-- Looking for gz-sensors8-segmentation_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-segmentation_camera
+-- Searching for <gz-sensors8> component [depth_camera]
+-- Looking for gz-sensors8-depth_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-depth_camera
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [rgbd_camera]
+-- Looking for gz-sensors8-rgbd_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-rgbd_camera
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [thermal_camera]
+-- Looking for gz-sensors8-thermal_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-thermal_camera
+-- Looking for gz-sensors8 -- found version 8.0.0~pre1
+-- Searching for <gz-sensors8> component [wide_angle_camera]
+-- Looking for gz-sensors8-wide_angle_camera -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sensors8-wide_angle_camera
+-- Looking for gz-rendering8 -- found version 8.0.0~pre1
+-- Looking for gz-math7 -- found version 7.1.0
+-- Looking for gz-utils2 -- found version 2.0.0
+-- Searching for <gz-sim8> component [gui]
+-- Looking for gz-sim8-gui -- found version 8.0.0~pre1
+-- Searching for dependencies of gz-sim8-gui
+-- Looking for gz-sim8 - found
+
+-- Checking for module 'libwebsockets'
+--   Found libwebsockets, version 3.2.0
+-- Found websockets: TRUE  
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+-- Found libbfd: /usr/lib/x86_64-linux-gnu/libbfd.so  
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+-- Found Backward: /home/julia/workspace/src/gz-launch/src/vendor  
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: gz-launch7
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- The program [cppcheck] was not found! Skipping codecheck setup
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/julia/workspace/install
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/julia/workspace/build/gz-launch7
+[35m[1mScanning dependencies of target gz-launch7[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/gz-launch7.dir/Manager.cc.o[0m
+[ 11%] [32m[1mLinking CXX shared library ../lib/libgz-launch7.so[0m
+[ 11%] Built target gz-launch7
+[35m[1mScanning dependencies of target gz-launch-simgui[0m
+[35m[1mScanning dependencies of target gz-launch-sim-factory[0m
+[35m[1mScanning dependencies of target gz-launch-joytotwist[0m
+[ 16%] [32mBuilding CXX object plugins/joy_to_twist/CMakeFiles/gz-launch-joytotwist.dir/JoyToTwist.cc.o[0m
+[ 22%] [32mBuilding CXX object plugins/sim_gui/CMakeFiles/gz-launch-simgui.dir/SimGui.cc.o[0m
+[ 27%] [32mBuilding CXX object plugins/sim_factory/CMakeFiles/gz-launch-sim-factory.dir/SimFactory.cc.o[0m
+[ 33%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-joytotwist.so[0m
+[ 33%] Built target gz-launch-joytotwist
+[35m[1mScanning dependencies of target gz-launch-sim[0m
+[ 38%] [32mBuilding CXX object plugins/sim_server/CMakeFiles/gz-launch-sim.dir/SimServer.cc.o[0m
+[ 44%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-simgui.so[0m
+[ 50%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-sim-factory.so[0m
+[ 50%] Built target gz-launch-simgui
+[35m[1mScanning dependencies of target gz-launch-websocket-server[0m
+[ 55%] [32mBuilding CXX object plugins/websocket_server/CMakeFiles/gz-launch-websocket-server.dir/WebsocketServer.cc.o[0m
+[ 55%] Built target gz-launch-sim-factory
+[35m[1mScanning dependencies of target gz-launch-joystick[0m
+[ 61%] [32mBuilding CXX object plugins/joystick/CMakeFiles/gz-launch-joystick.dir/Joystick.cc.o[0m
+[ 66%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-sim.so[0m
+[ 72%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-joystick.so[0m
+[ 72%] Built target gz-launch-sim
+[35m[1mScanning dependencies of target gz[0m
+[ 72%] Built target gz-launch-joystick
+[ 77%] [32mBuilding CXX object src/cmd/CMakeFiles/gz.dir/gz.cc.o[0m
+[ 83%] [32m[1mLinking CXX static library ../../lib/libgz.a[0m
+[ 83%] Built target gz
+[35m[1mScanning dependencies of target gz-launch[0m
+[ 88%] [32mBuilding CXX object src/cmd/CMakeFiles/gz-launch.dir/launch_main.cc.o[0m
+[ 94%] [32m[1mLinking CXX shared library ../../lib/libgz-launch-websocket-server.so[0m
+[ 94%] Built target gz-launch-websocket-server
+[100%] [32m[1mLinking CXX executable ../../bin/gz-launch[0m
+[100%] Built target gz-launch
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7-all/gz-launch7-all-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joytotwist.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joytotwist.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-simgui.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-simgui.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim-factory.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim-factory.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-sim.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-websocket-server.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-websocket-server.so" to ""
+-- Installing: /home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joystick.so
+-- Set runtime path of "/home/julia/workspace/install/lib/gz-launch-7/plugins/libgz-launch-joystick.so" to ""
+-- Installing: /home/julia/workspace/install/include/gz/launch7/gz/launch/detail/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/gz/launch/Export.hh
+-- Installing: /home/julia/workspace/install/lib/libgz-launch7.so.7.0.0~pre1
+-- Installing: /home/julia/workspace/install/lib/libgz-launch7.so.7
+-- Set runtime path of "/home/julia/workspace/install/lib/libgz-launch7.so.7.0.0~pre1" to ""
+-- Installing: /home/julia/workspace/install/lib/libgz-launch7.so
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-config.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-config-version.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-targets.cmake
+-- Installing: /home/julia/workspace/install/lib/cmake/gz-launch7/gz-launch7-targets-relwithdebinfo.cmake
+-- Installing: /home/julia/workspace/install/lib/pkgconfig/gz-launch7.pc
+-- Installing: /home/julia/workspace/install/lib/gz/launch7/gz-launch
+-- Set runtime path of "/home/julia/workspace/install/lib/gz/launch7/gz-launch" to ""
+-- Installing: /home/julia/workspace/install/share/gz/gz2.completion.d/launch7.bash_completion.sh
+-- Installing: /home/julia/workspace/install/share/gz/launch7.yaml
+-- Installing: /home/julia/workspace/install/lib/ruby/gz/cmdlaunch7.rb
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition/launch.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition/launch
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition/launch/Export.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition/launch/config.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/ignition/launch/Plugin.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/gz/launch/Plugin.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/gz/launch/../launch.hh
+-- Installing: /home/julia/workspace/install/include/gz/launch7/gz/launch/config.hh
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/factory.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/ls.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/multi_factory.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/plugins.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/sim.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/sim_plugins.gzlaunch
+-- Installing: /home/julia/workspace/install/share/gz/gz-launch7/configs/websocket.gzlaunch

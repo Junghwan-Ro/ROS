@@ -1,0 +1,13 @@
+[0.027s] Invoking command in '/home/julia/workspace/build/gz-tools2': /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[0.086s] [100%] Built target backward
+[0.099s] Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[0.136s] Invoking command in '/home/julia/workspace/build/gz-tools2': /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2
+[0.144s] -- Install configuration: "RelWithDebInfo"
+[0.144s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config.cmake
+[0.144s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-config-version.cmake
+[0.147s] -- Up-to-date: /home/julia/workspace/install/lib/cmake/gz-tools2-all/gz-tools2-all-targets.cmake
+[0.153s] -- Up-to-date: /home/julia/workspace/install/share/gz/gz.completion
+[0.153s] -- Up-to-date: /home/julia/workspace/install/share/bash-completion/completions/gz
+[0.155s] -- Up-to-date: /home/julia/workspace/install/lib/libgz-tools2-backward.so
+[0.155s] -- Up-to-date: /home/julia/workspace/install/bin/gz
+[0.163s] Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2

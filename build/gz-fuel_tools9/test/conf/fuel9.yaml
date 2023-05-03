@@ -1,0 +1,8 @@
+--- # Subcommands available inside Gazebo Fuel
+format: 1.0.0
+library_name: gz-fuel_tools
+library_version: 9.0.0
+library_path: /home/julia/workspace/build/gz-fuel_tools9/src/cmd/cmdfuel9
+commands:
+    - fuel : Manage simulation resources.
+---

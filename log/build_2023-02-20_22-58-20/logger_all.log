@@ -1,0 +1,1117 @@
+[0.364s] DEBUG:colcon:Command line arguments: ['/home/julia/.local/bin/colcon', 'build', '--cmake-args', '-DBUILD_TESTING=OFF', '--merge-install']
+[0.365s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DBUILD_TESTING=OFF'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd9eb6c25e0>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=3, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd9eb6c25e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd9eb641d30>)
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.386s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/julia/workspace'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-cmake) by extension 'python'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-cmake' with type 'cmake' and name 'gz-cmake3'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-common) by extension 'python'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-common' with type 'cmake' and name 'gz-common5'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-fuel-tools) by extension 'python'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-fuel-tools' with type 'cmake' and name 'gz-fuel_tools9'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-gui) by extension 'python'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-gui' with type 'cmake' and name 'gz-gui8'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-launch) by extension 'python'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-launch' with type 'cmake' and name 'gz-launch7'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-math) by extension 'python'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-math' with type 'cmake' and name 'gz-math7'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-msgs) by extension 'python'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-msgs' with type 'cmake' and name 'gz-msgs10'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-physics) by extension 'python'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-physics' with type 'cmake' and name 'gz-physics6'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-plugin) by extension 'python'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-plugin' with type 'cmake' and name 'gz-plugin2'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-rendering) by extension 'python'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-rendering' with type 'cmake' and name 'gz-rendering8'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sensors) by extension 'python'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-sensors' with type 'cmake' and name 'gz-sensors8'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-sim) by extension 'python'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-sim' with type 'cmake' and name 'gz-sim8'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-tools) by extension 'python'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-tools' with type 'cmake' and name 'gz-tools2'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-transport) by extension 'python'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-transport' with type 'cmake' and name 'gz-transport13'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz-utils) by extension 'python'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz-utils' with type 'cmake' and name 'gz-utils2'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdformat) by extension 'python'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sdformat' with type 'cmake' and name 'sdformat13'
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_target' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_clean_first' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'cmake_force_configure' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'ament_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'gz-cmake3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.512s] DEBUG:colcon.colcon_core.verb:Building package 'gz-cmake3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-cmake3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-cmake', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'gz-tools2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'gz-tools2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-tools2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-tools', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'gz-utils2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'gz-utils2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-utils2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-utils', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_clean_first' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'cmake_force_configure' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'ament_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'gz-math7' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'gz-math7' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-math7', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-math', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'gz-common5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'gz-common5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-common5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-common', 'symlink_install': False, 'test_result_base': None}
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_target' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'gz-msgs10' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'gz-msgs10' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-msgs10', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-msgs', 'symlink_install': False, 'test_result_base': None}
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_target' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'cmake_force_configure' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'ament_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'catkin_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'sdformat13' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.542s] DEBUG:colcon.colcon_core.verb:Building package 'sdformat13' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/sdformat13', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/sdformat', 'symlink_install': False, 'test_result_base': None}
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_target' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_clean_cache' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_clean_first' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'cmake_force_configure' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'ament_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'catkin_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'gz-fuel_tools9' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.546s] DEBUG:colcon.colcon_core.verb:Building package 'gz-fuel_tools9' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-fuel_tools9', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-fuel-tools', 'symlink_install': False, 'test_result_base': None}
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_target' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_clean_first' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'cmake_force_configure' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'ament_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'gz-plugin2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'gz-plugin2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-plugin2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-plugin', 'symlink_install': False, 'test_result_base': None}
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_target' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_clean_cache' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_clean_first' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'cmake_force_configure' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'gz-transport13' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'gz-transport13' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-transport13', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-transport', 'symlink_install': False, 'test_result_base': None}
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_target' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'gz-physics6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.560s] DEBUG:colcon.colcon_core.verb:Building package 'gz-physics6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-physics6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-physics', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'gz-rendering8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'gz-rendering8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-rendering8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-rendering', 'symlink_install': False, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'gz-gui8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'gz-gui8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-gui8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-gui', 'symlink_install': False, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz-sensors8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'gz-sensors8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-sensors8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-sensors', 'symlink_install': False, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gz-sim8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'gz-sim8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-sim8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-sim', 'symlink_install': False, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=OFF']'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'gz-launch7' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'gz-launch7' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julia/workspace/build/gz-launch7', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julia/workspace/install', 'merge_install': True, 'path': '/home/julia/workspace/src/gz-launch', 'symlink_install': False, 'test_result_base': None}
+[0.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.593s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-cmake'
+[0.600s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-cmake3': /usr/bin/cmake --build /home/julia/workspace/build/gz-cmake3 -- -j3 -l3
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-cmake3' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-cmake3 -- -j3 -l3
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-cmake3': /usr/bin/cmake --install /home/julia/workspace/build/gz-cmake3
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-cmake3)
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-cmake3' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-cmake3
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-cmake3', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-cmake3/hook/cmake_prefix_path.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-cmake3/hook/cmake_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-cmake3/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-cmake3.pc'
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-cmake3', 'pkg_config')
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-cmake3/hook/pkg_config.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-cmake3/hook/pkg_config.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-cmake3/hook/pkg_config.sh'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-cmake3/package.ps1'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-cmake3/package.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-cmake3/package.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-cmake3/package.bash'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-cmake3/package.zsh'
+[0.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-cmake3)
+[0.762s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-utils'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-tools'
+[0.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-utils -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[2.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-utils -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[2.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-utils2 -- -j3 -l3
+[3.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-utils2 -- -j3 -l3
+[3.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-utils2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-utils2
+[3.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-utils2)
+[3.484s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[3.484s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[3.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-utils2', 'cmake_prefix_path')
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/cmake_prefix_path.ps1'
+[3.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-utils2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-utils2
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-utils2/hook/cmake_prefix_path.dsv'
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/cmake_prefix_path.sh'
+[3.492s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[3.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-utils2', 'ld_library_path_lib')
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/ld_library_path_lib.ps1'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-utils2/hook/ld_library_path_lib.dsv'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/ld_library_path_lib.sh'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-utils2.pc'
+[3.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-utils2', 'pkg_config')
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/pkg_config.ps1'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-utils2/hook/pkg_config.dsv'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-utils2/hook/pkg_config.sh'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-utils2/package.ps1'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-utils2/package.dsv'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-utils2/package.sh'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-utils2/package.bash'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-utils2/package.zsh'
+[3.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-utils2)
+[3.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-math'
+[3.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-math7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-math -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-tools2 -- -j3 -l3
+[4.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-tools2': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2
+[4.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-tools2)
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[4.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-tools2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-tools2
+[4.828s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[4.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-tools2', 'cmake_prefix_path')
+[4.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/cmake_prefix_path.ps1'
+[4.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-tools2/hook/cmake_prefix_path.dsv'
+[4.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/cmake_prefix_path.sh'
+[4.837s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[4.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-tools2', 'ld_library_path_lib')
+[4.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/ld_library_path_lib.ps1'
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-tools2/hook/ld_library_path_lib.dsv'
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/ld_library_path_lib.sh'
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[4.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-tools2', 'path')
+[4.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/path.ps1'
+[4.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-tools2/hook/path.dsv'
+[4.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/path.sh'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-tools2.pc'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[4.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-tools2', 'pythonscriptspath')
+[4.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/pythonscriptspath.ps1'
+[4.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-tools2/hook/pythonscriptspath.dsv'
+[4.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-tools2/hook/pythonscriptspath.sh'
+[4.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-tools2/package.ps1'
+[4.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-tools2/package.dsv'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-tools2/package.sh'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-tools2/package.bash'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-tools2/package.zsh'
+[4.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-tools2)
+[6.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-math7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-math -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[6.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-math7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-math7 -- -j3 -l3
+[158.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-math7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-math7 -- -j3 -l3
+[158.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-math7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-math7
+[158.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-math7)
+[158.615s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[158.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-math7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-math7
+[158.616s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[158.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-math7', 'cmake_prefix_path')
+[158.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/cmake_prefix_path.ps1'
+[158.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-math7/hook/cmake_prefix_path.dsv'
+[158.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/cmake_prefix_path.sh'
+[158.623s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[158.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-math7', 'ld_library_path_lib')
+[158.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/ld_library_path_lib.ps1'
+[158.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-math7/hook/ld_library_path_lib.dsv'
+[158.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/ld_library_path_lib.sh'
+[158.626s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[158.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-math7', 'path')
+[158.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/path.ps1'
+[158.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-math7/hook/path.dsv'
+[158.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/path.sh'
+[158.631s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-math7.pc'
+[158.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-math7', 'pkg_config')
+[158.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/pkg_config.ps1'
+[158.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-math7/hook/pkg_config.dsv'
+[158.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/pkg_config.sh'
+[158.634s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[158.635s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[158.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-math7', 'pythonscriptspath')
+[158.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/pythonscriptspath.ps1'
+[158.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-math7/hook/pythonscriptspath.dsv'
+[158.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-math7/hook/pythonscriptspath.sh'
+[158.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-math7/package.ps1'
+[158.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-math7/package.dsv'
+[158.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-math7/package.sh'
+[158.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-math7/package.bash'
+[158.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-math7/package.zsh'
+[158.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-math7)
+[158.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-common'
+[158.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[158.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[158.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/sdformat'
+[158.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[158.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[158.669s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-msgs'
+[158.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[158.673s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[158.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-common -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[158.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/sdformat -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[158.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-msgs -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[161.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-msgs -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[161.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-msgs10 -- -j3 -l3
+[161.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-common -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[161.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-common5 -- -j3 -l3
+[161.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/sdformat -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[161.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/sdformat13 -- -j3 -l3
+[258.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-common5 -- -j3 -l3
+[258.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-common5': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-common5
+[258.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-common5)
+[258.665s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[258.666s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[258.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-common5' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-common5
+[258.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-common5', 'cmake_prefix_path')
+[258.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/cmake_prefix_path.ps1'
+[258.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-common5/hook/cmake_prefix_path.dsv'
+[258.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/cmake_prefix_path.sh'
+[258.672s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[258.673s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[258.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-common5', 'ld_library_path_lib')
+[258.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/ld_library_path_lib.ps1'
+[258.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-common5/hook/ld_library_path_lib.dsv'
+[258.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/ld_library_path_lib.sh'
+[258.677s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[258.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-common5', 'path')
+[258.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/path.ps1'
+[258.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-common5/hook/path.dsv'
+[258.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/path.sh'
+[258.680s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-common5.pc'
+[258.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-common5', 'pkg_config')
+[258.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/pkg_config.ps1'
+[258.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-common5/hook/pkg_config.dsv'
+[258.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/pkg_config.sh'
+[258.684s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[258.684s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[258.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-common5', 'pythonscriptspath')
+[258.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/pythonscriptspath.ps1'
+[258.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-common5/hook/pythonscriptspath.dsv'
+[258.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-common5/hook/pythonscriptspath.sh'
+[258.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-common5/package.ps1'
+[258.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-common5/package.dsv'
+[258.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-common5/package.sh'
+[258.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-common5/package.bash'
+[258.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-common5/package.zsh'
+[258.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-common5)
+[258.694s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-plugin'
+[258.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[258.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[258.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-plugin -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[260.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-plugin -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[260.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+[285.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+[285.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-plugin2': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2
+[285.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-plugin2)
+[285.617s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[285.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2
+[285.619s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[285.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-plugin2', 'cmake_prefix_path')
+[285.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/cmake_prefix_path.ps1'
+[285.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-plugin2/hook/cmake_prefix_path.dsv'
+[285.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/cmake_prefix_path.sh'
+[285.628s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[285.628s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[285.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-plugin2', 'ld_library_path_lib')
+[285.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/ld_library_path_lib.ps1'
+[285.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-plugin2/hook/ld_library_path_lib.dsv'
+[285.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/ld_library_path_lib.sh'
+[285.634s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[285.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-plugin2', 'path')
+[285.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/path.ps1'
+[285.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-plugin2/hook/path.dsv'
+[285.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/path.sh'
+[285.640s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-plugin2.pc'
+[285.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-plugin2', 'pkg_config')
+[285.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/pkg_config.ps1'
+[285.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-plugin2/hook/pkg_config.dsv'
+[285.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/pkg_config.sh'
+[285.646s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[285.646s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[285.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-plugin2', 'pythonscriptspath')
+[285.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/pythonscriptspath.ps1'
+[285.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-plugin2/hook/pythonscriptspath.dsv'
+[285.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-plugin2/hook/pythonscriptspath.sh'
+[285.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-plugin2/package.ps1'
+[285.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-plugin2/package.dsv'
+[285.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-plugin2/package.sh'
+[285.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-plugin2/package.bash'
+[285.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-plugin2/package.zsh'
+[285.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-plugin2)
+[285.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-rendering'
+[285.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[285.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[285.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-rendering -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[288.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-rendering -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[288.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+[473.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-msgs10 -- -j3 -l3
+[473.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-msgs10': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-msgs10
+[473.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-msgs10)
+[473.777s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[473.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-msgs10' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-msgs10
+[473.778s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[473.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-msgs10', 'cmake_prefix_path')
+[473.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/cmake_prefix_path.ps1'
+[473.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-msgs10/hook/cmake_prefix_path.dsv'
+[473.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/cmake_prefix_path.sh'
+[473.785s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[473.785s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[473.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-msgs10', 'ld_library_path_lib')
+[473.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/ld_library_path_lib.ps1'
+[473.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-msgs10/hook/ld_library_path_lib.dsv'
+[473.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/ld_library_path_lib.sh'
+[473.789s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[473.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-msgs10', 'path')
+[473.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/path.ps1'
+[473.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-msgs10/hook/path.dsv'
+[473.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/path.sh'
+[473.793s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-msgs10.pc'
+[473.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-msgs10', 'pkg_config')
+[473.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/pkg_config.ps1'
+[473.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-msgs10/hook/pkg_config.dsv'
+[473.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/pkg_config.sh'
+[473.798s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[473.798s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[473.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-msgs10', 'pythonscriptspath')
+[473.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/pythonscriptspath.ps1'
+[473.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-msgs10/hook/pythonscriptspath.dsv'
+[473.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-msgs10/hook/pythonscriptspath.sh'
+[473.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-msgs10/package.ps1'
+[473.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-msgs10/package.dsv'
+[473.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-msgs10/package.sh'
+[473.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-msgs10/package.bash'
+[473.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-msgs10/package.zsh'
+[473.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-msgs10)
+[473.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-fuel-tools'
+[473.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[473.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[473.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-fuel-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[476.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-fuel-tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[476.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[524.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-fuel_tools9 -- -j3 -l3
+[524.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-fuel_tools9': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9
+[525.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-fuel_tools9)
+[525.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-fuel_tools9' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-fuel_tools9
+[525.036s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[525.036s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[525.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-fuel_tools9', 'cmake_prefix_path')
+[525.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/cmake_prefix_path.ps1'
+[525.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/hook/cmake_prefix_path.dsv'
+[525.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/cmake_prefix_path.sh'
+[525.048s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[525.048s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[525.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-fuel_tools9', 'ld_library_path_lib')
+[525.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/ld_library_path_lib.ps1'
+[525.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/hook/ld_library_path_lib.dsv'
+[525.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/ld_library_path_lib.sh'
+[525.054s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[525.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-fuel_tools9', 'path')
+[525.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/path.ps1'
+[525.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/hook/path.dsv'
+[525.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/path.sh'
+[525.062s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-fuel_tools9.pc'
+[525.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-fuel_tools9', 'pkg_config')
+[525.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pkg_config.ps1'
+[525.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pkg_config.dsv'
+[525.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pkg_config.sh'
+[525.069s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[525.069s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[525.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-fuel_tools9', 'pythonscriptspath')
+[525.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pythonscriptspath.ps1'
+[525.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pythonscriptspath.dsv'
+[525.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-fuel_tools9/hook/pythonscriptspath.sh'
+[525.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-fuel_tools9/package.ps1'
+[525.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-fuel_tools9/package.dsv'
+[525.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-fuel_tools9/package.sh'
+[525.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-fuel_tools9/package.bash'
+[525.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-fuel_tools9/package.zsh'
+[525.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-fuel_tools9)
+[525.085s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-transport'
+[525.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[525.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[525.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-transport13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-transport -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[527.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-transport13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-transport -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[527.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-transport13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-transport13 -- -j3 -l3
+[606.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/sdformat13 -- -j3 -l3
+[606.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/sdformat13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/sdformat13
+[606.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdformat13)
+[606.709s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[606.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/sdformat13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/sdformat13
+[606.710s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[606.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdformat13', 'cmake_prefix_path')
+[606.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/cmake_prefix_path.ps1'
+[606.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/sdformat13/hook/cmake_prefix_path.dsv'
+[606.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/cmake_prefix_path.sh'
+[606.722s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[606.722s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[606.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdformat13', 'ld_library_path_lib')
+[606.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/ld_library_path_lib.ps1'
+[606.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/sdformat13/hook/ld_library_path_lib.dsv'
+[606.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/ld_library_path_lib.sh'
+[606.729s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[606.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdformat13', 'path')
+[606.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/path.ps1'
+[606.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/sdformat13/hook/path.dsv'
+[606.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/path.sh'
+[606.734s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/sdformat13.pc'
+[606.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdformat13', 'pkg_config')
+[606.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/pkg_config.ps1'
+[606.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/sdformat13/hook/pkg_config.dsv'
+[606.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/pkg_config.sh'
+[606.741s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[606.741s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[606.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdformat13', 'pythonscriptspath')
+[606.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/pythonscriptspath.ps1'
+[606.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/sdformat13/hook/pythonscriptspath.dsv'
+[606.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/sdformat13/hook/pythonscriptspath.sh'
+[606.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/sdformat13/package.ps1'
+[606.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/sdformat13/package.dsv'
+[606.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/sdformat13/package.sh'
+[606.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/sdformat13/package.bash'
+[606.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/sdformat13/package.zsh'
+[606.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/sdformat13)
+[606.755s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-physics'
+[606.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[606.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[606.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-physics6': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-physics -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[610.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-physics6' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-physics -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[610.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-physics6': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-physics6 -- -j3 -l3
+[637.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-transport13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-transport13 -- -j3 -l3
+[638.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-transport13': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-transport13
+[638.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-transport13)
+[638.152s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[638.152s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[638.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-transport13' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-transport13
+[638.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-transport13', 'cmake_prefix_path')
+[638.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/cmake_prefix_path.ps1'
+[638.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-transport13/hook/cmake_prefix_path.dsv'
+[638.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/cmake_prefix_path.sh'
+[638.163s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[638.164s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[638.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-transport13', 'ld_library_path_lib')
+[638.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/ld_library_path_lib.ps1'
+[638.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-transport13/hook/ld_library_path_lib.dsv'
+[638.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/ld_library_path_lib.sh'
+[638.169s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[638.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-transport13', 'path')
+[638.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/path.ps1'
+[638.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-transport13/hook/path.dsv'
+[638.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/path.sh'
+[638.175s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-transport13.pc'
+[638.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-transport13', 'pkg_config')
+[638.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/pkg_config.ps1'
+[638.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-transport13/hook/pkg_config.dsv'
+[638.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/pkg_config.sh'
+[638.180s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[638.180s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[638.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-transport13', 'pythonscriptspath')
+[638.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/pythonscriptspath.ps1'
+[638.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-transport13/hook/pythonscriptspath.dsv'
+[638.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-transport13/hook/pythonscriptspath.sh'
+[638.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-transport13/package.ps1'
+[638.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-transport13/package.dsv'
+[638.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-transport13/package.sh'
+[638.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-transport13/package.bash'
+[638.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-transport13/package.zsh'
+[638.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-transport13)
+[957.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-physics6' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-physics6 -- -j3 -l3
+[957.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-physics6': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-physics6
+[958.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-physics6)
+[958.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-physics6' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-physics6
+[958.659s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[958.660s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[958.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-physics6', 'cmake_prefix_path')
+[958.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/cmake_prefix_path.ps1'
+[958.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-physics6/hook/cmake_prefix_path.dsv'
+[958.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/cmake_prefix_path.sh'
+[958.712s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[958.718s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[958.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-physics6', 'ld_library_path_lib')
+[958.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/ld_library_path_lib.ps1'
+[958.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-physics6/hook/ld_library_path_lib.dsv'
+[958.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/ld_library_path_lib.sh'
+[958.735s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[958.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-physics6', 'path')
+[958.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/path.ps1'
+[958.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-physics6/hook/path.dsv'
+[958.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/path.sh'
+[958.752s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-physics6.pc'
+[958.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-physics6', 'pkg_config')
+[958.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/pkg_config.ps1'
+[958.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-physics6/hook/pkg_config.dsv'
+[958.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/pkg_config.sh'
+[958.769s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[958.769s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[958.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-physics6', 'pythonscriptspath')
+[958.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/pythonscriptspath.ps1'
+[958.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-physics6/hook/pythonscriptspath.dsv'
+[958.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-physics6/hook/pythonscriptspath.sh'
+[958.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-physics6/package.ps1'
+[958.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-physics6/package.dsv'
+[958.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-physics6/package.sh'
+[958.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-physics6/package.bash'
+[958.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-physics6/package.zsh'
+[958.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-physics6)
+[975.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-rendering8 -- -j3 -l3
+[976.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-rendering8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8
+[976.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-rendering8)
+[976.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-rendering8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-rendering8
+[976.932s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[976.932s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[976.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-rendering8', 'cmake_prefix_path')
+[976.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/cmake_prefix_path.ps1'
+[976.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-rendering8/hook/cmake_prefix_path.dsv'
+[976.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/cmake_prefix_path.sh'
+[976.940s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[976.941s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[976.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-rendering8', 'ld_library_path_lib')
+[976.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/ld_library_path_lib.ps1'
+[976.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-rendering8/hook/ld_library_path_lib.dsv'
+[976.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/ld_library_path_lib.sh'
+[976.945s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[976.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-rendering8', 'path')
+[976.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/path.ps1'
+[976.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-rendering8/hook/path.dsv'
+[976.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/path.sh'
+[976.950s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-rendering8.pc'
+[976.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-rendering8', 'pkg_config')
+[976.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/pkg_config.ps1'
+[976.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-rendering8/hook/pkg_config.dsv'
+[976.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/pkg_config.sh'
+[976.955s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[976.955s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[976.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-rendering8', 'pythonscriptspath')
+[976.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/pythonscriptspath.ps1'
+[976.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-rendering8/hook/pythonscriptspath.dsv'
+[976.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-rendering8/hook/pythonscriptspath.sh'
+[976.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-rendering8/package.ps1'
+[976.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-rendering8/package.dsv'
+[976.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-rendering8/package.sh'
+[976.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-rendering8/package.bash'
+[976.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-rendering8/package.zsh'
+[976.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-rendering8)
+[976.966s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-gui'
+[976.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[976.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[976.979s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-sensors'
+[976.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[976.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[977.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-gui8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-gui -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[977.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sensors8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-sensors -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[980.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sensors8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-sensors -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[980.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sensors8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-sensors8 -- -j3 -l3
+[980.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-gui8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-gui -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[980.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-gui8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-gui8 -- -j3 -l3
+[1132.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sensors8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-sensors8 -- -j3 -l3
+[1132.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sensors8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-sensors8
+[1132.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-sensors8)
+[1132.401s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[1132.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sensors8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-sensors8
+[1132.402s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[1132.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sensors8', 'cmake_prefix_path')
+[1132.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/cmake_prefix_path.ps1'
+[1132.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sensors8/hook/cmake_prefix_path.dsv'
+[1132.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/cmake_prefix_path.sh'
+[1132.412s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[1132.412s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[1132.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sensors8', 'ld_library_path_lib')
+[1132.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/ld_library_path_lib.ps1'
+[1132.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sensors8/hook/ld_library_path_lib.dsv'
+[1132.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/ld_library_path_lib.sh'
+[1132.418s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1132.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sensors8', 'path')
+[1132.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/path.ps1'
+[1132.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sensors8/hook/path.dsv'
+[1132.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/path.sh'
+[1132.423s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-sensors8.pc'
+[1132.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sensors8', 'pkg_config')
+[1132.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/pkg_config.ps1'
+[1132.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sensors8/hook/pkg_config.dsv'
+[1132.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/pkg_config.sh'
+[1132.431s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[1132.431s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1132.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sensors8', 'pythonscriptspath')
+[1132.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/pythonscriptspath.ps1'
+[1132.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sensors8/hook/pythonscriptspath.dsv'
+[1132.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sensors8/hook/pythonscriptspath.sh'
+[1132.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sensors8/package.ps1'
+[1132.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-sensors8/package.dsv'
+[1132.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sensors8/package.sh'
+[1132.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sensors8/package.bash'
+[1132.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sensors8/package.zsh'
+[1132.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-sensors8)
+[1191.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-gui8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-gui8 -- -j3 -l3
+[1191.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-gui8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-gui8
+[1192.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-gui8)
+[1192.109s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[1192.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-gui8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-gui8
+[1192.110s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[1192.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-gui8', 'cmake_prefix_path')
+[1192.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/cmake_prefix_path.ps1'
+[1192.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-gui8/hook/cmake_prefix_path.dsv'
+[1192.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/cmake_prefix_path.sh'
+[1192.121s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[1192.121s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[1192.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-gui8', 'ld_library_path_lib')
+[1192.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/ld_library_path_lib.ps1'
+[1192.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-gui8/hook/ld_library_path_lib.dsv'
+[1192.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/ld_library_path_lib.sh'
+[1192.125s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1192.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-gui8', 'path')
+[1192.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/path.ps1'
+[1192.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-gui8/hook/path.dsv'
+[1192.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/path.sh'
+[1192.129s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-gui8.pc'
+[1192.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-gui8', 'pkg_config')
+[1192.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/pkg_config.ps1'
+[1192.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-gui8/hook/pkg_config.dsv'
+[1192.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/pkg_config.sh'
+[1192.133s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[1192.133s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1192.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-gui8', 'pythonscriptspath')
+[1192.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/pythonscriptspath.ps1'
+[1192.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-gui8/hook/pythonscriptspath.dsv'
+[1192.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-gui8/hook/pythonscriptspath.sh'
+[1192.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-gui8/package.ps1'
+[1192.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-gui8/package.dsv'
+[1192.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-gui8/package.sh'
+[1192.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-gui8/package.bash'
+[1192.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-gui8/package.zsh'
+[1192.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-gui8)
+[1192.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-sim'
+[1192.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1192.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1192.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sim8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-sim -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1198.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sim8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-sim -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1198.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sim8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-sim8 -- -j3 -l3
+[1871.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sim8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-sim8 -- -j3 -l3
+[1871.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-sim8': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-sim8
+[1874.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-sim8)
+[1874.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-sim8' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-sim8
+[1874.237s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[1874.238s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[1874.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sim8', 'cmake_prefix_path')
+[1874.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/cmake_prefix_path.ps1'
+[1874.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sim8/hook/cmake_prefix_path.dsv'
+[1874.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/cmake_prefix_path.sh'
+[1874.253s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[1874.254s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[1874.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sim8', 'ld_library_path_lib')
+[1874.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/ld_library_path_lib.ps1'
+[1874.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sim8/hook/ld_library_path_lib.dsv'
+[1874.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/ld_library_path_lib.sh'
+[1874.258s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1874.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sim8', 'path')
+[1874.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/path.ps1'
+[1874.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sim8/hook/path.dsv'
+[1874.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/path.sh'
+[1874.263s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-sim8.pc'
+[1874.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sim8', 'pkg_config')
+[1874.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/pkg_config.ps1'
+[1874.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sim8/hook/pkg_config.dsv'
+[1874.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/pkg_config.sh'
+[1874.267s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[1874.267s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1874.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-sim8', 'pythonscriptspath')
+[1874.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/pythonscriptspath.ps1'
+[1874.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-sim8/hook/pythonscriptspath.dsv'
+[1874.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-sim8/hook/pythonscriptspath.sh'
+[1874.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sim8/package.ps1'
+[1874.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-sim8/package.dsv'
+[1874.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sim8/package.sh'
+[1874.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sim8/package.bash'
+[1874.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-sim8/package.zsh'
+[1874.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-sim8)
+[1874.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julia/workspace/src/gz-launch'
+[1874.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1874.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1874.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-launch7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-launch -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1877.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-launch7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake /home/julia/workspace/src/gz-launch -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/julia/workspace/install
+[1877.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-launch7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-launch7 -- -j3 -l3
+[1899.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-launch7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --build /home/julia/workspace/build/gz-launch7 -- -j3 -l3
+[1899.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julia/workspace/build/gz-launch7': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-launch7
+[1899.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz-launch7)
+[1899.104s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake module files
+[1899.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julia/workspace/build/gz-launch7' returned '0': CMAKE_PREFIX_PATH=/home/julia/workspace/install LD_LIBRARY_PATH=/home/julia/workspace/install/lib PATH=/home/julia/workspace/install/bin:${PATH} PKG_CONFIG_PATH=/home/julia/workspace/install/lib/pkgconfig /usr/bin/cmake --install /home/julia/workspace/build/gz-launch7
+[1899.105s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install' for CMake config files
+[1899.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-launch7', 'cmake_prefix_path')
+[1899.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/cmake_prefix_path.ps1'
+[1899.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-launch7/hook/cmake_prefix_path.dsv'
+[1899.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/cmake_prefix_path.sh'
+[1899.117s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/libexec'
+[1899.117s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib'
+[1899.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-launch7', 'ld_library_path_lib')
+[1899.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/ld_library_path_lib.ps1'
+[1899.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-launch7/hook/ld_library_path_lib.dsv'
+[1899.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/ld_library_path_lib.sh'
+[1899.122s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1899.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-launch7', 'path')
+[1899.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/path.ps1'
+[1899.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-launch7/hook/path.dsv'
+[1899.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/path.sh'
+[1899.126s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/pkgconfig/gz-launch7.pc'
+[1899.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-launch7', 'pkg_config')
+[1899.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/pkg_config.ps1'
+[1899.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-launch7/hook/pkg_config.dsv'
+[1899.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/pkg_config.sh'
+[1899.130s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/lib/python3.8/site-packages'
+[1899.130s] Level 1:colcon.colcon_core.environment:checking '/home/julia/workspace/install/bin'
+[1899.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz-launch7', 'pythonscriptspath')
+[1899.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/pythonscriptspath.ps1'
+[1899.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julia/workspace/install/share/gz-launch7/hook/pythonscriptspath.dsv'
+[1899.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julia/workspace/install/share/gz-launch7/hook/pythonscriptspath.sh'
+[1899.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-launch7/package.ps1'
+[1899.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julia/workspace/install/share/gz-launch7/package.dsv'
+[1899.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-launch7/package.sh'
+[1899.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-launch7/package.bash'
+[1899.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/julia/workspace/install/share/gz-launch7/package.zsh'
+[1899.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julia/workspace/install/share/colcon-core/packages/gz-launch7)
+[1899.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1899.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1899.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1899.140s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1899.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1899.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1899.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1899.534s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1899.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julia/workspace/install/local_setup.ps1'
+[1899.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/julia/workspace/install/_local_setup_util_ps1.py'
+[1899.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julia/workspace/install/setup.ps1'
+[1899.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julia/workspace/install/local_setup.sh'
+[1899.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/julia/workspace/install/_local_setup_util_sh.py'
+[1899.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julia/workspace/install/setup.sh'
+[1899.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julia/workspace/install/local_setup.bash'
+[1899.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julia/workspace/install/setup.bash'
+[1899.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julia/workspace/install/local_setup.zsh'
+[1899.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julia/workspace/install/setup.zsh'

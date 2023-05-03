@@ -1,0 +1,8 @@
+--- # Model subcommand available inside Gazebo Sim.
+format: 1.0.0
+library_name: gz-sim-gz
+library_version: 8.0.0~pre1
+library_path: /home/julia/workspace/install/lib/ruby/gz/cmdmodel8
+commands:
+    - model   : Print information about models.
+---

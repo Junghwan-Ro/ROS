@@ -1,0 +1,4 @@
+Invoking command in '/home/julia/workspace/build/gz-plugin2': /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': /usr/bin/cmake --build /home/julia/workspace/build/gz-plugin2 -- -j3 -l3
+Invoking command in '/home/julia/workspace/build/gz-plugin2': /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2
+Invoked command in '/home/julia/workspace/build/gz-plugin2' returned '0': /usr/bin/cmake --install /home/julia/workspace/build/gz-plugin2

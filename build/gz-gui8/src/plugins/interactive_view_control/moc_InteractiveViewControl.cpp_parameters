@@ -1,0 +1,6 @@
+-I/home/julia/workspace/src/gz-gui/include
+-I/home/julia/workspace/build/gz-gui8/include
+-I/home/julia/workspace/build/gz-gui8
+-o
+/home/julia/workspace/build/gz-gui8/src/plugins/interactive_view_control/moc_InteractiveViewControl.cpp
+/home/julia/workspace/src/gz-gui/src/plugins/interactive_view_control/InteractiveViewControl.hh
